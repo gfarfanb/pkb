@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       b5358360-60b7-4770-8861-022cea22438c
+:END:
+#+title: Git Config
+#+filetags: :git:config:
+
+* Main
+#+begin_src
+git config --global user.name "Giovanni Farfán B."
+git config --global user.email gfarfanb@...
+#+end_src
+
+* Refs
+- [[https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration]]
