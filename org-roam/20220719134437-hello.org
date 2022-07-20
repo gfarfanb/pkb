@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7ad1ca1a-485a-4069-8fa8-5f66effaecfd
+:END:
+#+title: Hello World!
+
+First Org-roam note.

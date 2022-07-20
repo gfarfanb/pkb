@@ -5,17 +5,17 @@ I'm really glad you're reading this, thanks.
 The following is a set of guidelines for contributing to [pkb][pkb]. Use your best judgment, and feel free to propose changes to this document or any other community document in a pull request.
 
 
-## Getting started
-
-To start using this repository right away, 
-[fork this repository on GitHub](https://github.com/gfarfanb/pkb/fork).
-
-
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the [pkb][pkb]
 [Code of Conduct](./CODE_OF_CONDUCT.md). Please report any unacceptable behavior 
 to @gfarfanb.
+
+
+## Getting started
+
+To start using this repository right away, 
+[fork this repository on GitHub](https://github.com/gfarfanb/pkb/fork).
 
 
 ## How can I contribute in a different way?
