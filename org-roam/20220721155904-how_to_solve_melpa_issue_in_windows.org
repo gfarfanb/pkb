@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       dc34ca09-3301-40e6-a8d0-4c848c41d5a7
+:END:
+#+title: How to solve Melpa issue in Windows
+
+* Solution [/]
+- [ ] Go to /package/ group:
+  #+begin_src
+    M-x customize-group RET package RET
+  #+end_src
+- [ ] Expand *Package Archives* then *INS*
+- [ ] Fill in:
+  | Field                 | Value                      |
+  |-----------------------+----------------------------|
+  | Archive name          | melpa                      |
+  | URL or directory name | http://melpa.org/packages/ |
+- [ ] Apply and Save
+
+* Refs
+- https://emacs.stackexchange.com/questions/22468/how-do-i-get-melpa-working-on-my-windows-8-laptop
+

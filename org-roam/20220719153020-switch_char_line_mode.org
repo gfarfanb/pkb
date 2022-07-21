@@ -5,9 +5,16 @@
 #+filetags: :emacs:terminal:charmode:linemode:
 
 * Solution
-Switch to *C-c C-j* /term-line-mode/ to use terminal as a normal text-buffer.
+Switch to /term-line-mode/ to use terminal as a normal text-buffer.
+#+begin_src
+  C-c C-j
+#+end_src
 
-Switch to *C-c C-k* /term-char-mode/.
+Switch to  /term-char-mode/.
+#+begin_src
+  C-c C-k
+#+end_src
 
 * Refs
 - [[https://stackoverflow.com/questions/2886184/copy-paste-in-emacs-ansi-term-shell]]
+
