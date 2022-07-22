@@ -2,6 +2,7 @@
 :ID:       6096efff-26ff-49f3-984f-93fb077ffa6f
 :END:
 #+title: Basic Emacs key bindings
+#+filetags: :basic:command:emacs:
 
 * Main
 ** General
@@ -48,6 +49,7 @@
 - *M-x replace-string* FROM-STRING /<RET>/ TO-STRING /<RET>/
 - *M-x replace-regexp* REGEXP /<RET>/ TO-STRING /<RET>/
 
+- *C-x h* (/mark-whole-buffer/) Select all
 - *M->* (/beg-of-buf/) Beggining to buffer
 - *M-<* (/end-of-buf/) End to buffer
 - *C-a* (/move-beginning-of-line/)
