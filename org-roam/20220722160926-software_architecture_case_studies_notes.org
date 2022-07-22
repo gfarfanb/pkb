@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       42d32863-c400-4505-aac1-7d23671ecc62
+:END:
+#+title: Software Architecture Process Notes
+#+filetags: :software:course:notes:architecture:
+
+* Main
+| Topic                             | Definition                                                                | Notes                                                        |
+|-----------------------------------+---------------------------------------------------------------------------+--------------------------------------------------------------|
+| Requirements                      | What the system should do                                                 | Defined by System Analyst                                    |
+| Non-Functional Requirements       | Define technical and service level attributes                             | # of users, loads, volumes, performance                      |
+| Components                        | Tasks of the system, system functionality                                 | Helps to comunicate with the client                          |
+| Technology Stack                  | Platform or system it will be based                                       | Back End, Front End, Data Store                              |
+| Design                            | System composition                                                        | Secure, reliable, easy to maintain                           |
+| Qualities of well-designed system | What must be considered during design                                     | Loose coupling, statelets, scaling, caching, messaging, etc. |
+| Architecture document             | Describes a full picture of the system                                    | It's relevant for all levels in the organization             |
+| Support the team                  | Give a clear understanding of the architecture design (including changes) | A phase after the document is delivered                      |
+
+* Refs
+- Udemy: Software Architecture Case Studies
+

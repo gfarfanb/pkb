@@ -1,0 +1,95 @@
+:PROPERTIES:
+:ID:       6096efff-26ff-49f3-984f-93fb077ffa6f
+:END:
+#+title: Basic Emacs key bindings
+#+filetags: :basic:command:emacs:
+
+* Main
+** General
+- *M-x* (/execute-extended-command/)
+
+- *M-x describe-key* /<RET>/
+- *M-x describe-bindings* /<RET>/
+- *M-x describe-variable* /<RET>/
+
+- *M-x about-emacs* /<RET>/
+- *M-x load-file* /<RET>/
+
+- *C-x C-c* (/save-buffers-kill-terminal/)
+- *C-h k* (/describe-key/)
+- *C-h f* (/describe-function/)
+- *C-g* Cancel operations
+
+** Frames
+- *C-x 3* (/split-window-right/)
+- *C-x 2* (/split-window-below/)
+- *C-x o* (/other-window/)
+- *C-x 1* (/delete-other-windows/)
+- *C-x 0* (/delete-window/)
+
+** Buffers
+- *C-x C-b* (/list-buffers/)
+- *C-x b* (/switch-to-buffer/)
+- *C-x k* (/kill-buffer/)
+- *C-x* /<RIGHT>/ (/next-buffer/)
+- *C-x* /<LEFT>/ (/previous-buffer/)
+
+** Working with files
+- *C-x C-f* (/find-file/)
+- *C-x C-f* /path/to/file
+- *C-x C-f* /sudo::/path/to/file
+- *C-x C-f* /ssh:user@host:/path/to/file
+- *C-x C-f* /ssh:user@host|sudo:host:/path/to/file
+
+- *C-x i* (/insert-file/)
+- *C-x C-s* (/save-buffer/)
+- *C-x C-w* (/write-file/) Save-as
+- *C-x C-q* (/toggle-read-only/)
+
+- *M-x replace-string* FROM-STRING /<RET>/ TO-STRING /<RET>/
+- *M-x replace-regexp* REGEXP /<RET>/ TO-STRING /<RET>/
+
+- *C-x h* (/mark-whole-buffer/) Select all
+- *M->* (/beg-of-buf/) Beggining to buffer
+- *M-<* (/end-of-buf/) End to buffer
+- *C-a* (/move-beginning-of-line/)
+- *C-e* (/mode-end-of-line/)
+- *C-s* (/isearch-forward/)
+- *C-r* (/isearch-backward/)
+- *C-u C-s* Regular expression search
+- *C-x (* (/kmacro-start-macro/)
+- *C-x )* (/kmacro-end-macro/)
+- *C-x e* (/kmacro-end-and-call-macro/)
+- *C-<SPACE> C-<SPACE>* Save cursor position
+
+- *C-<SPACE>* (/set-mark-command/)
+- *C-w* (/kill-region/) Cut
+- *M-w* (/kill-ring-save/) Copy
+- *C-k* (/delete-line/)
+- *C-<BACKSPACE>* (/backward-kill-word/)
+- *M-<BACKSPACE>* (/backward-kill-word/)
+- *C-<DEL>* (/kill-word/)
+- *C-y* (/yank/) Paste
+- *M-y* (/yank-pop/) Replace with previous entry in kill ring.
+- *C-x u* (/undo/)
+- *C-S _* (/undo/)
+
+** DIRED mode
+- /<RET>/ Open files or directory in a new buffer
+- (/a/) (after activation) Open files or directory in current buffer
+- (/d/) Flagged for deletion
+- (/u/) Remove deletion flag
+- (/x/) Delete flagged entries
+- (/C/) Copy
+- (/R/) Rename
+- (/+/) Create directory
+- (/!/) Execute command on file at point
+
+  |---------+-------------|
+  | <RET>   | Return      |
+  | <RIGHT> | Right arrow |
+  | <LEFT>  | Left arrow  |
+
+* Ref
+- Udemy: Learning to work with Emacs
+
