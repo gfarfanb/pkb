@@ -2,6 +2,7 @@
 :ID:       4c091332-6698-469c-ac88-082e448d2c3b
 :END:
 #+title: Unable to use Emacs commands in Terminal (M-x term)
+#+date: [2022-07-19 Tue 15:30]
 #+filetags: :issue:emacs:terminal:charmode:linemode:
 
 * Summary
