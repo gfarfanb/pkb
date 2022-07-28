@@ -1,8 +1,14 @@
 :PROPERTIES:
 :ID:       eb109965-0b08-4803-b1c2-0dbc42774652
 :END:
-#+title: Emacs Server is not running in Windows
+#+title: Emacs Server is not starting in Windows
 #+filetags: :issue:windows:emacs:
+
+* Summary
+When I try to start the Emacs Server in Windows the process dies a few seconds before.
+#+begin_src
+  runemacs.exe --daemon
+#+end_src
 
 * Solution
 Remove server directory in Emacs directory.

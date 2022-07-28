@@ -4,6 +4,9 @@
 #+title: Unable to use Emacs commands in Terminal (M-x term)
 #+filetags: :issue:emacs:terminal:charmode:linemode:
 
+* Summary
+I can't execute normal Emacs commands while *M-x term* is running.
+
 * Solution
 Switch to /term-line-mode/ to use terminal as a normal text-buffer.
 #+begin_src
