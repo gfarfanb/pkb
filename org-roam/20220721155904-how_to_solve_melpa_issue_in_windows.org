@@ -2,7 +2,10 @@
 :ID:       dc34ca09-3301-40e6-a8d0-4c848c41d5a7
 :END:
 #+title: How to solve Melpa issue in Windows
-#+filetags: :melpa:windows:emacs:
+#+filetags: :issue:melpa:windows:emacs:
+
+* Summary
+Default Melpa URL is not reachable.
 
 * Solution [/]
 - [ ] Go to /package/ group:

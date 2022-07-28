@@ -4,7 +4,7 @@
 #+title: Git Config
 #+filetags: :git:config:
 
-* Main
+* Summary
 #+begin_src
 git config --global user.name "Giovanni Farfán B."
 git config --global user.email gfarfanb@...

@@ -4,7 +4,7 @@
 #+title: Software Architecture Process Notes
 #+filetags: :software:course:notes:architecture:
 
-* Main
+* Summary
 | Topic                             | Definition                                                                | Notes                                                        |
 |-----------------------------------+---------------------------------------------------------------------------+--------------------------------------------------------------|
 | Requirements                      | What the system should do                                                 | Defined by System Analyst                                    |

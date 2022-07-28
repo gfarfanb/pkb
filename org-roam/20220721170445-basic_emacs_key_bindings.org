@@ -4,7 +4,7 @@
 #+title: Basic Emacs key bindings
 #+filetags: :basic:command:emacs:
 
-* Main
+* Summary
 ** General
 - *M-x* (/execute-extended-command/)
 
@@ -90,6 +90,6 @@
   | <RIGHT> | Right arrow |
   | <LEFT>  | Left arrow  |
 
-* Ref
+* Refs
 - Udemy: Learning to work with Emacs
 
