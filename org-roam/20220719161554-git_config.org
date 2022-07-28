@@ -2,7 +2,8 @@
 :ID:       b5358360-60b7-4770-8861-022cea22438c
 :END:
 #+title: Git Config
-#+filetags: :git:config:
+#+date: [2022-07-19 Tue 16:15]
+#+filetags: :note:git:config:
 
 * Summary
 #+begin_src

@@ -2,6 +2,7 @@
 :ID:       dc34ca09-3301-40e6-a8d0-4c848c41d5a7
 :END:
 #+title: How to solve Melpa issue in Windows
+#+date: [2022-07-21 Thu 15:59]
 #+filetags: :issue:melpa:windows:emacs:
 
 * Summary

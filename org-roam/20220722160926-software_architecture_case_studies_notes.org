@@ -1,11 +1,12 @@
 :PROPERTIES:
 :ID:       42d32863-c400-4505-aac1-7d23671ecc62
 :END:
-#+title: Software Architecture Process Notes
-#+filetags: :software:course:notes:architecture:
+#+title: Software Architecture Process concepts
+#+date: [2022-07-22 Tue 16:09]
+#+filetags: :note:software:course:architecture:
 
 * Summary
-| Topic                             | Definition                                                                | Notes                                                        |
+| Concept                           | Definition                                                                | Notes                                                        |
 |-----------------------------------+---------------------------------------------------------------------------+--------------------------------------------------------------|
 | Requirements                      | What the system should do                                                 | Defined by System Analyst                                    |
 | Non-Functional Requirements       | Define technical and service level attributes                             | # of users, loads, volumes, performance                      |
