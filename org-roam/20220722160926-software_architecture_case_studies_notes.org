@@ -2,7 +2,7 @@
 :ID:       42d32863-c400-4505-aac1-7d23671ecc62
 :END:
 #+title: Software Architecture Process Notes
-#+filetags: :software:course:notes:architecture:
+#+filetags: :software:course:architecture:
 
 * Summary
 | Topic                             | Definition                                                                | Notes                                                        |

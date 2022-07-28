@@ -2,7 +2,7 @@
 :ID:       6096efff-26ff-49f3-984f-93fb077ffa6f
 :END:
 #+title: Basic Emacs key bindings
-#+filetags: :basic:command:emacs:
+#+filetags: :course:basic:command:emacs:
 
 * Summary
 ** General
