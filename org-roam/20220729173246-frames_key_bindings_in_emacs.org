@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       a7e10dad-bf6b-4d80-86d3-a20f0fdd0d8e
+:END:
+#+title: Frames key bindings in Emacs
+#+filetags: :emacs:command:
+
+| Binding | Command                | Notes                  |
+|---------+------------------------+------------------------|
+| *C-x 3* | /split-window-right/   |                        |
+| *C-x 2* | /split-window-below    |                        |
+| *C-x o* | /other-window/         | Cursor in other window |
+| *C-x 1* | /delete-other-windows/ |                        |
+| *C-x 0* | /delete-window/        | Where the cursor is    |
+
+- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][Udemy Business: Learning to work with Emacs]]
+

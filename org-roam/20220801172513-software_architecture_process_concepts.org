@@ -1,11 +1,9 @@
 :PROPERTIES:
-:ID:       42d32863-c400-4505-aac1-7d23671ecc62
+:ID:       91b9222c-f7d1-4089-a50c-4732053de7c6
 :END:
 #+title: Software Architecture Process concepts
-#+date: [2022-07-22 Tue 16:09]
-#+filetags: :note:software:course:architecture:
+#+filetags: :course:software-architecture:
 
-* Summary
 | Concept                           | Definition                                                                | Notes                                                        |
 |-----------------------------------+---------------------------------------------------------------------------+--------------------------------------------------------------|
 | Requirements                      | What the system should do                                                 | Defined by System Analyst                                    |
@@ -17,6 +15,5 @@
 | Architecture document             | Describes a full picture of the system                                    | It's relevant for all levels in the organization             |
 | Support the team                  | Give a clear understanding of the architecture design (including changes) | A phase after the document is delivered                      |
 
-* Refs
-- Udemy: Software Architecture Case Studies
+- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][Udemy Business: Software Architecture Case Studies]]
 

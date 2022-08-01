@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       fb7e3425-3732-49eb-9572-82760060a30b
+:END:
+#+title: Dired Mode key bindings in Emacs
+#+filetags: :emacs:command:dired-mode:
+
+| Ref     | Key               | Notes                                                              |
+|---------+-------------------+--------------------------------------------------------------------|
+| /<REF>/ | Return key        | Open files or directories in a new buffer                          |
+| /(a)/   | (Lowercase) A key | (After activation) Open files or directorues in the current buffer |
+| /(d)/   | (Lowercase) D key | Flagged for deletion                                               |
+| /(u)/   | (Lowercase) U key | Remove deletion flag                                               |
+| /(x)/   | (Lowercase) X key | Delete flagged entries                                             |
+| /(C)/   | (Uppercase) C key | Copy                                                               |
+| /(R)/   | (Uppercase) R key | Rename                                                             |
+| /(+)/   | + key             | Create directory                                                   |
+| /(!)/   | ! key             | Execute command on file at point                                   |
+
+- [[id:91f65e81-8c39-45b5-8afb-08c3db313326][Files key bindings in Emacs]]
+- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][Udemy Business: Learning to work with Emacs]]
+

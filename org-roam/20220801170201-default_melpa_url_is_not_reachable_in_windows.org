@@ -1,14 +1,10 @@
 :PROPERTIES:
-:ID:       dc34ca09-3301-40e6-a8d0-4c848c41d5a7
+:ID:       3c2e904c-d34a-4290-8b0a-deab9727ee6b
+:ROAM_REFS: https://emacs.stackexchange.com/questions/22468/how-do-i-get-melpa-working-on-my-windows-8-laptop
 :END:
-#+title: How to solve Melpa issue in Windows
-#+date: [2022-07-21 Thu 15:59]
-#+filetags: :issue:melpa:windows:emacs:
+#+title: Default Melpa URL is not reachable in Windows
+#+filetags: :emacs:windows:melpa:solution:
 
-* Summary
-Default Melpa URL is not reachable.
-
-* Solution [/]
 - [ ] Go to /package/ group:
   #+begin_src
     M-x customize-group RET package RET
@@ -20,7 +16,4 @@ Default Melpa URL is not reachable.
   | Archive name          | melpa                      |
   | URL or directory name | http://melpa.org/packages/ |
 - [ ] Apply and Save
-
-* Refs
-- https://emacs.stackexchange.com/questions/22468/how-do-i-get-melpa-working-on-my-windows-8-laptop
 

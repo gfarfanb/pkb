@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       91f65e81-8c39-45b5-8afb-08c3db313326
+:END:
+#+title: Files key bindings in Emacs
+#+filetags: :emacs:command:
+
+| Binding               | Command                                                            | Notes                                    |
+|-----------------------+--------------------------------------------------------------------+------------------------------------------|
+| *C-x C-f*             | /find-file/                                                        | Open file                                |
+| *C-x i*               | /insert-file/                                                      |                                          |
+| *C-x C-w*             | /write-file/                                                       | Save as...                               |
+| *C-x C-q*             | /toggle-read-only/                                                 | Read only file                           |
+|                       | *M-x* /replace-string/ FROM_STRING /<REF>/ TO_STRING /<REF>/       |                                          |
+|                       | *M-x* /replace-regexp/ FROM_REGEX_STRING /<REF>/ TO_STRING /<REF>/ |                                          |
+| *C-x h*               | /mark-whole-buffer/                                                | Select all                               |
+| *M-<*                 | /beg-of-buf/                                                       | Beginning to buffer                      |
+| *M->*                 | /end-of-buf/                                                       | End to buffer                            |
+| *C-a*                 | /move-beginning-of-line/                                           |                                          |
+| *C-s*                 | /isearch-forward/                                                  |                                          |
+| *C-r*                 | /isearch-backward/                                                 |                                          |
+| *C-u C-s*             |                                                                    | Regular expression search                |
+| *C-x (*               | /kmacro-start-macro/                                               |                                          |
+| *C-x )*               | /kmacro-end-macro/                                                 |                                          |
+| *C-x e*               | /kmacro-end-and-call-macro/                                        |                                          |
+| *C-<SPACE> C-<SPACE>* |                                                                    | Save cursor position                     |
+| *C-<SPACE>*           | /set-mark-command/                                                 | Select...                                |
+| *C-w*                 | /kill-region/                                                      | Cut                                      |
+| *M-w*                 | /kill-ring-save/                                                   | Copy                                     |
+| *C-k*                 | /delete-line/                                                      |                                          |
+| *C-<BACKSPACE>*       | /backward-kill-word/                                               |                                          |
+| *M-<BACKSPACE>*       | /backward-kill-word/                                               |                                          |
+| *C-<DEL>*             | /kill-word/                                                        |                                          |
+| *C-y*                 | /yank/                                                             | Paste                                    |
+| *M-y*                 | /yank-pop/                                                         | Replace with previous entry in kill ring |
+| *C-x u*               | /undo/                                                             |                                          |
+| *C-S _*               | /undo/                                                             |                                          |
+
+- [[id:2c0fe3f9-e776-4d41-ad44-3d38960cce86][Find files flavours key bindings in Emacs]]
+- [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
+- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][Udemy Business: Learning to work with Emacs]]
+
