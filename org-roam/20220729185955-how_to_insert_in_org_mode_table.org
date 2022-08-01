@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       bccaa89e-20f7-4aa9-8dfa-ee15e87a7a47
+:ROAM_REFS: https://stackoverflow.com/questions/11876048/how-to-insert-in-org-mode-table
+:END:
+#+title: How to insert "|" in Org-mode table
+#+filetags: :solution:org-table:
+
+To insert a vertical bar into a table field,
+
+between words *lorem \vert ipsum*:
+#+begin_src
+  lorem \vert ipsum
+#+end_src
+
+inside a word *lorem\vert{}ipsum*:
+#+begin_src
+  lorem\vert{}ipsum
+#+end_src
+

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a75f1929-5987-49b3-880c-e1e44c76cbb8
+:END:
+#+title: Udemy Business: Learning to work with Emacs
+#+filetags: :refs:emacs:course:
+
