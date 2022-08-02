@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       4bea0835-d6fb-4711-ab1f-365138cccffc
+:END:
+#+title: Install fakecygpty package in Emacs (term simulator for Windows)
+#+filetags: :windows:emacs:fakecygpty:
+
+- [ ] [[id:7bb98ff9-664e-4aed-bce1-20b09e95126a][Install Cygwin]]
+- [ ] Install *Lynx*
+  #+begin_src
+    /cygdrive/c/tools/cygwin/cygwinsetup.exe -q -P lynx
+  #+end_src
+- [ ] Install *apt-cyg*
+  #+begin_src
+    lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+    install apt-cyg /bin
+  #+end_src
+- [ ] [[id:b0409f93-2fac-448b-a61e-3308acc41aac][Install autoreconf dependencies]]
+- [ ] [[https://github.com/d5884/fakecygpty#installation][Install fakecygpty]]
+- [ ] Launch terminal
+  #+begin_src
+    M-x term
+  #+end_src
+

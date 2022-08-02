@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       aecbeccc-f40f-446c-8ab6-d5047fffd603
+:ROAM_REFS: https://stackoverflow.com/questions/21597851/how-to-check-whether-url-is-working-or-not-through-linux-shell#21598040
+:END:
+#+title: Check if URL is up with curl
+#+filetags: :url:curl:
+
+#+begin_src
+  curl -Is http://host:port | head -n 1
+#+end_src
+

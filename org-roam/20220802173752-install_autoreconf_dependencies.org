@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       b0409f93-2fac-448b-a61e-3308acc41aac
+:ROAM_REFS: https://stackoverflow.com/questions/30344558/autoreconf-command-not-found-in-cygwin-on-windows
+:END:
+#+title: Install autoreconf dependencies
+#+filetags: :cygwin:autoreconf:apt-cyg:
+
+#+begin_src
+  apt-cyg install autoconf
+  apt-cyg install automake
+  apt-cyg install libtoo
+#+end_src
+
