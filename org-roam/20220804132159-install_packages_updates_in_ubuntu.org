@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       28de755b-9261-4a9c-a05b-6b276e2b74b0
+:END:
+#+title: Install packages updates in Ubuntu
+#+filetags: :maintenance:ubuntu:
+
+#+begin_src
+  sudo apt-get update        # Fetches the list of available updates
+
+  sudo apt-get upgrade       # Strictly upgrades the current packages
+
+  sudo apt-get dist-upgrade  # Installs updates (new ones)
+#+end_src
+
+Restart after upgrading
+#+begin_src
+  sudo reboot
+#+end_src
+

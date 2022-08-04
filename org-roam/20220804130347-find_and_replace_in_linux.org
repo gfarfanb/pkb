@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       11da7820-d12d-4f6a-82fc-31ced4363734
+:END:
+#+title: Find and replace in Linux
+#+filetags: :linux:command:
+
+#+begin_src
+  sed -i -e 's/OLD_VALUE/NEW_VALUE/g' <file>
+#+end_src
+
+- [[id:dc5dc9ee-12f5-4a72-aa39-cd8cefb9ca77][sed]]
+

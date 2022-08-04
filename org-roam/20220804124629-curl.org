@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       e7e07e0c-23e0-4585-b822-2703c28fb81d
+:ROAM_REFS: https://man7.org/linux/man-pages/man1/curl.1.html
+:END:
+#+title: curl
+#+filetags: :linux:command:
+

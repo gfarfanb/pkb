@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       c3766609-235b-4f51-8fcb-ec4b801a2292
+:END:
+#+title: Execute tests with Maven
+#+filetags: :test:maven:command:
+
+Clean and test
+#+begin_src
+  mvn clean test
+#+end_src
+
+Debug mode with DT socket
+#+begin_src
+  mvn clean test -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8787"
+#+end_src
+
+Execute all tests from a specific class
+#+begin_src
+  mvn clean test Dtest=<test-class>
+#+end_src
+
+Execute a single test
+#+begin_src
+  mvn clean test -Dtest=<test-class>#<test-method>
+#+end_src
+

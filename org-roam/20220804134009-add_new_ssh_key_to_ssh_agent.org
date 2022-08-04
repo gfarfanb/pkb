@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       82e0c5fc-c11e-48bb-8e8a-36c9b4cfd2ab
+:END:
+#+title: Add new SSH key to ssh-agent
+#+filetags: :setup:ssh:
+
+- [ ] Generate new key
+  #+begin_src
+    ssh-keygen -t rsa -b 4096 -C <email>
+  #+end_src
+- [ ] Eval SSH agent
+  #+begin_src
+    eval "$(ssh-agent -s)"
+  #+end_src
+- [ ] Add key to SSH agent
+  #+begin_src
+    ssh-add ~/.ssh/id_rsa
+  #+end_src
+- [ ] Print public SSH key
+  #+begin_src
+    cat < ~/.ssh/id_rsa.pub
+  #+end_src
+
+- [[id:5fa84984-58eb-45e5-96bc-7ca5ef52c265][ssh-keygen]]
+- [[id:da5dc200-f265-4264-baeb-81ed292d2c0c][ssh-add]]
+- [[id:a8e2ac30-3789-40e2-a269-e090fbe6d210][ssh-agent]]
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       32ee9cb9-a453-453f-ad86-744dd743d0aa
+:ROAM_REFS: https://git-scm.com/docs/git-remote
+:END:
+#+title: git-remote
+#+filetags: :git:command:
+

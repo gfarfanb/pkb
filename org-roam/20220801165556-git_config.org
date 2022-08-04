@@ -5,8 +5,17 @@
 #+title: Git config
 #+filetags: :setup:git:command:
 
+Global
 #+begin_src
   git config --global user.name "Giovanni Farfán B."
   git config --global user.email gfarfanb@...
 #+end_src
+
+Local
+#+begin_src
+  git config --local user.name "Giovanni Farfán B."
+  git config --local user.email gfarfanb@...
+#+end_src
+
+- [[id:1287ebb9-da97-4386-bd1f-4b5fd9df6d81][git-config]]
 

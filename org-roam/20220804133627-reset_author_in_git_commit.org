@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       a13c0c0d-454b-4bc1-a802-69cf945085f2
+:END:
+#+title: Reset author in Git commit
+#+filetags: :git:command:
+
+#+begin_src
+  git commit --amend --reset-author
+#+end_src
+
+- [[id:a342c693-bb3b-4eb5-ac7a-423035537aea][git-commit]]
+
