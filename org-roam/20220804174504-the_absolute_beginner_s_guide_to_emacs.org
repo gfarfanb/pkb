@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5da57bd8-783b-44fc-8db1-e6d001c97792
+:ROAM_REFS: https://youtu.be/48JlgiBpw_I
+:END:
+#+title: The Absolute Beginner's Guide to Emacs
+#+filetags: :refs:course:emacs:
+
