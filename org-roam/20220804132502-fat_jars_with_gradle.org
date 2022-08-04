@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       79dd05ca-0d6d-4c4f-915f-aec02d3b5939
+:END:
+#+title: Fat JARs with Gradle
+#+filetags: :java:gradle:
+
+#+begin_src
+  task fatJar(type: Jar) {
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+    manifest {
+        attributes 'Implementation-Title': project.name 
+        attributes 'Implementation-Version': project.version
+        attributes 'Main-Class': project.mainClassName
+    }
+  }
+#+end_src
+

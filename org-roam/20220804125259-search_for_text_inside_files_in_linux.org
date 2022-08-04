@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       358c3e8d-2f67-4085-aee9-3ad880827191
+:END:
+#+title: Search for text inside files in Linux
+#+filetags: :linux:command:
+
+#+begin_src
+  grep -rnw '/path/to/somewhere/' -e 'pattern'
+#+end_src
+
+- [[id:293e7b1e-c704-4630-ae0a-511a4b5aa21e][grep]]
+

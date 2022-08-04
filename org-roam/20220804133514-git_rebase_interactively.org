@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       aa3e0ba8-f2b7-4229-b564-6a54c655e4e4
+:END:
+#+title: Git rebase interactively
+#+filetags: :git:command:
+
+#+begin_src
+  git rebase -i HEAD~<n>
+#+end_src
+
+- [[id:f69354a2-f891-48a9-97aa-c1f0426d6bc0][git-rebase]]
+

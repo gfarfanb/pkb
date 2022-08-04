@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       5f8d9d4f-2c99-4c33-bd47-a1685c07f953
+:END:
+#+title: Compile project with Maven
+#+filetags: :maven:command:
+
+Clean, build and test
+#+begin_src
+  mvn clean package -U
+#+end_src
+
+Clean, build, test and install in local repo
+#+begin_src
+  mvn clean install -U
+#+end_src
+
+Skip tests
+#+begin_src
+  mvn clean package -U -DskipTests
+  mvn clean install -U -DskipTests
+#+end_src
+

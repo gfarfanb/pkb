@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       9baca7ac-7b1d-4610-b164-0e11ba50b038
+:END:
+#+title: Uninstall packages in Ubuntu
+#+filetags: :maintenance:ubuntu:
+
+#+begin_src
+  sudo apt-get purge --auto-remove packagename # clear all
+
+  sudo update-alternatives --config packagename # set default
+
+  sudo service servicename restart # restart service
+#+end_src
+

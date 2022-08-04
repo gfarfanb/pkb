@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       437f5841-dad1-4377-9c60-8cd4c4f91358
+:END:
+#+title: Look for a process in Linux
+#+filetags: :linux:command:
+
+#+begin_src
+  ps -fea | grep <contains>
+#+end_src
+
+- [[id:835ea9e6-54ba-4d0a-93ed-aa451c723617][ps]]
+

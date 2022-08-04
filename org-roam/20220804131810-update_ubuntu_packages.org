@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       2aa9ab29-c408-4e5c-8eab-5d47e1d2df3b
+:END:
+#+title: Update Ubuntu packages
+#+filetags: :maintenance:ubuntu:
+
+#+begin_src
+  sudo apt update -y
+
+  sudo apt list --upgradable -a
+
+  sudo apt upgrade -y
+
+  sudo dpkg --configure -a
+
+  sudo apt install -f
+
+  sudo apt update --fix-missing
+
+  sudo apt --fix-broken install -y
+#+end_src
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       293e7b1e-c704-4630-ae0a-511a4b5aa21e
+:ROAM_REFS: https://man7.org/linux/man-pages/man1/egrep.1.html
+:END:
+#+title: grep
+#+filetags: :linux:command:
+

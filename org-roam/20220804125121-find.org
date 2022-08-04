@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       82bc59bb-a661-4afc-bfd3-25ce7ab0d36b
+:ROAM_REFS: https://man7.org/linux/man-pages/man1/find.1.html
+:END:
+#+title: find
+#+filetags: :linux:command:
+

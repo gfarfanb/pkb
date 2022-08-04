@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       de6eebb1-4b8f-487f-938c-3a187807f7ad
+:END:
+#+title: Run Spring Boot with Gradle
+#+filetags: :spring-boot:gradle:command:
+
+Run
+#+begin_src
+  gradle bootRun
+#+end_src
+
+Debug
+#+begin_src
+  gradle bootRun --debug-jvm
+#+end_src
+
+Run with specific profile
+#+begin_src
+  gradle bootRun -Dspring.profiles.active=<profile>
+#+end_src
+
+Run with configuration location
+#+begin_src
+  gradle bootRun -Dspring.config.location=<config-location-path>
+#+end_src
+

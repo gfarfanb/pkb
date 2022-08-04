@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7bb98ff9-664e-4aed-bce1-20b09e95126a
+:ROAM_REFS: https://preshing.com/20141108/how-to-install-the-latest-gcc-on-windows/
+:END:
+#+title: Install Cygwin
+#+filetags: :setup:cygwin:windows:
+

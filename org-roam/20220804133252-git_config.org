@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1287ebb9-da97-4386-bd1f-4b5fd9df6d81
+:ROAM_REFS: https://git-scm.com/docs/git-config
+:END:
+#+title: git-config
+#+filetags: :git:command:
+

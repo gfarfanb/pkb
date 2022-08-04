@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       ad23a1df-1ec4-4779-9d8f-165695e49c5b
+:END:
+#+title: Run Spring Boot with Maven
+#+filetags: :spring-boot:maven:command:
+
+Run
+#+begin_src
+  mvn spring-boot:run
+#+end_src
+
+Debug
+#+begin_src
+  mvn spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8787"
+#+end_src
+
+Run with specific profile
+#+begin_src
+  mvn spring-boot:run -Drun.profiles=<profile>
+#+end_src
+
+Run with configuration location
+#+begin_src
+  mvn spring-boot:run -Drun.jvmArguments="-Dspring.config.location=<config-location-path>"
+#+end_src
+
