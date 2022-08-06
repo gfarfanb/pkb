@@ -3,5 +3,5 @@
 :ROAM_REFS: https://pypi.org/project/pip/
 :END:
 #+title: pip
-#+filetags: :python:pip:
+#+filetags: :refs:python:pip:
 

@@ -3,5 +3,5 @@
 :ROAM_REFS: https://git-scm.com/docs/git-remote
 :END:
 #+title: git-remote
-#+filetags: :git:command:
+#+filetags: :refs:git:command:
 

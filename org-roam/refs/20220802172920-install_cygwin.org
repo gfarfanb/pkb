@@ -3,5 +3,5 @@
 :ROAM_REFS: https://preshing.com/20141108/how-to-install-the-latest-gcc-on-windows/
 :END:
 #+title: Install Cygwin
-#+filetags: :setup:cygwin:windows:
+#+filetags: :refs:setup:cygwin:windows:
 
