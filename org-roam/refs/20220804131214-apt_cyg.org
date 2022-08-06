@@ -3,5 +3,5 @@
 :ROAM_REFS: https://github.com/mrjoshuak/apt-cyg
 :END:
 #+title: apt-cyg
-#+filetags: :apt-cyg:cygwin:
+#+filetags: :refs:apt-cyg:cygwin:
 

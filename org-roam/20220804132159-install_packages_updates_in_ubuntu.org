@@ -4,12 +4,19 @@
 #+title: Install packages updates in Ubuntu
 #+filetags: :maintenance:ubuntu:
 
+Fetches the list of available updates
 #+begin_src
-  sudo apt-get update        # Fetches the list of available updates
+  sudo apt-get update
+#+end_src
 
-  sudo apt-get upgrade       # Strictly upgrades the current packages
+Strictly upgrades the current packages
+#+begin_src
+  sudo apt-get upgrade
+#+end_src
 
-  sudo apt-get dist-upgrade  # Installs updates (new ones)
+Installs updates (new ones)
+#+begin_src
+  sudo apt-get dist-upgrade
 #+end_src
 
 Restart after upgrading
