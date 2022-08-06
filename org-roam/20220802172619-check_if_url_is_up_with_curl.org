@@ -9,5 +9,5 @@
   curl -Is https://<host>:<port> | head -n 1
 #+end_src
 
-- [[id:e7e07e0c-23e0-4585-b822-2703c28fb81d][curl]]
+- [[id:e7e07e0c-23e0-4585-b822-2703c28fb81d][ref. curl]]
 

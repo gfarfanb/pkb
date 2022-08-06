@@ -8,5 +8,5 @@
   git commit --amend --reset-author
 #+end_src
 
-- [[id:a342c693-bb3b-4eb5-ac7a-423035537aea][git-commit]]
+- [[id:a342c693-bb3b-4eb5-ac7a-423035537aea][ref. git-commit]]
 

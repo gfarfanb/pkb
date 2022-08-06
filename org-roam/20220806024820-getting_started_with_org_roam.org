@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       12ce6285-38fa-4c25-99a4-6fcca85535ab
+:END:
+#+title: Getting started with Org-roam
+#+filetags: :get-started:org-roam:
+
+- [[id:fde18e3f-f8ff-4585-b1b6-c2c52a6d5615][ref. Getting Started with Org Roam - Build a Second Brain in Emacs]]
+- [[id:77a012f1-a1fe-4935-9c5c-0fcc21597612][ref. Capturing Notes Efficiently with Org Roam]]
+- [[id:cd184052-4b3a-47cb-b87d-dd0c585e2589][ref. 5 Org Roam Hacks for Better Productivity in Emacs]]
+- [[id:0b977fcc-bea0-495b-a892-65793255c6d5][ref. org-roam-find-file not always finding files]]
+

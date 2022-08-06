@@ -2,6 +2,6 @@
 :ID:       96a68aca-80fc-4a33-9871-b70abc0f04d8
 :ROAM_REFS: https://cygwin.com/packages/summary/lynx.html
 :END:
-#+title: Lynx
+#+title: ref. Lynx
 #+filetags: :refs:package:cygwin:
 

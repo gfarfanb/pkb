@@ -8,5 +8,5 @@
   git rebase -i HEAD~<n>
 #+end_src
 
-- [[id:f69354a2-f891-48a9-97aa-c1f0426d6bc0][git-rebase]]
+- [[id:f69354a2-f891-48a9-97aa-c1f0426d6bc0][ref. git-rebase]]
 

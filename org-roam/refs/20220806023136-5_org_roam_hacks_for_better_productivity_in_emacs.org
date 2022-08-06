@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       cd184052-4b3a-47cb-b87d-dd0c585e2589
+:ROAM_REFS: https://youtu.be/CUkuyW6hr18
+:END:
+#+title: ref. 5 Org Roam Hacks for Better Productivity in Emacs
+#+filetags: :course:org-roam:refs:
+

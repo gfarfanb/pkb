@@ -8,5 +8,5 @@
   lsb_release -a
 #+end_src
 
-- [[id:5a7e01a5-4b62-4f99-b55d-1b2f45db200b][or-release]]
+- [[id:5a7e01a5-4b62-4f99-b55d-1b2f45db200b][ref. or-release]]
 

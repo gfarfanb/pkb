@@ -8,5 +8,5 @@
   ps -fea | grep <contains>
 #+end_src
 
-- [[id:835ea9e6-54ba-4d0a-93ed-aa451c723617][ps]]
+- [[id:835ea9e6-54ba-4d0a-93ed-aa451c723617][ref. ps]]
 

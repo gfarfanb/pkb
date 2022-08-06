@@ -13,5 +13,5 @@
 | *C-x C-f* /ssh:user@host\vert{}sudo:host:/path/to/file | ~           | Open a remote file with /sudo/    |
 
 - [[id:bccaa89e-20f7-4aa9-8dfa-ee15e87a7a47][How to insert "|" in Org-mode table]]
-- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][Udemy Business: Learning to work with Emacs]]
+- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 
