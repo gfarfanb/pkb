@@ -4,7 +4,9 @@
 #+title: Getting started with Emacs
 #+filetags: :get-started:emacs:
 
-- [[id:5da57bd8-783b-44fc-8db1-e6d001c97792][The Absolute Beginner's Guide to Emacs]]
-- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][Udemy Business: Learning to work with Emacs]]
-- [[id:727b0dd5-e48e-40a4-9446-d55fc654d64c][Udemy Business: Getting yourself organized with Org-mode]]
+- [[id:5da57bd8-783b-44fc-8db1-e6d001c97792][ref. The Absolute Beginner's Guide to Emacs]]
+- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
+- [[id:727b0dd5-e48e-40a4-9446-d55fc654d64c][ref. Udemy Business: Getting yourself organized with Org-mode]]
+- [[id:8ff7fd90-e88d-481a-b19a-7a7073fb8d93][ref. The 6 Emacs Settings Every User Should Consider]]
+- [[id:cd335e0c-c710-4804-8031-0af6718f0d30][ref. Streamline Your Emacs Completions with Vertico]]
 

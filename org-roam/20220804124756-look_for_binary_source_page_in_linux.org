@@ -8,5 +8,5 @@
   whereis <resource>
 #+end_src
 
-- [[id:f2eb4b27-af6f-46be-92fc-06124f5e32bf][whereis]]
+- [[id:f2eb4b27-af6f-46be-92fc-06124f5e32bf][ref. whereis]]
 

@@ -14,5 +14,5 @@
 | *C-x C-s*       | /save-buffer/      |                                                   |
 
 - [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
-- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][Udemy Business: Learning to work with Emacs]]
+- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       cd335e0c-c710-4804-8031-0af6718f0d30
+:ROAM_REFS: https://youtu.be/J0OaRy85MOo
+:END:
+#+title: ref. Streamline Your Emacs Completions with Vertico
+#+filetags: :emacs:vertico:refs:
+

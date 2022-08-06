@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8ff7fd90-e88d-481a-b19a-7a7073fb8d93
+:ROAM_REFS: https://youtu.be/51eSeqcaikM
+:END:
+#+title: ref. The 6 Emacs Settings Every User Should Consider
+#+filetags: :course:emacs:refs:
+

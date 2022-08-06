@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       0b977fcc-bea0-495b-a892-65793255c6d5
+:ROAM_REFS: https://github.com/org-roam/org-roam/issues/1429#issuecomment-779153203
+:END:
+#+title: ref. org-roam-find-file not always finding files
+#+filetags: :refs:org-roam:solution:
+

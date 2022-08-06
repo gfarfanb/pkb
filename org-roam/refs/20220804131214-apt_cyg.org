@@ -2,6 +2,6 @@
 :ID:       6a2bdbd8-99e3-4bb5-ab39-7afd558b2025
 :ROAM_REFS: https://github.com/mrjoshuak/apt-cyg
 :END:
-#+title: apt-cyg
+#+title: ref. apt-cyg
 #+filetags: :refs:apt-cyg:cygwin:
 

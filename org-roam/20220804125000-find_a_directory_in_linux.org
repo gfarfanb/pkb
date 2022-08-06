@@ -8,5 +8,5 @@
   find / -type d -name <directory> 2> /dev/null
 #+end_src
 
-- [[id:82bc59bb-a661-4afc-bfd3-25ce7ab0d36b][find]]
+- [[id:82bc59bb-a661-4afc-bfd3-25ce7ab0d36b][ref. find]]
 

@@ -2,6 +2,6 @@
 :ID:       f69354a2-f891-48a9-97aa-c1f0426d6bc0
 :ROAM_REFS: https://git-scm.com/docs/git-rebase
 :END:
-#+title: git-rebase
+#+title: ref. git-rebase
 #+filetags: :refs:git:command:
 

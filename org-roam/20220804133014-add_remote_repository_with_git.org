@@ -8,5 +8,5 @@
   git remote add origin <repository-path>
 #+end_src
 
-- [[id:32ee9cb9-a453-453f-ad86-744dd743d0aa][git-remote]]
+- [[id:32ee9cb9-a453-453f-ad86-744dd743d0aa][ref. git-remote]]
 
