@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4be7a34f-1f13-48aa-89de-b3cc98bc4043
+:ROAM_REFS: https://github.com/MachinaCore/CygwinPortable
+:END:
+#+title: ref. Install CygwinPortable
+#+filetags: :setup:windows:cygwin:refs:
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b1e12a12-f0f0-4ecc-ae38-2e7847cc798b
+:ROAM_REFS: https://www.gnu.org/software/emacs/download.html
+:END:
+#+title: ref. Install Emacs
+#+filetags: :setup:emacs:refs:
+

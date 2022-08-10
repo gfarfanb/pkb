@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5122c145-53ab-452b-9878-0c6f2d98f0df
+:ROAM_REFS: https://gist.github.com/gfarfanb/6f98447cf2d29439830a4d9ee291faeb#file-emacs
+:END:
+#+title: ref. .emacs file
+#+filetags: :setup:emacs:refs:
+

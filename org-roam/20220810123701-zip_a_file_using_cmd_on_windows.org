@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4318db91-fbae-4373-b868-9051e617d7b7
+:ROAM_REFS: https://stackoverflow.com/questions/18180060/how-to-zip-a-file-using-cmd-line
+:END:
+#+title: Zip a file using CMD on Windows
+#+filetags: :windows:cmd:7-zip:
+
+- [ ] Add 7-Zip to PATH variable
+- [ ] Create the ZIP file
+  #+begin_src
+    7z a -tzip <filename>.zip <folder>
+  #+end_src
+

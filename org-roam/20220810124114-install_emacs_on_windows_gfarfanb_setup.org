@@ -1,0 +1,55 @@
+:PROPERTIES:
+:ID:       eaa9cb6f-30f5-48bf-b7f6-d82fe454044c
+:END:
+#+title: Install Emacs on Windows - gfarfanb setup
+#+filetags: :get-started:windows:emacs:setup:
+
+- [ ] [[id:b1e12a12-f0f0-4ecc-ae38-2e7847cc798b][Install Emacs]]
+- [ ] [[id:ca050037-bcdc-4b15-8fb8-98c6a97c18d8][Install the latest GCC on Windows]]
+- [ ] [[id:4bea0835-d6fb-4711-ab1f-365138cccffc][Install fakecygpty package in Emacs (term simulator for Windows)]]
+- [ ] Add variables to System Environment Variables
+  #+begin_src
+    EMACS_HOME=C:\emacs...
+    Path=%Path%;%EMACS_HOME%\bi
+  #+end_src  
+- [ ] Execute Emacs Server
+  #+begin_src
+    runemacs.exe --daemon
+  #+end_src
+- [ ] Execute Emacs Client (CMD window can be closed if Emacs window appears)
+  #+begin_src
+    emacsclientw.exe -create-frame --alternate-editor=""
+  #+end_src
+- [ ] Create a new Emacs initialization file
+  #+begin_src
+    C-x C-f <RET> ~/.emacs
+  #+end_src
+- [ ] Copy in the new init file the content from [[id:2232a9fa-7148-44c1-a833-1d22c04eb58c][.emacs-init file]]
+- [ ] Copy the [[id:d439ce9b-65ab-47eb-988a-1570c650c182][custom-vars.el file]] in
+  #+begin_src
+    ~/.emacs.d/
+  #+end_src
+- [ ] Load the init file
+  #+begin_src
+    M-x load-file <RET> ~/.emacs <RET>
+  #+end_src
+- [ ] Refresh packages
+  #+begin_src
+    M-x package-refresh-contents <RET>
+  #+end_src
+- [ ] Install required packages (check packages names from /package-selected-packages/ in [[id:d439ce9b-65ab-47eb-988a-1570c650c182][custom-vars.el]])
+  #+begin_src
+    M-x package-install <RET> use-package <RET>
+    M-x package-install <RET> org-roam <RET>
+    M-x package-install <RET> markdown-mode <RET>
+    M-x package-install <RET> orderless <RET>
+    M-x package-install <RET> vertico <RET>
+    M-x package-install <RET> marginalia <RET>
+  #+end_src
+- [ ] Copy the content of [[id:5122c145-53ab-452b-9878-0c6f2d98f0df][.emacs file]] in the init file
+- [ ] Load the init file
+  #+begin_src
+    M-x load-file <RET> ~/.emacs <RET>
+  #+end_src
+
+- [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
