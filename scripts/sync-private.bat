@@ -1,16 +1,10 @@
 @echo OFF
 
-:: Add to System Environment Variables:
-::   CLOUD_PRIVATE_DIR=C:\...\
-::   ORG_ROAM_PRIVATE_DIR=C:\...\pkb\org-roam\private
+:: Syncing from synchronized folder to private"
+robocopy "%SYNC_FOLDER_PRIVATE_DIR%" "%ORG_ROAM_PRIVATE_DIR%" /e /z 
 
-echo "Syncing from cloud dir to private"
+:: Syncing from private to synchronized folder"
+robocopy "%ORG_ROAM_PRIVATE_DIR%" "%SYNC_FOLDER_PRIVATE_DIR%" /e /z
 
-robocopy "%CLOUD_PRIVATE_DIR%" "%ORG_ROAM_PRIVATE_DIR%" /e /z 
-
-echo "Syncing from private to cloud dir"
-
-robocopy "%ORG_ROAM_PRIVATE_DIR%" "%CLOUD_PRIVATE_DIR%" /e /z
-
-echo "Sync completed"
+echo "Sync private completed"
 
