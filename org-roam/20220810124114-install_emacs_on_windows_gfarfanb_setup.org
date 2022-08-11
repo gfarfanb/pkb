@@ -45,6 +45,7 @@
     M-x package-install <RET> orderless <RET>
     M-x package-install <RET> vertico <RET>
     M-x package-install <RET> marginalia <RET>
+    M-x package-install <RET> multiple-cursors <RET>
   #+end_src
 - [ ] Copy the content of [[id:5122c145-53ab-452b-9878-0c6f2d98f0df][.emacs file]] in the init file
 - [ ] Load the init file
