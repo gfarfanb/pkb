@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       9d1abeca-a86b-4591-9e0b-ba9cc4068036
+:END:
+#+title: Required job skills for Java developer
+
+- [ ] High-quality software development skills in Java
+- [ ] Java Web Services Frameworks: Dropwizard, Spring Boot
+- [ ] Stream platforms and message brokers: Kafka (desired), RabbitMQ
+- [ ] RESTful API and Web Services
+- [ ] Understanding NoSQL technologies: MongoDB, DynamoDB
+- [ ] Application performance monitoring tools: New Relic, Splunk, Datadog
+- [ ] Agile/Scrum Software Development Methodology
+- [ ] Algorithmic and problem-solving skills
+- [ ] Ability to work well cross-functionality across multiple departments
+- [ ] (desired) Distributed systems
+- [ ] (desired) Kotlin or Scala
+

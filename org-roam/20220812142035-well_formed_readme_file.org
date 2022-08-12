@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       cc83f6d7-afb6-4894-bcd3-66ca4955fd0c
+:END:
+#+title: Well formed README file
+
+- [ ] What the project does
+- [ ] Why the project is useful
+- [ ] How users can get started with the project
+- [ ] Where users can get help with your project
+- [ ] Who maintains and contributes to the project
+

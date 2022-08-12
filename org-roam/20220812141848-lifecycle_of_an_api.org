@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       ffa25c37-6f80-459e-ab33-6257aac75e3b
+:END:
+#+title: Lifecycle of an API
+
+- [ ] Design and Mock
+- [ ] Debug
+- [ ] Automated testing
+- [ ] Document
+- [ ] Monitor
+- [ ] Publish
+

@@ -1,0 +1,57 @@
+:PROPERTIES:
+:ID:       17cd2cda-18ff-4b6f-8658-c998e5457a19
+:END:
+#+title: Ingeniería en Sistemas Computacionales (05-09) subjects
+
+- [ ] Administración
+- [ ] Arquitectura de computadoras
+- [ ] Circuitos eléctricos y electrónicos
+- [ ] Contabilidad financiera
+- [ ] Cultura empresarial
+- [ ] Desarrollo de proyectos de software
+- [ ] Desarrollo sustentable
+- [ ] Dibujo
+- [ ] Estructura de datos
+- [ ] Fisica I
+- [ ] Fisica II
+- [ ] Formulación y evaluación de proyectos de inversión
+- [ ] Fundamentos de base de datos
+- [ ] Fundamentos de desarrollo de sistemas
+- [ ] Fundamentos de investigación
+- [ ] Fundamentos de programación
+- [ ] Graficación
+- [ ] Inteligencia actificial I
+- [ ] Interfaces
+- [ ] Introducción a la ingeniería en sistemas computacionales
+- [ ] Investigación de operaciones
+- [ ] Lenguaje ensamblador
+- [ ] Matemáticas I
+- [ ] Matemáticas II
+- [ ] Matemáticas III
+- [ ] Matemáticas IV
+- [ ] Matemáticas V
+- [ ] Matemática para computadora
+- [ ] Métodos numéricos
+- [ ] Planificación y modelado
+- [ ] Probabilidad y estadística
+- [ ] Programación de sistemas
+- [ ] Programación orientada a objetos
+- [ ] Programación de web
+- [ ] Química
+- [ ] Redes de computadoras
+- [ ] Seminaro de ética
+- [ ] Simulación
+- [ ] Sistemas operativos
+- [ ] Taller de base de datos
+- [ ] Taller de investigación I
+- [ ] Taller de investigación II
+- [ ] Teoría de la computación
+- [ ] Teoría de las telecomunicaciones
+- [ ] Tópicos selectos de programación
+- [ ] Desarrollo de aplicaciones avanzadas en .NET
+- [ ] Estilos de arquitectura de software y patrones de diseño
+- [ ] Lenguaje de modelado UML
+- [ ] Metodologías ágiles
+- [ ] Tópicos avanzados de base de datos
+- [ ] (Práctica) Residencias profesionales
+

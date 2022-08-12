@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       092c6134-3072-4d5c-9bde-bf2ce67f40c2
+:END:
+#+title: Maestría en Sistemas Computacionales (10-12) subjects
+
+- [ ] Ciencia, tecnología, sociedad e innovación
+- [ ] Fundamentos de sistemas computacionales
+- [ ] Ingeniería de software
+- [ ] Sistemas operativos
+- [ ] Desarrollo de aplicaciones para web
+- [ ] Redes de computadoras
+- [ ] Metodología para el desarrollo de proyectos
+- [ ] Ingeniería de software orientada a objetos
+- [ ] Calidad de software
+- [ ] Interfaces humano-computadora
+- [ ] Proyecto de innovación
+- [ ] Seminario de investigación I
+- [ ] Seminario de investigación II
+- [ ] Seminario de investigación III
+- [ ] Tesis
+

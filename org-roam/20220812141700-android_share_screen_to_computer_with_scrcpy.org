@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       69df9e96-85c6-442c-b106-789a28d02d4a
+:END:
+#+title: Android share screen to computer with scrcpy
+
+#+begin_src
+  cd C:\...\scrcpy-win64-v1.19
+  adb devices
+  adb tcpip 5555
+  adb connect 192.168.100.94
+  adb devices
+  scrcpy
+#+end_src
+

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ba668082-be07-4acb-8a7d-2de6525e0a5b
+:END:
+#+title: Generate key in Ubuntu with required random number generation
+
+#+begin_src
+  sudo aptitude install haveged
+  sudo gpg --gen-key
+#+end_src
+
