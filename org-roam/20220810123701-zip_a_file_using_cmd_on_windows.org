@@ -3,7 +3,6 @@
 :ROAM_REFS: https://stackoverflow.com/questions/18180060/how-to-zip-a-file-using-cmd-line
 :END:
 #+title: Zip a file using CMD on Windows
-#+filetags: :windows:cmd:7-zip:
 
 - [ ] Add 7-Zip to PATH variable
 - [ ] Create the ZIP file

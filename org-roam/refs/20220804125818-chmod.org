@@ -3,5 +3,5 @@
 :ROAM_REFS: https://man7.org/linux/man-pages/man1/chmod.1.html
 :END:
 #+title: ref. chmod
-#+filetags: :refs:linux:command:
+#+filetags: :refs:
 

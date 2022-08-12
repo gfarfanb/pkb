@@ -3,5 +3,5 @@
 :ROAM_REFS: https://www.gnu.org/software/emacs/download.html
 :END:
 #+title: ref. Install Emacs
-#+filetags: :setup:emacs:refs:
+#+filetags: :refs:
 

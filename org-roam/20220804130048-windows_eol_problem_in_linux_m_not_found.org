@@ -2,7 +2,6 @@
 :ID:       8d37b543-2c6c-406f-8087-d24cf3e26c58
 :END:
 #+title: Windows EOL problem in Linux - ...^M: not found
-#+filetags: :solution:linux:command:
 
 #+begin_src
   sed -i 's/\r$//' <file>

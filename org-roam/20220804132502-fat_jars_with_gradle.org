@@ -2,7 +2,6 @@
 :ID:       79dd05ca-0d6d-4c4f-915f-aec02d3b5939
 :END:
 #+title: Fat JARs with Gradle
-#+filetags: :java:gradle:
 
 #+begin_src
   task fatJar(type: Jar) {

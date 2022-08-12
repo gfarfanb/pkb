@@ -2,7 +2,6 @@
 :ID:       244e2d5f-a7a9-4c40-a2f6-6d8017cbad24
 :END:
 #+title: Buffers key bindings in Emacs
-#+filetags: :emacs:command:
 
 | Binding         | Command            | Notes                                             |
 |-----------------+--------------------+---------------------------------------------------|

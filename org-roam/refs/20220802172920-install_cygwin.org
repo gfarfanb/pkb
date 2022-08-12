@@ -3,5 +3,5 @@
 :ROAM_REFS: https://cygwin.com/install.html
 :END:
 #+title: ref. Install Cygwin
-#+filetags: :refs:setup:cygwin:windows:
+#+filetags: :refs:
 

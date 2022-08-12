@@ -3,5 +3,5 @@
 :ROAM_REFS: https://cygwin.com/packages/summary/lynx.html
 :END:
 #+title: ref. Lynx
-#+filetags: :refs:package:cygwin:
+#+filetags: :refs:
 

@@ -2,7 +2,6 @@
 :ID:       559c59b2-ca54-4c23-8b9c-cb970a1ed76e
 :END:
 #+title: Recommendations for lots of data
-#+filetags: :course:data:software-architecture:
 
 If normal database is not able to deal with a huge amount of data:
 

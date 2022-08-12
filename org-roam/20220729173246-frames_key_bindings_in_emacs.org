@@ -2,7 +2,6 @@
 :ID:       a7e10dad-bf6b-4d80-86d3-a20f0fdd0d8e
 :END:
 #+title: Frames key bindings in Emacs
-#+filetags: :emacs:command:
 
 | Binding | Command                | Notes                  |
 |---------+------------------------+------------------------|

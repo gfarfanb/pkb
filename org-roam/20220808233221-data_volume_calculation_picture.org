@@ -2,7 +2,6 @@
 :ID:       38e7b2c9-a743-4330-84f8-3f7f5699fabb
 :END:
 #+title: Data volume calculation picture
-#+filetags: :course:data:software-architecture:
 
 1 Message = 1KB
 7,000 messages / sec = 7MB / sec

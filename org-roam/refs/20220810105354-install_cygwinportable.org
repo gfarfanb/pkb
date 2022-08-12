@@ -3,5 +3,5 @@
 :ROAM_REFS: https://github.com/MachinaCore/CygwinPortable
 :END:
 #+title: ref. Install CygwinPortable
-#+filetags: :setup:windows:cygwin:refs:
+#+filetags: :refs:
 

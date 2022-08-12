@@ -2,5 +2,5 @@
 :ID:       3bee806a-8c6e-4654-b340-98f02786ca4f
 :END:
 #+title: ref. Udemy Business: Software Architecture Case Studies
-#+filetags: :refs:software-architecture:course:
+#+filetags: :refs:
 

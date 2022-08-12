@@ -2,7 +2,6 @@
 :ID:       48a95ee1-7f32-4ea5-b319-8fac349b5c80
 :END:
 #+title: Install pip
-#+filetags: :debian:pip:
 
 - [ ] Update all system packages
   #+begin_src

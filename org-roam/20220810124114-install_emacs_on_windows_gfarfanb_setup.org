@@ -2,7 +2,6 @@
 :ID:       eaa9cb6f-30f5-48bf-b7f6-d82fe454044c
 :END:
 #+title: Install Emacs on Windows - gfarfanb setup
-#+filetags: :get-started:windows:emacs:setup:
 
 - [ ] [[id:b1e12a12-f0f0-4ecc-ae38-2e7847cc798b][Install Emacs]]
 - [ ] [[id:ca050037-bcdc-4b15-8fb8-98c6a97c18d8][Install the latest GCC on Windows]]
@@ -24,7 +23,7 @@
   #+begin_src
     C-x C-f <RET> ~/.emacs
   #+end_src
-- [ ] Copy in the new init file the content from [[id:2232a9fa-7148-44c1-a833-1d22c04eb58c][.emacs-init file]]
+- [ ] Copy the content of [[id:5122c145-53ab-452b-9878-0c6f2d98f0df][.emacs file]] in the init file
 - [ ] Copy the [[id:d439ce9b-65ab-47eb-988a-1570c650c182][custom-vars.el file]] in
   #+begin_src
     ~/.emacs.d/
@@ -33,24 +32,6 @@
   #+begin_src
     M-x load-file <RET> ~/.emacs <RET>
   #+end_src
-- [ ] Refresh packages
-  #+begin_src
-    M-x package-refresh-contents <RET>
-  #+end_src
-- [ ] Install required packages (check packages names from /package-selected-packages/ in [[id:d439ce9b-65ab-47eb-988a-1570c650c182][custom-vars.el]])
-  #+begin_src
-    M-x package-install <RET> use-package <RET>
-    M-x package-install <RET> org-roam <RET>
-    M-x package-install <RET> markdown-mode <RET>
-    M-x package-install <RET> orderless <RET>
-    M-x package-install <RET> vertico <RET>
-    M-x package-install <RET> marginalia <RET>
-    M-x package-install <RET> multiple-cursors <RET>
-  #+end_src
-- [ ] Copy the content of [[id:5122c145-53ab-452b-9878-0c6f2d98f0df][.emacs file]] in the init file
-- [ ] Load the init file
-  #+begin_src
-    M-x load-file <RET> ~/.emacs <RET>
-  #+end_src
 
 - [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
+

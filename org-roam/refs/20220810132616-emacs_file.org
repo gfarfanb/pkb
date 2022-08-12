@@ -3,5 +3,5 @@
 :ROAM_REFS: https://gist.github.com/gfarfanb/6f98447cf2d29439830a4d9ee291faeb#file-emacs
 :END:
 #+title: ref. .emacs file
-#+filetags: :setup:emacs:refs:
+#+filetags: :refs:
 

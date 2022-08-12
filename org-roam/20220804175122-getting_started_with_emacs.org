@@ -2,7 +2,6 @@
 :ID:       6e518366-8b58-4293-b2dd-2be4456d7840
 :END:
 #+title: Getting started with Emacs
-#+filetags: :get-started:emacs:
 
 - [[id:5da57bd8-783b-44fc-8db1-e6d001c97792][ref. The Absolute Beginner's Guide to Emacs]]
 - [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]

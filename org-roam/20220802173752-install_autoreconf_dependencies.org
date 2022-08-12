@@ -3,7 +3,6 @@
 :ROAM_REFS: https://stackoverflow.com/questions/30344558/autoreconf-command-not-found-in-cygwin-on-windows
 :END:
 #+title: Install autoreconf dependencies
-#+filetags: :cygwin:autoreconf:apt-cyg:
 
 #+begin_src
   apt-cyg install autoconf

@@ -2,7 +2,6 @@
 :ID:       87201815-92ee-4b27-b1df-46df3a4041de
 :END:
 #+title: Set permissions to execute to a file in Linux
-#+filetags: :linux:command:
 
 #+begin_src
   chmod -x <file>

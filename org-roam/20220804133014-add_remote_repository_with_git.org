@@ -2,7 +2,6 @@
 :ID:       887702e1-aaa8-4bcf-a649-7392fba0e516
 :END:
 #+title: Add remote repository with Git
-#+filetags: :command:git:
 
 #+begin_src
   git remote add origin <repository-path>

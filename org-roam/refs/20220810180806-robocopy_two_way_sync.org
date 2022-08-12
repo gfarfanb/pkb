@@ -3,5 +3,5 @@
 :ROAM_REFS: https://www.ubackup.com/synchronization/robocopy-two-way-sync-8523.html
 :END:
 #+title: ref. Robocopy two-way sync
-#+filetags: :command:windows:robocopy:refs:
+#+filetags: :refs:
 

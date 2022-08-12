@@ -2,7 +2,6 @@
 :ID:       28de755b-9261-4a9c-a05b-6b276e2b74b0
 :END:
 #+title: Install packages updates in Ubuntu
-#+filetags: :maintenance:ubuntu:
 
 Fetches the list of available updates
 #+begin_src

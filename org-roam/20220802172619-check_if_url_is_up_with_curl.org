@@ -3,7 +3,6 @@
 :ROAM_REFS: https://stackoverflow.com/questions/21597851/how-to-check-whether-url-is-working-or-not-through-linux-shell#21598040
 :END:
 #+title: Check if URL is up with curl
-#+filetags: :url:curl:
 
 #+begin_src
   curl -Is https://<host>:<port> | head -n 1

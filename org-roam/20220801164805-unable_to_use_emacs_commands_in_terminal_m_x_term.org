@@ -3,7 +3,6 @@
 :ROAM_REFS: https://stackoverflow.com/questions/2886184/copy-paste-in-emacs-ansi-term-shell
 :END:
 #+title: Unable to use Emacs commands in terminal (M-x term)
-#+filetags: :terminal:solution:emacs:
 
 If you can't execute normal Emacs commands while *M-x term* is running.
 

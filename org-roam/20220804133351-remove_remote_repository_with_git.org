@@ -2,7 +2,6 @@
 :ID:       2c0523e9-03f4-48fd-acab-20aef4778f16
 :END:
 #+title: Remove remote repository with Git
-#+filetags: :git:command:
 
 #+begin_src
   git remote remove origin

@@ -3,5 +3,5 @@
 :ROAM_REFS: https://git-scm.com/docs/git-commit
 :END:
 #+title: ref. git-commit
-#+filetags: :refs:git:command:
+#+filetags: :refs:
 

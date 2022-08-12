@@ -3,7 +3,6 @@
 :ROAM_REFS: https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 :END:
 #+title: Git config
-#+filetags: :setup:git:command:
 
 Global
 #+begin_src

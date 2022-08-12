@@ -2,7 +2,6 @@
 :ID:       93b0367c-b02d-49e9-ad17-90aee186aecf
 :END:
 #+title: General key bindings in Emacs
-#+filetags: :emacs:command:
 
 | Binding   | Command                             | Notes                            |
 |-----------+-------------------------------------+----------------------------------|

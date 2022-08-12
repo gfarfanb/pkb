@@ -2,5 +2,5 @@
 :ID:       727b0dd5-e48e-40a4-9446-d55fc654d64c
 :END:
 #+title: ref. Udemy Business: Getting yourself organized with Org-mode
-#+filetags: :refs:org-mode:course:
+#+filetags: :refs:
 

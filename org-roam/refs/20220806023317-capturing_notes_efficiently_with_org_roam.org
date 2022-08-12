@@ -3,5 +3,5 @@
 :ROAM_REFS: https://youtu.be/YxgA5z2R08I
 :END:
 #+title: ref. Capturing Notes Efficiently with Org Roam
-#+filetags: :course:org-roam:refs:
+#+filetags: :refs:
 

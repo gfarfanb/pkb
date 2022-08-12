@@ -2,7 +2,6 @@
 :ID:       5f8d9d4f-2c99-4c33-bd47-a1685c07f953
 :END:
 #+title: Compile project with Maven
-#+filetags: :maven:command:
 
 Clean, build and test
 #+begin_src

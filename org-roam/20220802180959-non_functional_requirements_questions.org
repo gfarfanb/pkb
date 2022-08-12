@@ -2,7 +2,6 @@
 :ID:       f9d9192f-da9a-452e-ae5e-ae87c9690bc4
 :END:
 #+title: Non-Functional requirements questions
-#+filetags: :course:software-architecture:
 
 - [ ] How many expected concurrent users?
 - [ ] How many records are going to be manage? (volume)

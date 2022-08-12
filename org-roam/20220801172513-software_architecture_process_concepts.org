@@ -2,7 +2,6 @@
 :ID:       91b9222c-f7d1-4089-a50c-4732053de7c6
 :END:
 #+title: Software Architecture Process concepts
-#+filetags: :course:software-architecture:
 
 | Concept                           | Definition                                                                | Notes                                                        |
 |-----------------------------------+---------------------------------------------------------------------------+--------------------------------------------------------------|

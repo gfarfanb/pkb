@@ -2,7 +2,6 @@
 :ID:       42a32095-adcb-4fde-af79-6a7b45e2c59d
 :END:
 #+title: Look for binary, source, page in Linux
-#+filetags: :linux:command:
 
 #+begin_src
   whereis <resource>

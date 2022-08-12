@@ -3,5 +3,5 @@
 :ROAM_REFS: https://youtu.be/48JlgiBpw_I
 :END:
 #+title: ref. The Absolute Beginner's Guide to Emacs
-#+filetags: :refs:course:emacs:
+#+filetags: :refs:
 
