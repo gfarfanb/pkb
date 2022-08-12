@@ -2,7 +2,6 @@
 :ID:       2ce514bc-4d01-4944-977e-212f51814eed
 :END:
 #+title: Execute tests with Gradle
-#+filetags: :test:gradle:command:
 
 Clean and test
 #+begin_src

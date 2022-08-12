@@ -2,7 +2,6 @@
 :ID:       3a82af8c-2205-429c-9313-b4dc6e249837
 :END:
 #+title: Find a directory in Linux
-#+filetags: :linux:command:
 
 #+begin_src
   find / -type d -name <directory> 2> /dev/null

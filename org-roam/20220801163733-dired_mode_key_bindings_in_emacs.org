@@ -2,7 +2,6 @@
 :ID:       fb7e3425-3732-49eb-9572-82760060a30b
 :END:
 #+title: Dired Mode key bindings in Emacs
-#+filetags: :emacs:command:dired-mode:
 
 | Ref     | Key               | Notes                                                              |
 |---------+-------------------+--------------------------------------------------------------------|

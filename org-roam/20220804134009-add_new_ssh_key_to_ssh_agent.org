@@ -2,7 +2,6 @@
 :ID:       82e0c5fc-c11e-48bb-8e8a-36c9b4cfd2ab
 :END:
 #+title: Add new SSH key to ssh-agent
-#+filetags: :setup:ssh:
 
 - [ ] Generate new key
   #+begin_src

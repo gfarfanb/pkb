@@ -2,7 +2,6 @@
 :ID:       437f5841-dad1-4377-9c60-8cd4c4f91358
 :END:
 #+title: Look for a process in Linux
-#+filetags: :linux:command:
 
 #+begin_src
   ps -fea | grep <contains>

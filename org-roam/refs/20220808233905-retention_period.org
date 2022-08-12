@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       0a9e4390-e5dd-4506-9575-32bc4ec9da10
+:END:
+#+title: ref. Retention period
+#+filetags: :refs:
+
+How long the records are going to keep in the database?
+

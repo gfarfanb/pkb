@@ -2,9 +2,8 @@
 :ID:       4bea0835-d6fb-4711-ab1f-365138cccffc
 :END:
 #+title: Install fakecygpty package in Emacs (term simulator for Windows)
-#+filetags: :windows:emacs:fakecygpty:
 
-1. [ ] [[id:7bb98ff9-664e-4aed-bce1-20b09e95126a][Install Cygwin]]
+1. [ ] [[id:ca050037-bcdc-4b15-8fb8-98c6a97c18d8][Install the latest GCC on Windows]]
 2. [ ] Install [[id:96a68aca-80fc-4a33-9871-b70abc0f04d8][Lynx]]
    #+begin_src
      /cygdrive/c/tools/cygwin/cygwinsetup.exe -q -P lynx

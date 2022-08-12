@@ -2,7 +2,6 @@
 :ID:       1aa433c7-cd14-4925-bed0-629581592c34
 :END:
 #+title: Linux version command
-#+filetags: :linux:command:
 
 #+begin_src
   lsb_release -a

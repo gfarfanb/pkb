@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       7abba1fc-8f36-44d8-a4e8-6429258fbb57
+:END:
+#+title: Sublime key bindings to Emacs
+
+| Sublime  | Emacs             | Description                       | Notes                           |
+|----------+-------------------+-----------------------------------+---------------------------------|
+| /C-S-l/  | /C-S-c C-S-/      | Edit multiple lines               | Uses *multiple-cursors* package |
+| /C-d/    | /C->/ /C-</       | Mark next similar to selection    | Uses *multiple-cursors* package |
+| /C-S-F3/ | /C-S-c C-</       | Mark all similar to selection     | Uses *multiple-cursors* package |
+| /C-k/    | /C-S-<BACKSPACE>/ | Kill current line                 |                                 |
+| /C-}/    | /C-x C-;/         | Comment or uncomment current line |                                 |
+| /C-k-u/  | /M-u/             | Convert word to upper case        |                                 |
+| /C-k-l/  | /M-l/             | Convert word to lower case        |                                 |
+

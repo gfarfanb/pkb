@@ -2,7 +2,6 @@
 :ID:       de6eebb1-4b8f-487f-938c-3a187807f7ad
 :END:
 #+title: Run Spring Boot with Gradle
-#+filetags: :spring-boot:gradle:command:
 
 Run
 #+begin_src

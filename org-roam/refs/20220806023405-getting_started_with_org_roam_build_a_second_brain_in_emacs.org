@@ -3,5 +3,5 @@
 :ROAM_REFS: https://youtu.be/AyhPmypHDEw
 :END:
 #+title: ref. Getting Started with Org Roam - Build a Second Brain in Emacs
-#+filetags: :course:org-roam:refs:
+#+filetags: :refs:
 

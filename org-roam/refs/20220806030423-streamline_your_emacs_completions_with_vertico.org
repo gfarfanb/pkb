@@ -3,5 +3,5 @@
 :ROAM_REFS: https://youtu.be/J0OaRy85MOo
 :END:
 #+title: ref. Streamline Your Emacs Completions with Vertico
-#+filetags: :emacs:vertico:refs:
+#+filetags: :refs:
 

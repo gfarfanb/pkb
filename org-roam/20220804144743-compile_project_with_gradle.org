@@ -2,7 +2,6 @@
 :ID:       e1c88d99-11ff-4785-8beb-1da59f7a6f15
 :END:
 #+title: Compile project with Gradle
-#+filetags: :command:gradle:
 
 Clean, build and test
 #+begin_src

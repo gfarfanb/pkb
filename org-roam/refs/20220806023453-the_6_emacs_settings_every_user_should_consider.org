@@ -3,5 +3,5 @@
 :ROAM_REFS: https://youtu.be/51eSeqcaikM
 :END:
 #+title: ref. The 6 Emacs Settings Every User Should Consider
-#+filetags: :course:emacs:refs:
+#+filetags: :refs:
 

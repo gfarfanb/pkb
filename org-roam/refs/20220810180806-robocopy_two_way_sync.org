@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b23a3b8b-ad7c-4293-b65d-f3899fedb5de
+:ROAM_REFS: https://www.ubackup.com/synchronization/robocopy-two-way-sync-8523.html
+:END:
+#+title: ref. Robocopy two-way sync
+#+filetags: :refs:
+

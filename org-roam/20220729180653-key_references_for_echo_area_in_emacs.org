@@ -2,7 +2,6 @@
 :ID:       f88ba843-1d34-437f-bff6-f6395171b4cf
 :END:
 #+title: Key references for echo area in Emacs
-#+filetags: :emacs:refs:
 
 | Ref           | Key             |
 |---------------+-----------------|

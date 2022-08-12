@@ -2,7 +2,6 @@
 :ID:       9baca7ac-7b1d-4610-b164-0e11ba50b038
 :END:
 #+title: Uninstall packages in Ubuntu
-#+filetags: :maintenance:ubuntu:
 
 Clear all
 #+begin_src

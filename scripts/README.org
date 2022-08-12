@@ -1,0 +1,25 @@
+
+* Scripts
+
+** Configure environment variables in Windows
+
+| Variable                | Value                                      | Notes                                |
+|-------------------------+--------------------------------------------+--------------------------------------|
+| EMACS_HOME              | C:\...\emacs-28.1                          | Emacs distribution directory         |
+| PKB_SCRIPTS_HOME        | C:\...\pkb\scripts                         | pkb scripts                          |
+| SYNC_FOLDER_PRIVATE_DIR | C:\...\                                    | A directory in a synchronized Folder |
+| ORG_ROAM_PRIVATE_DIR    | C:\...\pkb\org-roam\private                | Org-roam private directory           |
+| Path                    | %Path%;%EMACS_HOME%\bin;%PKB_SCRIPTS_HOME% | Path variable                        |
+
+** Script descriptions
+
+| Exe                    | Description                                                                                      |
+|------------------------+--------------------------------------------------------------------------------------------------|
+| start-emacs-server.bat | Initializes the Emacs server                                                                     |
+| start-emacs-client.bat | Launch a new instance of Emacs client                                                            |
+| sync-private.bat       | Synchronizes org-roam/private directory to a backup folder (preferably a hosting service folder) |
+|                        |                                                                                                  |
+
+
+- [[id:b23a3b8b-ad7c-4293-b65d-f3899fedb5de][ref. Robocopy two-way sync]]
+

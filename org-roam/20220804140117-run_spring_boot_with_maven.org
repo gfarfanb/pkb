@@ -2,7 +2,6 @@
 :ID:       ad23a1df-1ec4-4779-9d8f-165695e49c5b
 :END:
 #+title: Run Spring Boot with Maven
-#+filetags: :spring-boot:maven:command:
 
 Run
 #+begin_src

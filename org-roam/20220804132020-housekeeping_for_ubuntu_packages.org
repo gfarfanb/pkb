@@ -2,7 +2,6 @@
 :ID:       1982f6ed-70c7-4034-a8a1-d5cf122532c2
 :END:
 #+title: Housekeeping for Ubuntu packages
-#+filetags: :maintenance:ubuntu:
 
 #+begin_src
   sudo apt-get clean

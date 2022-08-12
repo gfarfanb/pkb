@@ -3,7 +3,6 @@
 :ROAM_REFS: https://stackoverflow.com/a/45492658
 :END:
 #+title: Emacs Server is not starting in Windows
-#+filetags: :emacs:solution:windows:
 
 When I try to start the Emacs Server in Windows the process dies a few seconds before.
 #+begin_src

@@ -2,10 +2,13 @@
 :ID:       f9d9192f-da9a-452e-ae5e-ae87c9690bc4
 :END:
 #+title: Non-Functional requirements questions
-#+filetags: :course:software-architecture:
 
 - [ ] How many expected concurrent users?
 - [ ] How many records are going to be manage? (volume)
+- [ ] How many records are going to be received per second? (load)
+  - What is the average size of the message?
+  - Has a schema the message?
+  - Can be tolerated some messages are lost?
 - [ ] (If system requires interfaces) What do we know about the external system?
   - is that legacy? programming language?
   - where is that hosted?

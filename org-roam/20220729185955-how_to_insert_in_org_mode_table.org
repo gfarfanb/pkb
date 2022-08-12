@@ -3,7 +3,6 @@
 :ROAM_REFS: https://stackoverflow.com/questions/11876048/how-to-insert-in-org-mode-table
 :END:
 #+title: How to insert "|" in Org-mode table
-#+filetags: :solution:org-table:
 
 To insert a vertical bar into a table field,
 

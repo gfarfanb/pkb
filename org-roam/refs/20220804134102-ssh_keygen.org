@@ -3,5 +3,5 @@
 :ROAM_REFS: https://www.man7.org/linux/man-pages/man1/ssh-keygen.1.html
 :END:
 #+title: ref. ssh-keygen
-#+filetags: :refs:linux:command:
+#+filetags: :refs:
 

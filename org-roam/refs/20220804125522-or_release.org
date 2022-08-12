@@ -3,5 +3,5 @@
 :ROAM_REFS: https://man7.org/linux/man-pages/man5/os-release.5.html
 :END:
 #+title: ref. or-release
-#+filetags: :refs:linux:command:
+#+filetags: :refs:
 

@@ -3,5 +3,5 @@
 :ROAM_REFS: https://youtu.be/CUkuyW6hr18
 :END:
 #+title: ref. 5 Org Roam Hacks for Better Productivity in Emacs
-#+filetags: :course:org-roam:refs:
+#+filetags: :refs:
 
