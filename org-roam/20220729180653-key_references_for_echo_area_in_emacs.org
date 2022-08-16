@@ -8,9 +8,12 @@
 | /<RET>/       | Return key      |
 | /<RIGHT>/     | Right arrow key |
 | /<LEFT>/      | Left arrow key  |
+| /<UP>/        | Up arrow key    |
+| /<DOWN>/      | Down arrow key  |
 | /<BACKSPACE>/ | Backspace key   |
 | /<SPACE>/     | Space key       |
-| />DEL>/       | Del key         |
+| /<DEL>/       | Del key         |
+| /<TAB>/       | Tab key         |
 
 - [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 
