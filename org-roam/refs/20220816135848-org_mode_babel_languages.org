@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       e1e2bd92-d010-4cc7-bbdc-fbd5d0bf7f9f
+:ROAM_REFS: https://orgmode.org/worg/org-contrib/babel/languages/index.html
+:END:
+#+title: ref. Org-mode Babel Languages
+#+filetags: :refs:
+

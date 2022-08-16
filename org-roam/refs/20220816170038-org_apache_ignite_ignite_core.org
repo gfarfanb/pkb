@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       8cd93f30-b743-4d1e-aee0-c730af100c4f
+:ROAM_REFS: https://mvnrepository.com/artifact/org.apache.ignite/ignite-core
+:END:
+#+title: ref. org.apache.ignite/ignite-core
+#+filetags: :refs:
+
+Maven
+#+begin_src xml
+  <dependency>
+    <groupId>org.apache.ignite</groupId>
+    <artifactId>ignite-core</artifactId>
+    <version>2.13.0</version>
+  </dependency>
+#+end_src
+
+Gradle
+#+begin_src groovy
+  implementation group: 'org.apache.ignite', name: 'ignite-core', version: '2.13.0'
+#+end_src
+

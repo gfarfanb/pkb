@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       bf45b7b9-5ad7-4781-b0ff-b42424eb52a6
+:END:
+#+title: Java Environment Variables
+
+Windows
+#+begin_src
+  SET JAVA_HOME=C:\...\jdk1.8.0_241
+  SET Path=%Path%;%JAVA_HOME%\bin
+#+end_src
+

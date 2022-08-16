@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       25b6621d-9e3f-4866-862b-0c0819716744
+:END:
+#+title: Import certificate with Keytool
+
+#+begin_src
+  keytool -import -alias example -keystore "%JAVA_HOME%\jre\lib\security\cacerts" -file <cert-filename>.cer
+#+end_src
+
