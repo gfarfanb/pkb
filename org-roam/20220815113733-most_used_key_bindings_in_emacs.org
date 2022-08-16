@@ -10,6 +10,7 @@
 | *M-u*             |      | /upcase-word/                             | To upper case                               |
 | *M-l*             |      | /downcase-word/                           | To lower case                               |
 | *M-d*             |      | /kill-word/                               | Kill word                                   |
+| *M-!*             |      | /shell-command/                           | Execute a string command                    |
 | *C-x C-;*         |      | /comment-line/                            | Comment line                                |
 | *C-x h*           |      | /mark-whole-buffer/                       | Select all                                  |
 | *C-c n l*         |      | /org-roam-buffer-toggle/                  | See Org-roam notes references               |
