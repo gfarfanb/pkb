@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       c89a4a2d-80cd-4432-b8b9-e23fb2c10fa8
+:ROAM_REFS: https://stackoverflow.com/a/17883854
+:END:
+#+title: Delete NUL file on Windows
+
+#+begin_src
+  C:\> rename \\.\C:\..\NUL. deletefile.txt
+  C:\> del deletefile.txt
+#+end_src
+
