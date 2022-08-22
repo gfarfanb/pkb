@@ -7,5 +7,6 @@ NUL
 
 .DS_Store
 
-private
+private/
+org-roam/dot/*
 

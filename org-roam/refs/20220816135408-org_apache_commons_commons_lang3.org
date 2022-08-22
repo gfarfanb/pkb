@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       21c794e5-90d1-4275-a831-c0200833c92a
+:ROAM_REFS: https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+:END:
+#+title: ref. org.apache.commons/commons-lang3
+#+filetags: :refs:
+
+Maven
+#+begin_src xml
+  <dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.12.0</version>
+  </dependency>
+#+end_src
+
+Gradle
+#+begin_src groovy
+  implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+#+end_src
+

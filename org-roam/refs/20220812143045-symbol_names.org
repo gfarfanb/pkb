@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1bae0577-1f88-48ca-bf56-e41115da70ef
+:ROAM_REFS: https://symbolnames.org/
+:END:
+#+title: ref. Symbol names
+#+filetags: :refs:
+

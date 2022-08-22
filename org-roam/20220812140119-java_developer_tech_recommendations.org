@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       3b7dc3ce-914d-4256-ae17-70c56fdc9690
+:END:
+#+title: Java developer tech recommendations
+
+- [ ] Java 8+
+- [ ] Kotlin
+- [ ] GCP
+- [ ] Kubernetes
+- [ ] Docker
+- [ ] Ansible
+- [ ] PostgreSQL
+- [ ] Redis
+- [ ] JUnit
+- [ ] Mockito
+- [ ] Spock
+- [ ] SparkJava
+- [ ] JOOQ
+- [ ] TDD approach
+- [ ] Resilene4j
+- [ ] Spring Boot
+- [ ] vert.x
+- [ ] Hibernate
+- [ ] AWS
+  

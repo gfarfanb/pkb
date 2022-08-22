@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       a40d716f-3bfb-4c18-b72a-d0fc45783931
+:END:
+#+title: java.lang.Comparable implementation using CompareToBuilder
+
+#+begin_src java
+  import org.apache.commons.lang3.builder.CompareToBuilder;
+
+
+  public class ConcreteComparable implements Comparable<ConcreteComparable> {
+
+      @Override
+      public int compareTo(ConcreteComparable o) {
+	  if(o == null) {
+	      return 1;
+	  }
+	  return new CompareToBuilder()
+	      .append(this.getField1(), o.getField1())
+	      .append(this.getField2(), o.getField2())
+	      .toComparison();
+      }
+  }      
+#+end_src
+
+- [[id:21c794e5-90d1-4275-a831-c0200833c92a][ref. org.apache.commons/commons-lang3]]
+

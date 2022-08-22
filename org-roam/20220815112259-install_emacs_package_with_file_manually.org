@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       60c5a71b-4943-4e20-81f6-164ec8168b8b
+:END:
+#+title: Install Emacs package with file (manually)
+
+- [ ] Search and download the required package from [[id:18c00ed4-035f-4c38-aeb3-f6f91d9bef1c][MELPA]] 
+- [ ] Execute installation command
+  #+begin_src
+    M-x package-install-file
+  #+end_src
+- [ ] Select the downloaded package
+

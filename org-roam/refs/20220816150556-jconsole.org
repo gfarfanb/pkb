@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       302c71a8-d656-4f1e-af91-a8dc48dd4c9c
+:ROAM_REFS: https://docs.oracle.com/javase/8/docs/technotes/guides/management/jconsole.html
+:END:
+#+title: ref. JConsole
+#+filetags: :refs:
+

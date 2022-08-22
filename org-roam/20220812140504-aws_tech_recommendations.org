@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       ef6194ad-d8d7-4ca3-8237-3d438a4d5f0a
+:END:
+#+title: AWS tech recommendations
+
+- [ ] Amazon EC2 (Elastic Compute Cloud)
+- [ ] Amazon API Gateway
+- [ ] Amazon Redshift
+- [ ] Amazon SQS (Simple Queue Service)
+- [ ] Amazon RDS (Relational Database Service)
+- [ ] Amazon SNS (Simple Notification Service)
+- [ ] Amazon CDN (Content Delivery Network)
+- [ ] AWS Cognito
+- [ ] AWS Lambdas
+- [ ] AWS Cloud Front
+- [ ] AWS Cloud Formation
+- [ ] AWS Dinamo DB
+- [ ] AWS IoT
+- [ ] AWS Kinesis
+- [ ] AWS S3
+- [ ] AWS Elastic Beanstalk
+

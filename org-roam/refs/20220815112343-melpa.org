@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       18c00ed4-035f-4c38-aeb3-f6f91d9bef1c
+:ROAM_REFS: https://melpa.org/
+:END:
+#+title: ref. MELPA
+#+filetags: :refs:
+
+Milkypostman's Emacs Lisp Package Archive
+

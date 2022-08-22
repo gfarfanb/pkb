@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       43240d4f-0ee7-4633-9ec6-507d62274f7c
+:END:
+#+title: Obtain Ignite service instance in Java
+
+#+begin_src java
+  import org.apache.ignite.Ignite;
+
+  // Ignite instance probably injected like:
+  // @IgniteInstanceResource
+  // private transient Ignite ignite;
+
+  CustomService customService = ignite.services().serviceProxy("CustomService", CustomService.class, false);
+#+end_src
+
+- [[id:8cd93f30-b743-4d1e-aee0-c730af100c4f][ref. org.apache.ignite/ignite-core]]
+

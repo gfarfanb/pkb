@@ -13,13 +13,10 @@
 
 ** Script descriptions
 
-| Exe                    | Description                                                                                      |
-|------------------------+--------------------------------------------------------------------------------------------------|
-| start-emacs-server.bat | Initializes the Emacs server                                                                     |
-| start-emacs-client.bat | Launch a new instance of Emacs client                                                            |
-| sync-private.bat       | Synchronizes org-roam/private directory to a backup folder (preferably a hosting service folder) |
-|                        |                                                                                                  |
-
-
-- [[id:b23a3b8b-ad7c-4293-b65d-f3899fedb5de][ref. Robocopy two-way sync]]
+| Exe                    | Description                                                                                                 |
+|------------------------+-------------------------------------------------------------------------------------------------------------|
+| start-emacs-server.bat | Initializes the Emacs server                                                                                |
+| start-emacs-client.bat | Launch a new instance of Emacs client                                                                       |
+| sync-private-pull.bat  | Fetches all changes from backup folder (preferably a hosting service folder) to the org-roam/private        |
+| sync-private-push.bat  | Pushes all changes from org-roam/private directory to a backup folder (preferable a hosting service folder) |
 
