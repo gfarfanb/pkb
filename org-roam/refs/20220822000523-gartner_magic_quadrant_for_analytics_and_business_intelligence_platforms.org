@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       6784b856-6889-4e01-9626-9ca516a6d7bc
+:ROAM_REFS: https://info.microsoft.com/ww-Landing-2021-Gartner-MQ-for-Analytics-and-Business-Intelligence-Power-BI.html
+:END:
+#+title: ref. Gartner Magic Quadrant for Analytics and Business Intelligence Platforms
+#+filetags: :refs:
+
+[[file:images/magic_quadrant_for_analytics_and_business_intelligence_platforms.png]]
+

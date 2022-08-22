@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7bf68dcd-9a7a-4cbf-ab7c-ad0445ced1b0
+:ROAM_REFS: https://github.com/MatthewZMD/.emacs.d
+:END:
+#+title: ref. MatthewZMD/.emacs.d: A custom GNU Emacs setup, M-EMACS
+#+filetags: :refs:
+

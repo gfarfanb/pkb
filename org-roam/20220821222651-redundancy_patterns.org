@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       9fc07e42-e83b-4635-a582-7ac1b315129e
+:END:
+#+title: Redundancy patterns
+
+#+begin_src dot :file dot/pattern-1.png :cmdline -Kdot -Tpng
+  graph { 
+    "Load Balancer" -- { "Instance 1" "Instance 2" "..." }
+  }
+#+end_src
+

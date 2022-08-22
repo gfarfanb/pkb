@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       be0ce656-7978-4432-8090-2f3d70a77df5
+:END:
+#+title: Simple flow of Software Architect in the definition step
+
+- [ ] Obtain and analize the requirements
+  - [[id:f9d9192f-da9a-452e-ae5e-ae87c9690bc4][Non-Functional]]
+  - Functional
+- [ ] Design the big picture of the components (map the components)
+- [ ] Select the technology stack
+- [ ] Generate Architecture diagrams (document)
+  - Logic diagram
+  - Technical diagram
+  - Physical diagram
+
+- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
+

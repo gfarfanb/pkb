@@ -23,6 +23,7 @@
 | *C-c n I*         | /org-roam-node-insert-immediate/          | Insert new Org-roam note (without prompt)                                                                                                             |
 | *C-c n r*         | /org-roam-ref-add/                        | Add new Org-roam reference                                                                                                                            |
 | *C-c n a*         | /org-roam-alias-add/                      | Add new Org-roam alias                                                                                                                                |
+| *C-c C-o*         | /org-open-at-point/                       | Open hiperlink                                                                                                                                        |
 | *C-M-i*           | /completion-at-point/                     |                                                                                                                                                       |
 | *C-c d n*         | /org-roam-dailies-capture-today/          | Add new entry in Org-roam dailies for today                                                                                                           |
 | *C-c n Y*         | /org-roam-dailies-capture-yesterday/      | Find Org-roam dailies notes for yesterday                                                                                                             |

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       15f0f393-0701-471a-b6b6-f8c056093e80
+:END:
+#+title: Software application types
+
+- [ ] Web App
+- [ ] Web API
+- [ ] Mobile App
+- [ ] Console
+- [ ] Service
+- [ ] Desktop App
+
+- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
+

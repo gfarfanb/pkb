@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       c84e4e6c-25c6-4b7d-a3a0-22d96597eca3
+:END:
+#+title: Software Architecture tool classification
+
+- [ ] Queue (e.g. Kafka, RabbitMQ)
+- [ ] Front-end (e.g. React, Angular)
+- [ ] Backend (e.g. Java, NodeJS)
+- [ ] Data (e.g. Mongo, PostgreSQL, Oracle, MySQL)
+- [ ] Cache (e.g. Redis, Apache Ignite)
+- [ ] Cloud (e.g. Azure, AWS, GCP)
+- [ ] BI (e.g. Power BI, Tableau)
+  - Expert is needed here. It's not part of the architect decisions
+  - [[id:6784b856-6889-4e01-9626-9ca516a6d7bc][Gartner Magic Quadrant for Analytics and Business Intelligence Platforms]]
+- [ ] AI (e.g. TensorFlow)
+  - Expert is needed here. It's not part of the architect decisions
+
+- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]

@@ -6,7 +6,7 @@
 - [ ] [[id:b1e12a12-f0f0-4ecc-ae38-2e7847cc798b][Install Emacs]]
 - [ ] [[id:ca050037-bcdc-4b15-8fb8-98c6a97c18d8][Install the latest GCC on Windows]]
 - [ ] [[id:4bea0835-d6fb-4711-ab1f-365138cccffc][Install fakecygpty package in Emacs (term simulator for Windows)]]
-- [ ] [[https://github.com/targzeta/move-lines][Install move-lines]]
+- [ ] [[id:691de544-57ca-4d16-a9e3-bfd9d7589133][Install move-lines.el]]
 - [ ] Add variables to System Environment Variables
   #+begin_src
     EMACS_HOME=C:\emacs...

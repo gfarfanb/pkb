@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       502b70b4-3c3f-453c-b110-8b9c9d98df52
+:END:
+#+title: Smathphone/table app types
+
+- [ ] Desktop or Windows based (WPF)
+  - OS
+  - Can use current apps (e.g. DB)
+  - Requires setup
+- [ ] Web based (Electron, React Native)
+  - Limited functionality
+  - Compatibility
+  - No setup required
+
+- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
+

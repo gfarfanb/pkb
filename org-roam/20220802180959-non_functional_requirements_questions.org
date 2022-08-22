@@ -15,6 +15,8 @@
   - accepted inputs
   - expected outputs
   - communication frequency
+- [ ] So we need offline support?
+- [ ] How does the data arrives to the system?
 - [ ] How critical is the system? [[id:3512ba78-045b-401e-a619-96a37efd6aa4][SLA]]
 
 - [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
