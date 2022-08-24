@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9059a62c-eec6-430e-9df3-b9cc5a81c2f1
+:END:
+#+title: Technology stack comparison sources
+
+- [ ] Performance: [[id:4292d2d3-98fd-4355-856a-9caf4957a3e4][TechEmpower - Web Frameworks Benchmarks]]
+- [ ] Community: [[id:37e85ad3-4380-4cf5-b27a-c3dd68078700][TIOBE - Quality Software Tracker]]
+
+- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
+

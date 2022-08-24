@@ -9,3 +9,12 @@
   }
 #+end_src
 
+#+begin_src dot :file dot/pattern-2.png :cmdline -Kdot -Tpng
+  digraph {
+    "Service 1" -> "Service 2" [ label="Is alive" ];
+    "Service 2" -> "Service 1";
+  }
+#+end_src
+
+- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
+
