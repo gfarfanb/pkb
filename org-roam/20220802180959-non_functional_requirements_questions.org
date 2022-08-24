@@ -6,15 +6,16 @@
 - [ ] How many expected concurrent users?
 - [ ] How many records are going to be manage? (volume)
 - [ ] How many records are going to be received per second? (load)
-  - What is the average size of the message?
-  - Has a schema the message?
-  - Can be tolerated some messages are lost?
+  - What is the average size of the message/files/inputs?
+  - Has a schema the message/files/inputs?
+  - Can be tolerated some messages/files/inputs are lost?
 - [ ] (If system requires interfaces) What do we know about the external system?
   - is that legacy? programming language?
   - where is that hosted?
   - accepted inputs
   - expected outputs
   - communication frequency
+- [ ] How long should the process take?
 - [ ] So we need offline support?
 - [ ] How does the data arrives to the system?
 - [ ] How critical is the system? [[id:3512ba78-045b-401e-a619-96a37efd6aa4][SLA]]

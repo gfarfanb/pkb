@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       37e85ad3-4380-4cf5-b27a-c3dd68078700
+:ROAM_REFS: https://www.tiobe.com/tiobe-index/
+:END:
+#+title: ref. TIOBE - Quality Software Tracker
+#+filetags: :refs:
+
