@@ -5,7 +5,7 @@
 
 | Ref     | Key               | Notes                                                              |
 |---------+-------------------+--------------------------------------------------------------------|
-| /<REF>/ | Return key        | Open files or directories in a new buffer                          |
+| /<ref>/ | Return key        | Open files or directories in a new buffer                          |
 | /(a)/   | (Lowercase) A key | (After activation) Open files or directorues in the current buffer |
 | /(d)/   | (Lowercase) D key | Flagged for deletion                                               |
 | /(u)/   | (Lowercase) U key | Remove deletion flag                                               |

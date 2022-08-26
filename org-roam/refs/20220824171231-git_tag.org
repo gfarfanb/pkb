@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d82fd8b7-1dea-4fa7-b8f6-9f14376dac1d
+:ROAM_REFS: https://git-scm.com/book/en/v2/Git-Basics-Tagging
+:END:
+#+title: ref. git-tag
+#+filetags: :refs:
+

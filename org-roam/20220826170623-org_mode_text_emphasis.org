@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       59865417-8626-403f-a0c4-90d1fac3e8ea
+:ROAM_REFS: https://orgmode.org/manual/Emphasis-and-Monospace.html
+:END:
+#+title: Org-mode text emphasis
+
+| *bold*           | Bold           |
+| /italic/         | Italic         |
+| _underlined_     | Underlined     |
+| =verbatim=       | Verbatim       |
+| ~code~           | Code           |
+| +strike-through+ | Strike-through |
+
