@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       7e6f9535-24fe-4440-89da-4aadbd9d84c2
+:END:
+#+title: Java Hello World!
+
+Fully qualified classname
+#+begin_src java :dir java
+  System.out.println("Hello World!");
+#+end_src
+
+Fully qualified classname
+#+begin_src java :dir java :classname com.pkb.internal.Hello
+  System.out.println("Hello World!");
+#+end_src
+
+With imports
+#+begin_src java :dir java :imports java.util.Base64 
+  byte[] encoded = Base64.getEncoder().encode("Hello World!".getBytes());
+  String decoded = new String(Base64.getDecoder().decode(encoded));
+  System.out.print(String.format("encoded=%s, decoded=%s", new String(encoded), decoded));
+#+end_src
+
+With arguments
+#+begin_src java :dir java :cmdargs "\"Hello World!\""
+  System.out.print(args[0]);
+#+end_src
+
+- [[id:b5a3e79b-7972-4d40-9227-7957977bd09e][ref. Java Source Code Blocks in Org-mode]]
+
