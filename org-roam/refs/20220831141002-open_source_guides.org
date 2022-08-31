@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3f304362-26ed-41ef-a7ba-df6e6e71fb0b
+:ROAM_REFS: https://opensource.guide/
+:END:
+#+title: ref. Open Source Guides
+#+filetags: :refs:
+

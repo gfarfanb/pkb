@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       07b50321-3937-4675-8a9e-99c7ecf34376
+:END:
+#+title: Docker commands for cleaning
+
+| Command                                                          | Notes                                |
+|------------------------------------------------------------------+--------------------------------------|
+| ~docker rm <image>~                                              | Removing a running Container         |
+| ~docker rm -v <image>~                                           | Removing a Container and its Volume  |
+| ~docker rm $(docker ps -a -f status=exited -q)~                  | Removing all exited Containers       |
+| ~docker rm `docker ps -a -q`~                                    | Removing all stopped Container       |
+| ~docker rmi <image>~                                             | Removing a Docker Image              |
+| ~docker rmi $(docker images -f dangling=true -q)~                | Removing dangling Images             |
+| ~docker rmi $(docker images -a -q)~                              | Removing all Images                  |
+| ~docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)~ | Stopping and removing all Containers |
+| ~docker volume rm $(docker volume ls -f dangling=true -q)~       | Removing dangling Volumes            |
+
