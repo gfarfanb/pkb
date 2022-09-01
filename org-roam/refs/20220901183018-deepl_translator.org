@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2dcb4f26-0acb-4b01-b7c7-f20feec24916
+:ROAM_REFS: https://www.deepl.com/translator
+:ROAM_ALIASES: "English service translator"
+:END:
+#+title: ref. DeepL Translator
+#+filetags: :refs:
+
+DeepL Translator is a machine translation service that produces translations of unprecedented quality.
+

@@ -7,6 +7,11 @@
 - [ ] Front-end (e.g. React, Angular)
 - [ ] Backend (e.g. Java, NodeJS)
 - [ ] Data (e.g. Mongo, PostgreSQL, Oracle, MySQL)
+  - Tabular
+  - Key-value
+  - Document
+  - Graph
+  - Relational
 - [ ] Cache (e.g. Redis, Apache Ignite)
 - [ ] Cloud (e.g. Azure, AWS, GCP)
 - [ ] BI (e.g. Power BI, Tableau)

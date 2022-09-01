@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a4e91211-0672-4d4e-ba8c-8ee76b9e6737
+:ROAM_ALIASES: "PDF tools online"
+:ROAM_REFS: https://smallpdf.com/
+:END:
+#+title: ref. Smallpdf
+#+filetags: :refs:
+

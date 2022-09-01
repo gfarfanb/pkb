@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       91f65e81-8c39-45b5-8afb-08c3db313326
 :END:
-#+title: Files key bindings in Emacs
+#+title: Edit files key bindings in Emacs
 
 | Binding               | Command                                                            | Notes                                    |
 |-----------------------+--------------------------------------------------------------------+------------------------------------------|

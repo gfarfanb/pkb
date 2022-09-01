@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       26813536-2878-4429-8a29-ac361c2e6610
+:ROAM_REFS: https://docs.oracle.com/cd/E19501-01/819-3659/gcmaz/
+:END:
+#+title: Java Type to SQL Type Mappings
+
+| Java Type                                    | Java DB, Derby, CloudScape | Oracle       | DB2          | Sybase       | MS-SQL Server | MySQL Server |
+|----------------------------------------------+----------------------------+--------------+--------------+--------------+---------------+--------------|
+| boolean, java.lang.Boolean                   | SMALLINT                   | NUMBER(1)    | SMALLINT     | BIT          | BIT           | TINYINT(1)   |
+| int, java.lang.Integer                       | INTEGER                    | NUMBER(10)   | INTEGER      | INTEGER      | INTEGER       | INTEGER      |
+| long, java.lang.Long                         | BIGINT                     | NUMBER(19)   | INTEGER      | NUMERIC(19)  | NUMERIC(19)   | BIGINT       |
+| float, java.lang.Float                       | FLOAT                      | NUMBER(19,4) | FLOAT        | FLOAT(16)    | FLOAT(16)     | FLOAT        |
+| double, java.lang.Double                     | FLOAT                      | NUMBER(19,4) | FLOAT        | FLOAT(32)    | FLOAT(32)     | DOUBLE       |
+| short, java.lang.Short                       | SMALLINT                   | NUMBER(5)    | SMALLINT     | SMALLINT     | SMALLINT      | SMALLINT     |
+| byte, java.lang.Byte                         | SMALLINT                   | NUMBER(3)    | SMALLINT     | SMALLINT     | SMALLINT      | SMALLINT     |
+| java.lang.Number                             | DECIMAL                    | NUMBER(38)   | DECIMAL(15)  | NUMERIC(38)  | NUMERIC(28)   | DECIMAL(38)  |
+| java.math.BigInteger                         | BIGINT                     | NUMBER(38)   | BIGINT       | NUMERIC(38)  | NUMERIC(28)   | BIGINT       |
+| java.math.BigDecimal                         | DECIMAL                    | NUMBER(38)   | DECIMAL(15)  | NUMERIC(38)  | NUMERIC(28)   | DECIMAL(38)  |
+| java.lang.String                             | VARCHAR(255)               | VARCHAR(255) | VARCHAR(255) | VARCHAR(255) | VARCHAR(255)  | VARCHAR(255) |
+| char, java.lang.Character                    | CHAR(1)                    | CHAR(1)      | CHAR(1)      | CHAR(1)      | CHAR(1)       | CHAR(1)      |
+| byte[], java.lang.Byte[], java.sql.Blob      | BLOB(64000)                | LONG RAW     | BLOB(64000)  | IMAGE        | IMAGE         | BLOB(64000)  |
+| char[], java.lang.Character[], java.sql.Clob | CLOB(64000)                | LONG         | CLOB(64000)  | TEXT         | TEXT          | TEXT(64000)  |
+| java.sql.Date                                | DATE                       | DATE         | DATE         | DATETIME     | DATETIME      | DATE         |
+| java.sql.Time                                | TIME                       | DATE         | TIME         | DATETIME     | DATETIME      | TIME         |
+| java.sql.Timestamp                           | TIMESTAMP                  | DATE         | TIMESTAMP    | DATETIME     | DATETIME      | DATETIME     |
+
