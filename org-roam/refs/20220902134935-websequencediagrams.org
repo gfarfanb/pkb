@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       25e2c490-5294-4479-9c72-d57cb5acf090
+:ROAM_REFS: https://www.websequencediagrams.com/
+:END:
+#+title: ref. WebSequenceDiagrams
+#+filetags: :refs:
+

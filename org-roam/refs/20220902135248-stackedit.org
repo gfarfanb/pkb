@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a975dc7f-94e0-4fe2-a6da-12e62ec7d8ac
+:ROAM_ALIASES: "Markdown editor based on PageDown"
+:ROAM_REFS: https://stackedit.io/
+:END:
+#+title: ref. StackEdit
+#+filetags: :refs:
+

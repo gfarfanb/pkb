@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3eb8724b-5f16-488f-b194-512ce70063de
+:ROAM_REFS: http://json.parser.online.fr/
+:END:
+#+title: ref. Json Parser Online
+#+filetags: :refs:
+

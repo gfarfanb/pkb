@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       a44baed7-587b-4c2f-aa21-55c8ca4530e2
+:ROAM_ALIASES: "Apache Commons Codec"
+:END:
+#+title: ref. commons-codec/commons-codec
+#+filetags: :refs:
+
+Maven
+#+begin_src xml
+  <dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.15</version>
+  </dependency>
+#+end_src
+
+Gradle
+#+begin_src groovy
+  implementation 'commons-codec:commons-codec:1.15'
+#+end_src
+

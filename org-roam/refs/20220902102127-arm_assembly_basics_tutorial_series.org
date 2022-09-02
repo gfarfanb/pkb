@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b0c00ab0-2f78-4a2e-a0c4-40579dcac6b2
+:ROAM_REFS: https://azeria-labs.com/writing-arm-assembly-part-1/
+:END:
+#+title: ref. ARM Assembly basics tutorial series
+#+filetags: :refs:
+

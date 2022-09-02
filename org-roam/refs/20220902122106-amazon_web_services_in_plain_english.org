@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8c2e08c4-6010-4945-99c7-7ccd08fc6491
+:ROAM_REFS: https://expeditedsecurity.com/aws-in-plain-english/
+:END:
+#+title: ref. Amazon Web Services In Plain English
+#+filetags: :refs:
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2dd7ce9e-9df0-4a87-91c5-9580d12b75e7
+:ROAM_REFS: https://docs.microsoft.com/en-us/azure/architecture/patterns/
+:END:
+#+title: ref. Cloud Design Patterns
+#+filetags: :refs:
+

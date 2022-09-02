@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       0513fb88-02b2-4237-b66e-b4691bdc6598
+:ROAM_REFS: https://httpbin.org/
+:ROAM_ALIASES: "Simple HTTP Request & Response Service"
+:END:
+#+title: ref. httpbin
+#+filetags: :refs:
+

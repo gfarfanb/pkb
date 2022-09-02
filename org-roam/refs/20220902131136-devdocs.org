@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d2625145-b183-439b-b6dc-2e7ac75f3f5f
+:ROAM_REFS: https://devdocs.io/
+:ROAM_ALIASES: "API Documentation Browser"
+:END:
+#+title: ref. DevDocs
+#+filetags: :refs:
+

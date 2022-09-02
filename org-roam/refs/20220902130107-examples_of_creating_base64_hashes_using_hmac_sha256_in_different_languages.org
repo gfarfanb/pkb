@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b1da9ba6-0874-44ce-a509-0e2ea17e9b74
+:ROAM_REFS: https://www.jokecamp.com/blog/examples-of-creating-base64-hashes-using-hmac-sha256-in-different-languages/
+:END:
+#+title: ref. Examples of creating base64 hashes using HMAC SHA256 in different languages
+#+filetags: :refs:
+

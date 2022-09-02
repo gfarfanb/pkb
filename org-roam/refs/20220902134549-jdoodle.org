@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       09a591f9-fb65-4433-b358-278f1a3b8fef
+:ROAM_REFS: https://www.jdoodle.com/#
+:ROAM_ALIASES: "Online Compiler and Editor"
+:END:
+#+title: ref. JDoodle
+#+filetags: :refs:
+
