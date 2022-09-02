@@ -7,8 +7,6 @@ Feel free to [file a GitHub issue](https://github.com/gfarfanb/pkb/issues/new)
 or follow me on [Twitter](https://twitter.com/gfarfanb). If you prefer a secure channel chat 
 with me on [Keybase](https://keybase.io/gfarfanb).
 
-[Consider making a donation!](https://www.paypal.com/donate/?hosted_button_id=GTYLTNKP8VAHG)
-
 ## Contribution
 
 Follow the [Contribution guidelines](.github/CONTRIBUTING.md) for this project.
@@ -20,3 +18,4 @@ Follow the [Contribution guidelines](.github/CONTRIBUTING.md) for this project.
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Executable code (complete examples) is under the [MIT License](https://opensource.org/licenses/MIT).
+

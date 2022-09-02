@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ce2e58ff-9a18-47d7-9e41-2d63e203232b
+:ROAM_ALIASES: "Diff between two CSV files on the command-line"
+:ROAM_REFS: https://pypi.org/project/csvdiff/
+:END:
+#+title: ref. csvdiff
+#+filetags: :refs:
+

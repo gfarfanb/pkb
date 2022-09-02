@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6ff48974-fcd7-4cc9-8756-6cff2b462fe1
+:ROAM_REFS: https://www.freeformatter.com/
+:END:
+#+title: ref. Free Online Tools For Developers
+#+filetags: :refs:
+

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       e6f8264e-7267-47f2-a97e-ca3b86946e08
+:ROAM_ALIASES: "Epoch & Unix Timestamp Conversion Tools"
+:ROAM_REFS: https://www.epochconverter.com/
+:END:
+#+title: ref. EpochConverter
+#+filetags: :refs:
+

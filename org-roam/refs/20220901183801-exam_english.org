@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f15b93f3-76ff-46ee-a680-c6b249e0eacd
+:ROAM_REFS: https://www.examenglish.com/index.html
+:ROAM_ALIASES: "English practice tests online"
+:END:
+#+title: ref. Exam English
+#+filetags: :refs:
+
+These pages contain free online practice tests for the most important international ESL exams: IELTS, the TOEFL® and TOEIC® tests, and the Cambridge English exams such as C1 Advanced (CAE), B2 First (FCE), A2 Key (KET) and B1 Preliminary (PET).
+

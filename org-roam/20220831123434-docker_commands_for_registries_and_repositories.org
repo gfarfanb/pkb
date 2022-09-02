@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       8e8793b1-d7ff-4f78-a152-d11a2fb9d8fb
+:END:
+#+title: Docker commands for Registries and Repositories
+
+| Command                                              | Notes                 |
+|------------------------------------------------------+-----------------------|
+| ~docker login~                                       | Login to a Registry   |
+| ~docker login localhost:8080~                        | ~                     |
+| ~docker logout~                                      | Logout from a Regitry |
+| ~docker logout localhost:8080~                       | ~                     |
+| ~docker search <image>~                              | Searching an Image    |
+| ~docker search <image> --stars=3 --no-trunc busybox~ | ~                     |
+| ~docker pull <image>~                                | Pulling an Image      |
+| ~docker pull <image> localhost:5000/myadmin/<image>~ | ~                     |
+| ~docker push <image>~                                | Pushing an Image      |
+| ~docker push <image> localhost:5000/myadmin/<image>~ | ~                     |
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b5a3e79b-7972-4d40-9227-7957977bd09e
+:ROAM_REFS: https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-java.html
+:END:
+#+title: ref. Java Source Code Blocks in Org-mode
+#+filetags: :refs:
+

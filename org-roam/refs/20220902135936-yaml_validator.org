@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       166b3cee-90d3-4f05-9de3-60f945809903
+:ROAM_REFS: https://codebeautify.org/yaml-validator/
+:END:
+#+title: ref. YAML Validator
+#+filetags: :refs:
+

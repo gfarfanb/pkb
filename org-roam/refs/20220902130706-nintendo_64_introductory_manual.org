@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9f111436-ccc2-44f4-92f4-ad50c10ac0ec
+:ROAM_REFS: http://n64.icequake.net/doc/n64intro/kantan/index.html
+:END:
+#+title: ref. Nintendo 64 Introductory Manual
+#+filetags: :refs:
+

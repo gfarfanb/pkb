@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       eaec63f8-2ac8-4c1a-a78e-a6794b24b710
+:ROAM_REFS: https://pokeapi.co/
+:ROAM_ALIASES: "The RESTful Pokémon API"
+:END:
+#+title: ref. PokéApi
+#+filetags: :refs:
+

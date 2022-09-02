@@ -2,6 +2,7 @@
 :ID:       17cd2cda-18ff-4b6f-8658-c998e5457a19
 :END:
 #+title: Ingeniería en Sistemas Computacionales (05-09) subjects
+#+filetags: :refs:
 
 - [ ] Administración
 - [ ] Arquitectura de computadoras

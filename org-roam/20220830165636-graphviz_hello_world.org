@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       090e725c-3ffa-4b25-8746-71cc3190413a
+:END:
+#+title: Graphviz Hello World!
+
+Graph
+#+begin_src dot :file dot/graph.png :cmdline -Kdot -Tpng
+  graph { 
+    A -- B
+  }
+#+end_src
+
+Digraph
+#+begin_src dot :file dot/digraph.png :cmdline -Kdot -Tpng
+  digraph {
+    A -> B [ label="a" ];
+    B -> C;
+  }
+#+end_src
+

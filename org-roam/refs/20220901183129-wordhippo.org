@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       8ac46ca6-0bc4-450c-aa00-6e20b27a070f
+:ROAM_REFS: https://www.wordhippo.com/
+:ROAM_ALIASES: "Use of English words service provider"
+:END:
+#+title: ref. WordHippo
+#+filetags: :refs:
+
+WordHippo is an online website and application providing a range of tools related to the use of words for creative and recreational purposes such as writing, poetry, translations, word games, etc.
+

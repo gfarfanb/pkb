@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       cb25d310-43f0-4f56-baaa-93f0f157a7b3
+:END:
+#+title: Base64 hashes using HMAC SHA256 in Java
+#+ref: [[id:a44baed7-587b-4c2f-aa21-55c8ca4530e2][ref. commons-codec/commons-codec]]
+#+ref: [[id:b1da9ba6-0874-44ce-a509-0e2ea17e9b74][ref. Examples of creating base64 hashes using HMAC SHA256 in different languages]]
+
+#+begin_src java :ref 
+  import javax.crypto.Mac;
+  import javax.crypto.spec.SecretKeySpec;
+  import org.apache.commons.codec.binary.Base64;
+
+  public class ApiSecurityExample {
+    public static void main(String[] args) {
+      try {
+  
+       String secret = "secret";
+       String message = "Message";
+
+       Mac sha256_HMAC = Mac.getInstance("HmacSHA256");
+       SecretKeySpec secret_key = new SecretKeySpec(secret.getBytes(), "HmacSHA256");
+       sha256_HMAC.init(secret_key);
+
+       String hash = Base64.encodeBase64String(sha256_HMAC.doFinal(message.getBytes()));
+       System.out.println(hash);
+      }
+      catch (Exception e){
+       System.out.println("Error");
+      }
+     }
+  }
+#+end_src
+

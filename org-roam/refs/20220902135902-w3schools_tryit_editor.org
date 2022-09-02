@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       6b441a60-d2e4-42bf-8af9-08d6b0b01cbd
+:ROAM_REFS: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default
+:ROAM_ALIASES: "HTML Online Editor"
+:END:
+#+title: ref. W3Schools Tryit Editor
+#+filetags: :refs:
+

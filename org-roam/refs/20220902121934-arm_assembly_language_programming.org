@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5b4e308e-bd44-446d-b8e7-1d9f6643bf76
+:ROAM_REFS: http://www.peter-cockerell.net/aalp/
+:END:
+#+title: ref. ARM Assembly Language Programming
+#+filetags: :refs:
+

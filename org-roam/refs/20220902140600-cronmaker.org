@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       af56bd5c-52ee-471a-b2fd-ecd126244334
+:ROAM_REFS: http://www.cronmaker.com/
+:ROAM_ALIASES: "Build cron expressions online"
+:END:
+#+title: ref. CronMaker
+#+filetags: :refs:
+

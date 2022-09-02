@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       43e999c8-37c0-4e9a-9d0f-cf3b4074d18f
+:ROAM_REFS: https://hoppscotch.io/
+:ROAM_ALIASES: "REST Client online" "Open source API development ecosystem"
+:END:
+#+title: ref. Hoppscotch
+#+filetags: :refs:
+

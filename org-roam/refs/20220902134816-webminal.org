@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3ea14f41-0a1e-4551-b9af-8d3e08c69f43
+:ROAM_REFS: https://www.webminal.org/
+:ROAM_ALIASES: "Free GNU/Linux Online Terminal and Programming IDE"
+:END:
+#+title: ref. Webminal
+#+filetags: :refs:
+

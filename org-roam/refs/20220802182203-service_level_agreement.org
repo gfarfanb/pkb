@@ -2,8 +2,8 @@
 :ID:       3512ba78-045b-401e-a619-96a37efd6aa4
 :ROAM_REFS: https://freshservice.com/sla
 :END:
-#+title: ref. Service-Level Agreement
+#+title: ref. SLA
 #+filetags: :refs:
 
-Service Level Agreements (SLA), is a formal, structured agreement between two parties to provide one or more services to a mutually agreed level.
+Service-Level Agreements (SLA), is a formal, structured agreement between two parties to provide one or more services to a mutually agreed level.
 

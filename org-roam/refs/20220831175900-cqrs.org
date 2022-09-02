@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       454e917a-94d3-4ac1-969a-ac3013f16f31
+:END:
+#+title: ref. CQRS
+#+filetags: :refs:
+
+Command Query Responsibility Segregation (CQRS), which specifies that different data models should be used to for updating the database and read from the database.
+

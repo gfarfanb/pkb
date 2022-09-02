@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       70a7c1f9-2d1c-4743-8b87-4e0ea29e839b
+:ROAM_ALIASES: "A playground for jq"
+:ROAM_REFS: https://jqplay.org/
+:END:
+#+title: ref. jqplay
+#+filetags: :refs:
+

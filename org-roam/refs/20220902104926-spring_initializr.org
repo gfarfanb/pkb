@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       93d049c8-d9c1-4f22-ad2e-84c92fc76f51
+:ROAM_REFS: https://start.spring.io/
+:ROAM_ALIASES: "Spring Boot project generator"
+:END:
+#+title: ref. Spring Initializr
+#+filetags: :refs:
+

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       261d27f6-81d3-43a9-9a20-e808f85f766a
+:ROAM_REFS: https://www.photopea.com/
+:ROAM_ALIASES: "Photo editor online"
+:END:
+#+title: ref. Photopea
+#+filetags: :refs:
+
