@@ -2,6 +2,8 @@
 :ID:       fb7e3425-3732-49eb-9572-82760060a30b
 :END:
 #+title: Dired Mode key bindings in Emacs
+#+ref: [[id:91f65e81-8c39-45b5-8afb-08c3db313326][Edit files key bindings in Emacs]]
+#+ref: [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 
 | Ref     | Key               | Notes                                                              |
 |---------+-------------------+--------------------------------------------------------------------|
@@ -14,7 +16,4 @@
 | /(R)/   | (Uppercase) R key | Rename                                                             |
 | /(+)/   | + key             | Create directory                                                   |
 | /(!)/   | ! key             | Execute command on file at point                                   |
-
-- [[id:91f65e81-8c39-45b5-8afb-08c3db313326][Files key bindings in Emacs]]
-- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 

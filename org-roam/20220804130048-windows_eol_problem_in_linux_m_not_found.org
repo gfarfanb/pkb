@@ -2,10 +2,9 @@
 :ID:       8d37b543-2c6c-406f-8087-d24cf3e26c58
 :END:
 #+title: Windows EOL problem in Linux - ...^M: not found
+#+ref: [[id:dc5dc9ee-12f5-4a72-aa39-cd8cefb9ca77][ref. sed]]
 
 #+begin_src
   sed -i 's/\r$//' <file>
 #+end_src
-
-- [[id:dc5dc9ee-12f5-4a72-aa39-cd8cefb9ca77][ref. sed]]
 

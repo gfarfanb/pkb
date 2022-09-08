@@ -3,6 +3,7 @@
 :ROAM_REFS: https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 :END:
 #+title: Git config
+#+ref: [[id:1287ebb9-da97-4386-bd1f-4b5fd9df6d81][ref. git-config]]
 
 Global
 #+begin_src
@@ -15,6 +16,4 @@ Local
   git config --local user.name "Giovanni Farfán B."
   git config --local user.email gfarfanb@...
 #+end_src
-
-- [[id:1287ebb9-da97-4386-bd1f-4b5fd9df6d81][ref. git-config]]
 

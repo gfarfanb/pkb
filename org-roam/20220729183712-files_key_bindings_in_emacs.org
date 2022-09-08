@@ -2,6 +2,9 @@
 :ID:       91f65e81-8c39-45b5-8afb-08c3db313326
 :END:
 #+title: Edit files key bindings in Emacs
+#+ref: [[id:2c0fe3f9-e776-4d41-ad44-3d38960cce86][Find files flavours key bindings in Emacs]]
+#+ref: [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
+#+ref: [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 
 | Binding               | Command                                                            | Notes                                    |
 |-----------------------+--------------------------------------------------------------------+------------------------------------------|
@@ -33,8 +36,4 @@
 | *M-y*                 | /yank-pop/                                                         | Replace with previous entry in kill ring |
 | *C-x u*               | /undo/                                                             |                                          |
 | *C-S _*               | /undo/                                                             |                                          |
-
-- [[id:2c0fe3f9-e776-4d41-ad44-3d38960cce86][Find files flavours key bindings in Emacs]]
-- [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
-- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 

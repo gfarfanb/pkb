@@ -2,6 +2,7 @@
 :ID:       faf7565e-35f4-470f-8bfc-f1be62f8be01
 :END:
 #+title: Create a new Git tag
+#+ref: [[id:d82fd8b7-1dea-4fa7-b8f6-9f14376dac1d][ref. git-tag]]
 
 Create tag
 #+begin_src
@@ -27,6 +28,4 @@ Push specific tag
 #+begin_src
   git push origin tag <tag-name>
 #+end_src
-
-- [[id:d82fd8b7-1dea-4fa7-b8f6-9f14376dac1d][ref. git-tag]]
 

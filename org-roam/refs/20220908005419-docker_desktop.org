@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       45007c0d-f811-494f-9983-199e365735a1
+:ROAM_REFS: https://docs.docker.com/desktop/
+:END:
+#+title: ref. Docker Desktop
+#+filetags: :refs:
+

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       7c74eb5b-ce9f-4fa8-8bc1-4f7a9928c843
+:ROAM_REFS: https://opencontainers.org/about/overview/
+:ROAM_ALIASES: OCI
+:END:
+#+title: ref. Open Container Initiative
+#+filetags: :refs:
+
+The Open Container Initiative is an open governance structure for the express purpose of creating open industry standards around container formats and runtimes.
+

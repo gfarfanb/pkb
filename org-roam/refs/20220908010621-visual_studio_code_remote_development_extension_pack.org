@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a6058758-509e-43fc-8a8d-f5c45ba56dba
+:ROAM_REFS: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
+:END:
+#+title: ref. Visual Studio Code Remote Development Extension Pack
+#+filetags: :refs:
+

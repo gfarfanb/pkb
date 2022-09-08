@@ -2,6 +2,8 @@
 :ID:       559c59b2-ca54-4c23-8b9c-cb970a1ed76e
 :END:
 #+title: Recommendations for lots of data
+#+ref: [[id:38e7b2c9-a743-4330-84f8-3f7f5699fabb][Data volume calculation picture]]
+#+ref: [[id:f9d9192f-da9a-452e-ae5e-ae87c9690bc4][Non-Functional requirements questions]]
 
 If normal database is not able to deal with a huge amount of data:
 
@@ -17,7 +19,4 @@ If normal database is not able to deal with a huge amount of data:
 - [ ] Classify the data type
     - Operational (commonly real time)
     - Aggregated (commonly non-real time) 
-
-- [[id:38e7b2c9-a743-4330-84f8-3f7f5699fabb][Data volume calculation picture]]
-- [[id:f9d9192f-da9a-452e-ae5e-ae87c9690bc4][Non-Functional requirements questions]]
 

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b887381a-d7b4-45d7-aa8f-fe1cecfbc961
+:END:
+#+title: VS Code for DevOps, Docker, and YAML editing
+
+- [ ] [[id:1aa4ea9f-fac4-48b8-a0c4-672061287163][Visual Studio Code]]
+- [ ] [[id:a1ed7d26-0acf-4523-a80d-06742313c0f1][Extension: Docker for Visual Studio Code]]
+- [ ] [[id:c1080250-a5c0-4db3-b61e-77237760de94][Extension: Visual Studio Code Kubernetes Tools]]
+- [ ] [[id:a6058758-509e-43fc-8a8d-f5c45ba56dba][Extension: Visual Studio Code Remote Development Extension Pack]]
+- [ ] [[id:a5b10c62-fa76-45d2-a7f4-af85980488b4][Extension: Microsoft Visual Studio Live Share]]
+

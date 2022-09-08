@@ -2,6 +2,7 @@
 :ID:       502b70b4-3c3f-453c-b110-8b9c9d98df52
 :END:
 #+title: Smathphone/table app types
+#+ref: [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 
 - [ ] Desktop or Windows based (WPF)
   - OS
@@ -11,6 +12,4 @@
   - Limited functionality
   - Compatibility
   - No setup required
-
-- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 

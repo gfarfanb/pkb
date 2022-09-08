@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7b5ce675-6787-47f3-be85-52f486e78501
+:ROAM_REFS: https://kubernetes.io/partners/#conformance
+:END:
+#+title: ref. Kubernetes Partners
+#+filetags: :refs:
+

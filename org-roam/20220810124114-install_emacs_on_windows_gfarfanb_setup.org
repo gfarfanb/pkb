@@ -2,6 +2,7 @@
 :ID:       eaa9cb6f-30f5-48bf-b7f6-d82fe454044c
 :END:
 #+title: Install Emacs on Windows - gfarfanb setup
+#+ref: [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
 
 - [ ] [[id:b1e12a12-f0f0-4ecc-ae38-2e7847cc798b][Install Emacs]]
 - [ ] [[id:ca050037-bcdc-4b15-8fb8-98c6a97c18d8][Install the latest GCC on Windows]]
@@ -34,6 +35,4 @@
   #+begin_src
     M-x load-file <RET> ~/.emacs <RET>
   #+end_src
-
-- [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
 

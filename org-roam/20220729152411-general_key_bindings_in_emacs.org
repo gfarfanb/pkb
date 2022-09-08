@@ -2,6 +2,8 @@
 :ID:       93b0367c-b02d-49e9-ad17-90aee186aecf
 :END:
 #+title: General key bindings in Emacs
+#+ref: [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
+#+ref: [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 
 | Binding   | Command                             | Notes                            |
 |-----------+-------------------------------------+----------------------------------|
@@ -14,7 +16,4 @@
 | *M-x*     | /execute-extended-command/          | Execute command by function name |
 |           | *M-x* /about-emacs/ /<RET>/         | About window                     |
 |           | *M-x* /load-file/ FILE_NAME /<RET>/ | Re-load opened file              |
-
-- [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
-- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 

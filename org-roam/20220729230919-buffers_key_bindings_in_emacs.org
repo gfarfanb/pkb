@@ -2,6 +2,8 @@
 :ID:       244e2d5f-a7a9-4c40-a2f6-6d8017cbad24
 :END:
 #+title: Buffers key bindings in Emacs
+#+ref: [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
+#+ref: [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 
 | Binding         | Command            | Notes                                             |
 |-----------------+--------------------+---------------------------------------------------|
@@ -11,7 +13,4 @@
 | *C-x* /<RIGHT>/ | /next-buffer/      | Next buffer, according to active buffers list     |
 | *C-x* /<LEFT>/  | /previous-buffer/  | Previous buffer, according to active buffers list |
 | *C-x C-s*       | /save-buffer/      |                                                   |
-
-- [[id:f88ba843-1d34-437f-bff6-f6395171b4cf][Key references for echo area in Emacs]]
-- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c1080250-a5c0-4db3-b61e-77237760de94
+:ROAM_REFS: https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools
+:END:
+#+title: ref. Visual Studio Code Kubernetes Tools
+#+filetags: :refs:
+

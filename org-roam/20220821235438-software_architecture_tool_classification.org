@@ -2,6 +2,7 @@
 :ID:       c84e4e6c-25c6-4b7d-a3a0-22d96597eca3
 :END:
 #+title: Software Architecture tool classification
+#+ref: [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 
 - [ ] Queue (e.g. Kafka, RabbitMQ)
 - [ ] Front-end (e.g. React, Angular)
@@ -20,4 +21,3 @@
 - [ ] AI (e.g. TensorFlow)
   - Expert is needed here. It's not part of the architect decisions
 
-- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
