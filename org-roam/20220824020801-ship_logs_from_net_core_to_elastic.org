@@ -2,8 +2,7 @@
 :ID:       df7b8a95-4b29-4928-90bb-de6aeb6b0928
 :END:
 #+title: Ship logs from .NET Core to Elastic
+#+ref: [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 
 Use library *Serilog.Sinks.Elasticsearch*
-
-- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 

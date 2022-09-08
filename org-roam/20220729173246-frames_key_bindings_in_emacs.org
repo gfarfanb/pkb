@@ -2,6 +2,7 @@
 :ID:       a7e10dad-bf6b-4d80-86d3-a20f0fdd0d8e
 :END:
 #+title: Frames key bindings in Emacs
+#+ref: [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 
 | Binding | Command                | Notes                  |
 |---------+------------------------+------------------------|
@@ -10,6 +11,4 @@
 | *C-x o* | /other-window/         | Cursor in other window |
 | *C-x 1* | /delete-other-windows/ |                        |
 | *C-x 0* | /delete-window/        | Where the cursor is    |
-
-- [[id:a75f1929-5987-49b3-880c-e1e44c76cbb8][ref. Udemy Business: Learning to work with Emacs]]
 

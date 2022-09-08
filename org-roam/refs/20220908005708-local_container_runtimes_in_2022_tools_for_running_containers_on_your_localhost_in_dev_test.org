@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b8fae222-67bb-4369-84bf-f7c35b8dd1fe
+:ROAM_REFS: https://docs.google.com/spreadsheets/d/1ZT8m4gpvh6xhHYIi4Ui19uHcMpymwFXpTAvd3EcgSm4/edit#gid=0
+:END:
+#+title: ref. Local container runtimes in 2022, tools for running containers on your localhost in dev-test
+#+filetags: :refs:
+

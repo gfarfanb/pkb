@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       bc8e0093-00b2-4221-b508-bf51b246e9e8
+:END:
+#+title: What is Kubernetes?
+#+ref: [[id:95113528-3a5b-4204-ba74-5cbae60c6cab][ref. Library: Kubernetes vs. Docker]]
+
+Kubernetes is a set of choices that come together to form the control plane.
+Some parts are standard, like the Kubernetes API, Scheduler, and Kubelet agent.
+Other pieces have no default and require choosing from [[id:7b5ce675-6787-47f3-be85-52f486e78501][many industry options]], like container runtime, networking, and ingress proxy
+(there are some vanilla upstream Kubernetes on GitHub you can try before to choose a vendor distribution).
+

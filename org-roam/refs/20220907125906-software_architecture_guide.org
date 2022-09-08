@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d8966053-157d-4881-b883-91a03dd34e66
+:ROAM_REFS: https://martinfowler.com/architecture/
+:END:
+#+title: ref. Software Architecture Guide
+#+filetags: :refs:
+

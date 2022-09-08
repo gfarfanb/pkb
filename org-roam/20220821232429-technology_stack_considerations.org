@@ -2,6 +2,7 @@
 :ID:       b5eeb763-0fb8-4c6c-880d-979f695a57ca
 :END:
 #+title: Technology stack considerations
+#+ref: [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 
 - [ ] Load (e.g. 1000 msgs/sec)
 - [ ] Performance
@@ -13,5 +14,3 @@
 - [ ] Develop our own...?
 - [ ] Costs (e.g. recurrent payment)  
   
-- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
-

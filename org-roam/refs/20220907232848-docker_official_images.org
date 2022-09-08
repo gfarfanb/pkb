@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       17a322a3-2a4d-46d9-9a9c-c6fac8ea42d3
+:ROAM_REFS: https://docs.docker.com/docker-hub/official_images/
+:END:
+#+title: ref. Docker Official Images
+#+filetags: :refs:
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a1ed7d26-0acf-4523-a80d-06742313c0f1
+:ROAM_REFS: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+:END:
+#+title: ref. Docker for Visual Studio Code
+#+filetags: :refs:
+

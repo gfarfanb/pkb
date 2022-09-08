@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a5b10c62-fa76-45d2-a7f4-af85980488b4
+:ROAM_REFS: https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
+:END:
+#+title: ref. Microsoft Visual Studio Live Share
+#+filetags: :refs:
+

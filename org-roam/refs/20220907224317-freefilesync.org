@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       da02ab77-eead-4b8d-871b-306ac040a9f6
+:ROAM_REFS: https://freefilesync.org/
+:ROAM_ALIASES: "Open Source file synchronization tool"
+:END:
+#+title: ref. FreeFileSync
+#+filetags: :refs:
+

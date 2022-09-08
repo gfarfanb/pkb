@@ -3,10 +3,9 @@
 :ROAM_REFS: https://stackoverflow.com/questions/21597851/how-to-check-whether-url-is-working-or-not-through-linux-shell#21598040
 :END:
 #+title: Check if URL is up with curl
+#+ref: [[id:e7e07e0c-23e0-4585-b822-2703c28fb81d][ref. curl]]
 
 #+begin_src
   curl -Is https://<host>:<port> | head -n 1
 #+end_src
-
-- [[id:e7e07e0c-23e0-4585-b822-2703c28fb81d][ref. curl]]
 

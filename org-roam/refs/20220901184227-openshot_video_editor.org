@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       bcc27bd5-e498-4287-8f3d-3f509d16fc6d
 :ROAM_REFS: https://www.openshot.org/
-:ROAM_ALIASES: "Open-source video editor"
+:ROAM_ALIASES: "Open Source video editor"
 :END:
 #+title: ref. OpenShot Video Editor
 #+filetags: :refs:

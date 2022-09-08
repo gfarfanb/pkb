@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f3f702e2-5ae4-4e28-8496-da8e39458e94
+:ROAM_REFS: https://labs.play-with-docker.com/
+:ROAM_ALIASES: "A simple, interactive and fun playground to learn Docker"
+:END:
+#+title: ref. Play with Docker
+#+filetags: :refs:
+

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       d91be2c8-0b56-4825-aeae-f416e581193e
+:END:
+#+title: Docker big picture
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+Docker can be defined by the following *Build, Ship and Run* lifecycle:
+1. Images: It aids you in packaging an application (with all its dependencies).
+1. Registries: It helps to distribute that app around to all the places you need to run it.
+1. Containers: It runs that app in a highly reproducible way.
+

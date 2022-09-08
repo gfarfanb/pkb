@@ -2,10 +2,9 @@
 :ID:       87201815-92ee-4b27-b1df-46df3a4041de
 :END:
 #+title: Set permissions to execute to a file in Linux
+#+ref: [[id:b20ebfb9-1fa0-4885-86f8-5d0c74a0eb53][ref. chmod]]
 
 #+begin_src
   chmod -x <file>
 #+end_src
-
-- [[id:b20ebfb9-1fa0-4885-86f8-5d0c74a0eb53][ref. chmod]]
 

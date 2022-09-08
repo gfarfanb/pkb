@@ -2,12 +2,11 @@
 :ID:       38e7b2c9-a743-4330-84f8-3f7f5699fabb
 :END:
 #+title: Data volume calculation picture
+#+ref: [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 
 1 Message = 1KB
 7,000 messages / sec = 7MB / sec
   = ~25GB / hr
   = ~605GB / day
   = ~221TB / year
-
-- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 

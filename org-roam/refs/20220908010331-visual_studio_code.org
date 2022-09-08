@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1aa4ea9f-fac4-48b8-a0c4-672061287163
+:ROAM_REFS: https://code.visualstudio.com/
+:ROAM_ALIASES: "VS Code"
+:END:
+#+title: ref. Visual Studio Code
+#+filetags: :refs:
+

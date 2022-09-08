@@ -2,6 +2,7 @@
 :ID:       f2a8a92c-d094-4fd3-8dea-6ef88c8acf46
 :END:
 #+title: The 4 Elastic Stack tools
+#+ref: [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 
 | Tool           | Description                 | Notes                                      |
 |----------------+-----------------------------+--------------------------------------------|
@@ -9,6 +10,4 @@
 | Kibana         | Visualization engine        | Display logs                               |
 | Logstash       | Data collection pipeline    | Import logs from many resources to Elastic |
 | Beats          | Lightweight log shippers    | Transform logs to Elastic                  |
-
-- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 

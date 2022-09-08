@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       aa417c27-8fda-4e1c-a808-cfcce7f780bb
+:END:
+#+title: Valid content of a reference (ref.)
+
+- [ ] Definitions
+- [ ] Packages/Dependencies
+- [ ] Bookmarks
+- [ ] Image references
+- [ ] Video references
+- [ ] Audio references
+- [ ] Document references
+

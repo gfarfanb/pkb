@@ -2,6 +2,7 @@
 :ID:       7e6f9535-24fe-4440-89da-4aadbd9d84c2
 :END:
 #+title: Java Hello World!
+#+ref: [[id:b5a3e79b-7972-4d40-9227-7957977bd09e][ref. Java Source Code Blocks in Org-mode]]
 
 Fully qualified classname
 #+begin_src java :dir java
@@ -24,6 +25,4 @@ With arguments
 #+begin_src java :dir java :cmdargs "\"Hello World!\""
   System.out.print(args[0]);
 #+end_src
-
-- [[id:b5a3e79b-7972-4d40-9227-7957977bd09e][ref. Java Source Code Blocks in Org-mode]]
 

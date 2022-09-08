@@ -2,8 +2,7 @@
 :ID:       507462ab-3723-4649-b8cb-6a5359dc12e3
 :END:
 #+title: Ship logs from RabbitMQ to Elastic
+#+ref: [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 
 Use *Logstash* by the adapter *Rabbitmq input plugin*
-
-- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 

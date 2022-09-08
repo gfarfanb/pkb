@@ -2,6 +2,7 @@
 :ID:       91b9222c-f7d1-4089-a50c-4732053de7c6
 :END:
 #+title: Software Architecture Process concepts
+#+ref: [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 
 | Concept                           | Definition                                                                | Notes                                                        |
 |-----------------------------------+---------------------------------------------------------------------------+--------------------------------------------------------------|
@@ -13,6 +14,4 @@
 | Qualities of well-designed system | What must be considered during design                                     | Loose coupling, statelets, scaling, caching, messaging, etc. |
 | Architecture document             | Describes a full picture of the system                                    | It's relevant for all levels in the organization             |
 | Support the team                  | Give a clear understanding of the architecture design (including changes) | A phase after the document is delivered                      |
-
-- [[id:3bee806a-8c6e-4654-b340-98f02786ca4f][ref. Udemy Business: Software Architecture Case Studies]]
 
