@@ -47,6 +47,8 @@
 | *C-c n Y*         | /org-roam-dailies-capture-yesterday/      | Find Org-roam dailies notes for yesterday                                                                                                             |
 | *C-c n T*         | /org-roam-dailies-capture-tomorrow/       | Find Org-roam dailies notes for tomorrow                                                                                                              |
 | *C-c C-;*         | /org-toggle-comment/                      | Insert source block                                                                                                                                   |
+| *C-c C-x M*       | /org-insert-todo-heading/                 | Insert new TODO header                                                                                                                                |
+| *C-c $*           | /org-archive-subtree/                     | Archive header subtree                                                                                                                                |
 | *C-h D*           | /devdocs-lookup/                          | Look up a DevDocs documentation entry                                                                                                                 |
 | *C-S-c C-S-c*     | /mc\/edit-lines/                          | Edit multiple lines                                                                                                                                   |
 | *C->*             | /mc\/mark-next-like-this/                 | Mark next like selected                                                                                                                               |

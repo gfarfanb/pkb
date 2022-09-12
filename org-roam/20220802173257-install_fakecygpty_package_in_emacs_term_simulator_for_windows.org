@@ -5,11 +5,11 @@
 
 1. [ ] [[id:ca050037-bcdc-4b15-8fb8-98c6a97c18d8][Install the latest GCC on Windows]]
 2. [ ] Install [[id:96a68aca-80fc-4a33-9871-b70abc0f04d8][Lynx]]
-   #+begin_src
+   #+begin_src sh
      /cygdrive/c/tools/cygwin/cygwinsetup.exe -q -P lynx
    #+end_src
 3. [ ] Install [[id:6a2bdbd8-99e3-4bb5-ab39-7afd558b2025][apt-cyg]]
-   #+begin_src
+   #+begin_src sh
      lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
      install apt-cyg /bin
    #+end_src

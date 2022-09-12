@@ -3,7 +3,7 @@
 :END:
 #+title: Android share screen to computer with scrcpy
 
-#+begin_src
+#+begin_src sh
   cd C:\...\scrcpy-win64-v1.19
   adb devices
   adb tcpip 5555

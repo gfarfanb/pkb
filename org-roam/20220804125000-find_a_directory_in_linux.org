@@ -4,7 +4,7 @@
 #+title: Find a directory in Linux
 #+ref: [[id:82bc59bb-a661-4afc-bfd3-25ce7ab0d36b][ref. find]]
 
-#+begin_src
+#+begin_src sh
   find / -type d -name <directory> 2> /dev/null
 #+end_src
 

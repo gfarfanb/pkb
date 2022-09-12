@@ -4,7 +4,7 @@
 #+title: Windows EOL problem in Linux - ...^M: not found
 #+ref: [[id:dc5dc9ee-12f5-4a72-aa39-cd8cefb9ca77][ref. sed]]
 
-#+begin_src
+#+begin_src sh
   sed -i 's/\r$//' <file>
 #+end_src
 

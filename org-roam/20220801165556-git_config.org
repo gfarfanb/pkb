@@ -6,13 +6,13 @@
 #+ref: [[id:1287ebb9-da97-4386-bd1f-4b5fd9df6d81][ref. git-config]]
 
 Global
-#+begin_src
+#+begin_src sh
   git config --global user.name "Giovanni Farfán B."
   git config --global user.email gfarfanb@...
 #+end_src
 
 Local
-#+begin_src
+#+begin_src sh
   git config --local user.name "Giovanni Farfán B."
   git config --local user.email gfarfanb@...
 #+end_src

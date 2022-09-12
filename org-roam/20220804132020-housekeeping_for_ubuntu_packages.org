@@ -3,7 +3,7 @@
 :END:
 #+title: Housekeeping for Ubuntu packages
 
-#+begin_src
+#+begin_src sh
   sudo apt-get clean
 
   sudo apt-get autoclean

@@ -4,7 +4,7 @@
 #+title: Add remote repository with Git
 #+ref: [[id:32ee9cb9-a453-453f-ad86-744dd743d0aa][ref. git-remote]]
 
-#+begin_src
+#+begin_src sh
   git remote add origin <repository-path>
 #+end_src
 

@@ -4,7 +4,7 @@
 #+title: Linux version command
 #+ref: [[id:5a7e01a5-4b62-4f99-b55d-1b2f45db200b][ref. or-release]]
 
-#+begin_src
+#+begin_src sh
   lsb_release -a
 #+end_src
 

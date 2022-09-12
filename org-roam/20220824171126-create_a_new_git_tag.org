@@ -5,27 +5,27 @@
 #+ref: [[id:d82fd8b7-1dea-4fa7-b8f6-9f14376dac1d][ref. git-tag]]
 
 Create tag
-#+begin_src
+#+begin_src sh
   git tag <tag-name>
 #+end_src
 
 Create tag for a specific commit
-#+begin_src
+#+begin_src sh
   git tag <tag-name> <commit-sha>
 #+end_src
 
 Verify created tags
-#+begin_src
+#+begin_src sh
   git tag -n
 #+end_src
 
 Push all tags
-#+begin_src
+#+begin_src sh
   git push --tags
 #+end_src
 
 Push specific tag
-#+begin_src
+#+begin_src sh
   git push origin tag <tag-name>
 #+end_src
 

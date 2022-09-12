@@ -3,7 +3,7 @@
 :END:
 #+title: Update Ubuntu packages
 
-#+begin_src
+#+begin_src sh
   sudo apt update -y
 
   sudo apt list --upgradable -a

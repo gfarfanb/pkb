@@ -4,17 +4,17 @@
 #+title: Uninstall packages in Ubuntu
 
 Clear all
-#+begin_src
+#+begin_src sh
   sudo apt-get purge --auto-remove <package>
 #+end_src
 
 Set default
-#+begin_src
+#+begin_src sh
   sudo update-alternatives --config <package>
 #+end_src
 
 Restart service
-#+begin_src
+#+begin_src sh
     sudo service <service> restart
 #+end_src
 

@@ -9,15 +9,15 @@
   - [[id:4be7a34f-1f13-48aa-89de-b3cc98bc4043][Install CygwinPortable]]
 - [ ] Install required Cygwin packages
   - With Cygwin:
-  #+begin_src
+  #+begin_src sh
     C:\cygwin64>setup-x86_64.exe -q -P wget -P gcc-g++ -P make -P diffutils -P libmpfr-devel -P libgmp-devel -P libmpc-devel
   #+end_src
   - With CygwinPortable:
-  #+begin_src
+  #+begin_src sh
     C:\CygwinPortable\App\Runtime\Cygwin>CygwinConfig.exe -q -P wget -P gcc-g++ -P make -P diffutils -P libmpfr-devel -P libgmp-devel -P libmpc-devel
   #+end_src
 - [ ] Open a new Cygwin terminal (/Cygwin.bat/)
-  #+begin_src
+  #+begin_src sh
     export http_proxy=$HTTP_PROXY https_proxy=$HTTP_PROXY ftp_proxy=$HTTP_PROXY
     wget http://ftpmirror.gnu.org/gcc/gcc-4.9.2/gcc-4.9.2.tar.gz
     tar xf gcc-4.9.2.tar.gz

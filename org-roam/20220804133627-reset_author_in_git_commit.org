@@ -4,7 +4,7 @@
 #+title: Reset author in Git commit
 #+ref: [[id:a342c693-bb3b-4eb5-ac7a-423035537aea][ref. git-commit]]
 
-#+begin_src
+#+begin_src sh
   git commit --amend --reset-author
 #+end_src
 

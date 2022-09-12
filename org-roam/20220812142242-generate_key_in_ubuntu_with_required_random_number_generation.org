@@ -3,7 +3,7 @@
 :END:
 #+title: Generate key in Ubuntu with required random number generation
 
-#+begin_src
+#+begin_src sh
   sudo aptitude install haveged
   sudo gpg --gen-key
 #+end_src

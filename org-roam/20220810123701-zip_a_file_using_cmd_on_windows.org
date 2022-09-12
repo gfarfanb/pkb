@@ -6,7 +6,7 @@
 
 - [ ] Add 7-Zip to PATH variable
 - [ ] Create the ZIP file
-  #+begin_src
+  #+begin_src sh
     7z a -tzip <filename>.zip <folder>
   #+end_src
 

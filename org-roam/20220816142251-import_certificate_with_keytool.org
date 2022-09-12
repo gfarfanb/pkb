@@ -3,7 +3,7 @@
 :END:
 #+title: Import certificate with Keytool
 
-#+begin_src
+#+begin_src sh
   keytool -import -alias example -keystore "%JAVA_HOME%\jre\lib\security\cacerts" -file <cert-filename>.cer
 #+end_src
 

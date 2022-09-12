@@ -4,22 +4,22 @@
 #+title: Run Spring Boot with Gradle
 
 Run
-#+begin_src
+#+begin_src sh
   gradle bootRun
 #+end_src
 
 Debug
-#+begin_src
+#+begin_src sh
   gradle bootRun --debug-jvm
 #+end_src
 
 Run with specific profile
-#+begin_src
+#+begin_src sh
   gradle bootRun -Dspring.profiles.active=<profile>
 #+end_src
 
 Run with configuration location
-#+begin_src
+#+begin_src sh
   gradle bootRun -Dspring.config.location=<config-location-path>
 #+end_src
 

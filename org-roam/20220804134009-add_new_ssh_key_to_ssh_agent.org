@@ -7,19 +7,19 @@
 #+ref: [[id:a8e2ac30-3789-40e2-a269-e090fbe6d210][ref. ssh-agent]]
 
 - [ ] Generate new key
-  #+begin_src
+  #+begin_src sh
     ssh-keygen -t rsa -b 4096 -C <email>
   #+end_src
 - [ ] Eval SSH agent
-  #+begin_src
+  #+begin_src sh
     eval "$(ssh-agent -s)"
   #+end_src
 - [ ] Add key to SSH agent
-  #+begin_src
+  #+begin_src sh
     ssh-add ~/.ssh/id_rsa
   #+end_src
 - [ ] Print public SSH key
-  #+begin_src
+  #+begin_src sh
     cat < ~/.ssh/id_rsa.pub
   #+end_src
 

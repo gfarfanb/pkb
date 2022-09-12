@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       3426c0c6-b224-449c-975d-a5be8516271b
+:ROAM_REFS: https://tecadmin.net/how-to-install-xrdp-on-fedora/
+:END:
+#+title: Install XRDP (Remote Desktop) on Fedora
+
+- [ ] Install Desktop Environment
+  #+begin_src sh
+    sudo dnf upgrade
+    sudo dnf grouplist -v
+    sudo dnf install @kde-desktop-environment
+  #+end_src
+- [ ] Install XRDP
+  #+begin_src sh
+    sudo dnf install xrdp -y
+    sudo systemctl enable xrdp
+    sudo systemctl start xrdp
+    sudo systemctl status xrdp
+  #+end_src
+- [ ] Adjust Firewall
+  #+begin_src sh
+    sudo firewall-cmd --permanent --add-port=3389/tcp
+    sudo firewall-cmd --reload
+  #+end_src
+- [ ] Manager SELinux
+  #+begin_src sh
+    sudo chcon --type=bin_t /usr/sbin/xrdp
+    sudo chcon --type=bin_t /usr/sbin/xrdp-sesman
+  #+end_src
+

@@ -4,7 +4,7 @@
 #+title: Look for binary, source, page in Linux
 #+ref: [[id:f2eb4b27-af6f-46be-92fc-06124f5e32bf][ref. whereis]]
 
-#+begin_src
+#+begin_src sh
   whereis <resource>
 #+end_src
 
