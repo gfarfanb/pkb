@@ -4,22 +4,22 @@
 #+title: Execute tests with Gradle
 
 Clean and test
-#+begin_src
+#+begin_src sh
   gradle cleanTest test
 #+end_src
 
 Debug mode
-#+begin_src
+#+begin_src sh
   gradle cleanTest test --debug-jvm
 #+end_src
 
 Execute all tests from a specific class
-#+begin_src
+#+begin_src sh
   gradle cleanTest test --tests <test-class>*
 #+end_src
 
 Execute a single test
-#+begin_src
+#+begin_src sh
   gradle cleanTest test --tests <test-class>.<test-method>
 #+end_src
 

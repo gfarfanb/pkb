@@ -3,7 +3,7 @@
 :END:
 #+title: Fat JARs with Gradle
 
-#+begin_src
+#+begin_src groovy
   task fatJar(type: Jar) {
     baseName = project.name + '-all'
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2751e0b3-311e-4cf9-87d5-d90e9a0de921
+:ROAM_REFS: https://tigervnc.org/
+:END:
+#+title: ref. TigerVNC
+#+filetags: :refs:
+

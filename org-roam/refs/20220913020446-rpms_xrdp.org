@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       240d5add-62aa-40cf-9fe0-96451c9e8cf0
+:ROAM_REFS: https://src.fedoraproject.org/rpms/xrdp
+:END:
+#+title: ref. rpms/xrdp
+#+filetags: :refs:
+

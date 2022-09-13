@@ -4,7 +4,7 @@
 #+title: Git rebase interactively
 #+ref: [[id:f69354a2-f891-48a9-97aa-c1f0426d6bc0][ref. git-rebase]]
 
-#+begin_src
+#+begin_src sh
   git rebase -i HEAD~<n>
 #+end_src
 

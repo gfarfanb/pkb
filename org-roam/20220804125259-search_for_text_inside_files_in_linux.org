@@ -4,7 +4,7 @@
 #+title: Search for text inside files in Linux
 #+ref: [[id:293e7b1e-c704-4630-ae0a-511a4b5aa21e][ref. grep]]
 
-#+begin_src
+#+begin_src sh
   grep -rnw '/path/to/somewhere/' -e 'pattern'
 #+end_src
 

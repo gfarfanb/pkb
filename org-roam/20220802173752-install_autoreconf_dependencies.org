@@ -4,7 +4,7 @@
 :END:
 #+title: Install autoreconf dependencies
 
-#+begin_src
+#+begin_src sh
   apt-cyg install autoconf
   apt-cyg install automake
   apt-cyg install libtoo

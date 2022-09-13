@@ -4,12 +4,12 @@
 #+title: Compile project with Gradle
 
 Clean, build and test
-#+begin_src
+#+begin_src sh
   gradle clean build
 #+end_src
 
 Skip tests
-#+begin_src
+#+begin_src sh
   gradle clean build -x:test
 #+end_src
 

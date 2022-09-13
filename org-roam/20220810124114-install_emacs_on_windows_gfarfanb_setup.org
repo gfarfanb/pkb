@@ -9,17 +9,17 @@
 - [ ] [[id:4bea0835-d6fb-4711-ab1f-365138cccffc][Install fakecygpty package in Emacs (term simulator for Windows)]]
 - [ ] [[id:691de544-57ca-4d16-a9e3-bfd9d7589133][Install move-lines.el]]
 - [ ] Add variables to System Environment Variables
-  #+begin_src
+  #+begin_src sh
     EMACS_HOME=C:\...\emacs-28.1
     PKB_HOME=C:\...\pkb
     Path=%Path%;%EMACS_HOME%\bin;%PKB_HOME%\scripts
   #+end_src  
 - [ ] Execute Emacs Server
-  #+begin_src
+  #+begin_src sh
     runemacs.exe --daemon
   #+end_src
 - [ ] Execute Emacs Client (CMD window can be closed if Emacs window appears)
-  #+begin_src
+  #+begin_src sh
     emacsclientw.exe -create-frame --alternate-editor=""
   #+end_src
 - [ ] Create a new Emacs initialization file

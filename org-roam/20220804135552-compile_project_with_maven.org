@@ -4,17 +4,17 @@
 #+title: Compile project with Maven
 
 Clean, build and test
-#+begin_src
+#+begin_src sh
   mvn clean package -U
 #+end_src
 
 Clean, build, test and install in local repo
-#+begin_src
+#+begin_src sh
   mvn clean install -U
 #+end_src
 
 Skip tests
-#+begin_src
+#+begin_src sh
   mvn clean package -U -DskipTests
   mvn clean install -U -DskipTests
 #+end_src

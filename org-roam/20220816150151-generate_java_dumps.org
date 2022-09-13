@@ -5,12 +5,12 @@
 
 - [ ] Verify [[id:bf45b7b9-5ad7-4781-b0ff-b42424eb52a6][Java Environment Variables]]
 - [ ] Launch [[id:302c71a8-d656-4f1e-af91-a8dc48dd4c9c][JConsole]]
-  #+begin_src
+  #+begin_src sh
     jconsole
   #+end_src
 - [ ] Get the application's PID from JConsole
 - [ ] Generate dump file
-  #+begin_src
+  #+begin_src sh
     jmap -dump:format=b,file=%date:~10,4%%date:~4,2%%date:~7,2%-%time:~0,2%.%time:~3,2%.%time:~6,2%.%time:~9,2%.hprof <pid>
   #+end_src
 

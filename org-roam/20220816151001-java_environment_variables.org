@@ -4,7 +4,7 @@
 #+title: Java Environment Variables
 
 Windows
-#+begin_src
+#+begin_src sh
   SET JAVA_HOME=C:\...\jdk1.8.0_241
   SET Path=%Path%;%JAVA_HOME%\bin
 #+end_src

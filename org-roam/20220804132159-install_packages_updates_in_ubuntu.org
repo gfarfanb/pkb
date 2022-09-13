@@ -4,22 +4,22 @@
 #+title: Install packages updates in Ubuntu
 
 Fetches the list of available updates
-#+begin_src
+#+begin_src sh
   sudo apt-get update
 #+end_src
 
 Strictly upgrades the current packages
-#+begin_src
+#+begin_src sh
   sudo apt-get upgrade
 #+end_src
 
 Installs updates (new ones)
-#+begin_src
+#+begin_src sh
   sudo apt-get dist-upgrade
 #+end_src
 
 Restart after upgrading
-#+begin_src
+#+begin_src sh
   sudo reboot
 #+end_src
 

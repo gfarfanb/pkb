@@ -10,8 +10,6 @@
   #+end_src
 - [ ] Expand *Package Archives* then *INS*
 - [ ] Fill in:
-  | Field                 | Value                      |
-  |-----------------------+----------------------------|
   | Archive name          | melpa                      |
   | URL or directory name | http://melpa.org/packages/ |
 - [ ] Apply and Save

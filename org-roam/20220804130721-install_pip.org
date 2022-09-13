@@ -4,19 +4,19 @@
 #+title: Install pip
 
 - [ ] Update all system packages
-  #+begin_src
+  #+begin_src sh
     sudo apt-get install python3-pip
   #+end_src
 - [ ] Install [[id:f2f60785-6b69-477a-a1ee-45f722217378][pip]]
-  #+begin_src
+  #+begin_src sh
     sudo apt-get install python3-pip
   #+end_src
 - [ ] Verify installation
-  #+begin_src
+  #+begin_src sh
     pip3 -V
   #+end_src
 - [ ] Upgrade [[id:f2f60785-6b69-477a-a1ee-45f722217378][pip]]
-  #+begin_src
+  #+begin_src sh
     pip3 install --upgrade pip
   #+end_src
 

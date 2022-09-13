@@ -4,7 +4,7 @@
 :END:
 #+title: Delete NUL file on Windows
 
-#+begin_src
+#+begin_src sh
   C:\> rename \\.\C:\..\NUL. deletefile.txt
   C:\> del deletefile.txt
 #+end_src

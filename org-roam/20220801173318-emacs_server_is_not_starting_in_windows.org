@@ -5,12 +5,12 @@
 #+title: Emacs Server is not starting in Windows
 
 When I try to start the Emacs Server in Windows the process dies a few seconds before.
-#+begin_src
+#+begin_src sh
   runemacs.exe --daemon
 #+end_src
 
 Remove server directory in Emacs home directory:
-#+begin_src
+#+begin_src sh
   rm -fr ~/.emacs.d/server
 #+end_src
 
