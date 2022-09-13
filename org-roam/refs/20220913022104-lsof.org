@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2bf678e7-800a-4455-86c2-2efe609fe331
+:ROAM_REFS: https://man7.org/linux/man-pages/man8/lsof.8.html
+:END:
+#+title: ref. lsof
+#+filetags: :refs:
+

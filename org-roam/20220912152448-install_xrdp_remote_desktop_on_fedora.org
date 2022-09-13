@@ -1,30 +1,38 @@
 :PROPERTIES:
 :ID:       3426c0c6-b224-449c-975d-a5be8516271b
-:ROAM_REFS: https://tecadmin.net/how-to-install-xrdp-on-fedora/
+:ROAM_REFS: https://ask.fedoraproject.org/t/keyboard-shortcut-to-log-out/1540 https://www.server-world.info/en/note?os=Fedora_35&p=desktop&f=7
 :END:
-#+title: Install XRDP (Remote Desktop) on Fedora
+#+title: Install xrdp (Remote Desktop) on Fedora
 
-- [ ] Install Desktop Environment
+- [ ] Install [[id:240d5add-62aa-40cf-9fe0-96451c9e8cf0][rpms/xrdp]] and [[id:2751e0b3-311e-4cf9-87d5-d90e9a0de921][TigerVNC]]
   #+begin_src sh
-    sudo dnf upgrade
-    sudo dnf grouplist -v
-    sudo dnf install @kde-desktop-environment
+    sudo dnf install xrdp tigervnc-server
   #+end_src
-- [ ] Install XRDP
+- [ ] Start xrdp server
   #+begin_src sh
-    sudo dnf install xrdp -y
-    sudo systemctl enable xrdp
-    sudo systemctl start xrdp
+    sudo systemctl enable --now xrdp
     sudo systemctl status xrdp
   #+end_src
-- [ ] Adjust Firewall
+- [ ] Adjust Firewall to allow RDP port
   #+begin_src sh
-    sudo firewall-cmd --permanent --add-port=3389/tcp
-    sudo firewall-cmd --reload
+    sudo firewall-cmd --add-port=3389/tcp
+    sudo firewall-cmd --runtime-to-permanent
   #+end_src
-- [ ] Manager SELinux
+- [ ] Get IP address
   #+begin_src sh
-    sudo chcon --type=bin_t /usr/sbin/xrdp
-    sudo chcon --type=bin_t /usr/sbin/xrdp-sesman
+    ip addr show
   #+end_src
+- [ ] Logout of Fedora
+  #+begin_src sh
+    gnome-session-quit --logout
+  #+end_src
+- [ ] Open Windows client
+  #+begin_src
+    <windows>-r <return> mstsc
+  #+end_src
+- [ ] Connect to Remote Desktop
+  | Computer | <ip>                  |
+  | Session  | Xvnc                  |
+  | Username | <username\vert{}root> |
+  | Password | <password>            |
 

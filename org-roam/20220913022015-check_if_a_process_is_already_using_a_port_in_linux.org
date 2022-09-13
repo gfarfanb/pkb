@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       dbeeb208-4f56-4287-9c49-e5bafe8c56f0
+:END:
+#+title: Check if a process is already using a port in Linux
+#+ref: [[id:2bf678e7-800a-4455-86c2-2efe609fe331][lsof]]
+
+#+begin_src sh
+  sudo lsof -i tcp:3389
+#+end_src
+
