@@ -2,6 +2,7 @@
 :ID:       b887381a-d7b4-45d7-aa8f-fe1cecfbc961
 :END:
 #+title: VS Code for DevOps, Docker, and YAML editing
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
 
 - [ ] [[id:1aa4ea9f-fac4-48b8-a0c4-672061287163][Visual Studio Code]]
 - [ ] [[id:a1ed7d26-0acf-4523-a80d-06742313c0f1][Extension: Docker for Visual Studio Code]]

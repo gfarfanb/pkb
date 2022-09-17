@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7afb392f-af06-494b-be2a-d188af114348
+:ROAM_REFS: https://maven.apache.org/guides/getting-started/windows-prerequisites.html
+:END:
+#+title: ref. Install Maven on Windows
+#+filetags: :refs:
+
