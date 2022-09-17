@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       7e7e52e0-c78b-4fdc-ab66-4f732bd672b7
+:END:
+#+title: Install Emacs on Windows WSL (Debian distro) - gfarfanb setup 
+
+- [ ] [[id:93db4384-511d-45b4-a63e-297840fcca13][Install Linux on Windows with WSL]]
+- [ ] [[id:3cd91479-67bc-4628-824c-ff8d5e01b6e6][Install Windows Terminal]]
+- [ ] [[id:11b7e836-2399-4c32-a1b7-fafedc0dd70f][Install Debian for WSL]]
+- [ ] Start [[id:1e047c08-2dcb-4ac5-8ce3-fe3c7f4edfa0][Windows Terminal]] and open a new tab with *Debian* profile
+  - Create new Unix username
+- [ ] Update the package sources list
+  #+begin_src sh
+    sudo apt update
+  #+end_src
+- [ ] Install Emacs
+  #+begin_src sh
+    sudo apt install emacs
+  #+end_src
+

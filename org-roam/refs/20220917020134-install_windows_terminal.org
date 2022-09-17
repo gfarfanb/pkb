@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3cd91479-67bc-4628-824c-ff8d5e01b6e6
+:ROAM_REFS: https://learn.microsoft.com/en-us/windows/terminal/install
+:END:
+#+title: ref. Install Windows Terminal
+#+filetags: :refs:
+

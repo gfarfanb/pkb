@@ -5,5 +5,5 @@
 #+title: ref. Gartner Magic Quadrant for Analytics and Business Intelligence Platforms
 #+filetags: :refs:
 
-[[file:images/magic_quadrant_for_analytics_and_business_intelligence_platforms.png]]
+[[file:../../images/magic_quadrant_for_analytics_and_business_intelligence_platforms.png][magic_quadrant_for_analytics_and_business_intelligence_platforms.png]]
 
