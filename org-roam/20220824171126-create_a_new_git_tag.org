@@ -29,3 +29,8 @@ Push specific tag
   git push origin tag <tag-name>
 #+end_src
 
+Delete tag
+#+begin_src sh
+  git tag -d <tag-name>
+#+end_src
+

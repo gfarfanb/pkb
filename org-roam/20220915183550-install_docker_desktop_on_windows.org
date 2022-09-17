@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       d83adafe-6d2f-498d-ab01-28eb8ccdbb9d
+:END:
+#+title: Install Docker Desktop on Windows
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+#+ref: [[id:6bdfcc2f-0a9c-4bce-b8ee-75a3513204e9][ref. Install Docker Desktop on Windows]]
+
+- [ ] Download and run Docker Desktop installer
+- [ ] On configuration view, check *Use WSL 2 instead of Hyper-V (recommended)*
+- [ ] Enter to Docker Desktop, Settings -> Resources -> WSL Integration and check *Enable integration with my default WSL distro* (Apply & Restart)
+- [ ] Go to Microsoft Store and install *Alpine WSL*
+  - Create a new Unix username
+- [ ] Enter to Docker Desktop, Settings -> Resources -> WSL Integration and enable *Alpine* (Apply & Restart)
+- [ ] Open *Windows Terminal* (install it from Microsoft Store if needed)
+- [ ] Open a new *Alpine* tab
+  - Set in Windows Terminal Settings
+    - Default profile: Alpine
+    - Default terminal application: Windows Terminal
+- [ ] Execute in the new tab
+  #+begin_src sh
+    docker version
+  #+end_src
+

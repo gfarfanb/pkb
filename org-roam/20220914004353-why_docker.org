@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       4b1b29e0-317b-4342-b703-e3b53977aaeb
+:END:
+#+title: Why Docker?
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+- [ ] Better *Isolation*:  The servers can have installed different versions of the same platform and the same system without any conflict and without dealing with OSs
+- [ ] Reduce *Environment* variances: Every part of the app for every type of environment requires a diffenrent configuration/dependencies/versions so Docker guarantees just what you need to run regardless the environment
+  - Containers reduce the complexity of the "Matrix from Hell"
+  | Static Website     | ?       | ?               | ?                  | ?            | ?           | ?         | ?              | ?           |
+  | Web Frontend       | ?       | ?               | ?                  | ?            | ?           | ?         | ?              | ?           |
+  | Background Workers | ?       | ?               | ?                  | ?            | ?           | ?         | ?              | ?           |
+  | User DB            | ?       | ?               | ?                  | ?            | ?           | ?         | ?              | ?           |
+  | Analytics DB       | ?       | ?               | ?                  | ?            | ?           | ?         | ?              | ?           |
+  | Queue              | ?       | ?               | ?                  | ?            | ?           | ?         | ?              | ?           |
+  |                    | Desktop | Test/QA Cluster | Production Cluster | Public Cloud | Data Center | Mainframe | Windows Server | Edge Device |
+- [ ] Increase the *Speed* of change: Develop faster, Build faster, Test faster, Deploy faster
+

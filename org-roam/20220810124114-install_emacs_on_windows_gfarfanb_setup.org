@@ -7,7 +7,7 @@
 - [ ] [[id:b1e12a12-f0f0-4ecc-ae38-2e7847cc798b][Install Emacs]]
 - [ ] [[id:ca050037-bcdc-4b15-8fb8-98c6a97c18d8][Install the latest GCC on Windows]]
 - [ ] [[id:4bea0835-d6fb-4711-ab1f-365138cccffc][Install fakecygpty package in Emacs (term simulator for Windows)]]
-- [ ] [[id:691de544-57ca-4d16-a9e3-bfd9d7589133][Install move-lines.el]]
+- [ ] [[id:7afb392f-af06-494b-be2a-d188af114348][Install Maven on Windows]]
 - [ ] Add variables to System Environment Variables
   #+begin_src sh
     EMACS_HOME=C:\...\emacs-28.1
@@ -22,14 +22,22 @@
   #+begin_src sh
     emacsclientw.exe -create-frame --alternate-editor=""
   #+end_src
-- [ ] Create a new Emacs initialization file
+- [ ] Create new Emacs initialization files
   #+begin_src
     C-x C-f <RET> ~/.emacs
+    C-x C-f <RET> ~/.emacs.d/custom-vars.el
   #+end_src
-- [ ] Copy the content of [[id:5122c145-53ab-452b-9878-0c6f2d98f0df][.emacs file]] in the init file
-- [ ] Copy the [[id:d439ce9b-65ab-47eb-988a-1570c650c182][custom-vars.el file]] in
+- [ ] Copy the content of [[file:~/pkb/config/.emacs-windows][.emacs]] in the created init file *.emacs*
+- [ ] Copy the content of [[file:~/pkb/config/custom-vars-windows.el][custom-vars.el]] in the created custom variables files *custom-vars.el*
+- [ ] Create lisp directory for file packages
   #+begin_src
-    ~/.emacs.d/
+    ~/.emacs.d/lisp/
+  #+end_src
+- [ ] [[id:691de544-57ca-4d16-a9e3-bfd9d7589133][Install move-lines.el]] in ~\~/.emacs.d/lisp/~
+- [ ] For lsp-java, create the following directories
+  #+begin_src
+    ~/.emacs.d/eclipse.jdt.ls/server/
+    ~/.emacs.d/eclipse.jdt.ls/workspace/
   #+end_src
 - [ ] Load the init file
   #+begin_src

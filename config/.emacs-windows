@@ -1,0 +1,222 @@
+
+;; Menu setup
+;; remove startup screen
+(setq inhibit-startup-screen t)
+;; remove menu bar
+(menu-bar-mode -1)
+;; display line numbers
+(global-display-line-numbers-mode)
+;; display column number
+(setq column-number-mode t)
+;; cursor color
+(add-hook 'window-setup-hook '(lambda () (set-cursor-color "#1e90ff")))
+(add-hook 'after-make-frame-functions '(lambda (f) (with-selected-frame f (set-cursor-color "#1e90ff"))))
+(set-cursor-color "#1e90ff") 
+;; display whitespaces
+;; (global-whitespace-mode)
+
+
+;; Common setup
+;; customization variables file
+(setq custom-file (locate-user-emacs-file "custom-vars.el"))
+(load custom-file 'noerror 'nomessage)
+;; save recent files
+;; M-x recentf-open-files
+(recentf-mode 1)
+;; restore the last cursor location of opened files
+(save-place-mode 1)
+;; revert buffers when the underlying file has changed
+(global-auto-revert-mode 1)
+;; replace active region by just typing text
+(delete-selection-mode 1)
+;; enable find-alternave-file in Dired
+(put 'dired-find-alternate-file 'disabled nil)
+
+
+;; Environment
+;; (use-package exec-path-from-shell :ensure t)
+;; (exec-path-from-shell-initialize)
+
+
+;; Package
+(package-initialize)
+(unless package-archive-contents
+  (package-refresh-contents))
+
+(unless (package-installed-p 'use-package)
+  (package-install 'use-package))
+(require 'use-package)
+
+
+;; Org-roam setup
+;; Clone the pkb from GitHub
+;;   cd ~
+;;   git clone https://github.com/gfarfanb/pkb.git
+(use-package org-roam
+  :ensure t
+  :demand t
+  :custom
+  (org-roam-directory "~/pkb/org-roam/")
+  (org-roam-completion-everywhere t)
+  (org-roam-capture-templates
+   '(
+     ("d" "default" plain "%?"
+      :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
+      :unnarrowed t)
+     ("r" "Reference" plain "%?"
+      :if-new (file+head "refs/%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ref. ${title}\n#+filetags: :refs:\n")
+      :unnarrowed t)
+     ("p" "Private note" plain "%?"
+      :if-new (file+head "private/%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n#+filetags: :private:\n")
+      :unnarrowed t)
+     )
+   )
+  :bind (
+         ("C-c n l" . org-roam-buffer-toggle)
+         ("C-c n f" . org-roam-node-find)
+         ("C-c n i" . org-roam-node-insert)
+         ("C-c n I" . org-roam-node-insert-immediate)
+         ("C-c n r" . org-roam-ref-add)
+         ("C-c n a" . org-roam-alias-add)
+         :map org-mode-map
+         ("C-M-i" . completion-at-point)
+         :map org-roam-dailies-map
+         ("Y" . org-roam-dailies-capture-yesterday)
+         ("T" . org-roam-dailies-capture-tomorrow))
+  :bind-keymap
+  ("C-c d" . org-roam-dailies-map)
+  :config
+  (require 'org-roam-dailies)
+  )
+
+(setq org-roam-dailies-directory "notepad/")
+(setq org-roam-dailies-capture-templates
+      '(("d" "default" entry "* TODO %<%I:%M %p>: %?"
+         :if-new (file+head "%<%Y-%m-%d>.org" "#+title: %<%Y-%m-%d>\n"))))
+
+(org-roam-db-autosync-mode)
+
+
+;; Orderless setup
+(use-package orderless
+  :ensure t
+  :custom
+  (completion-styles '(orderless basic))
+  (completion-category-overrides '((file (styles basic partial-completion))))
+  )
+
+
+;; Vertico setup
+(use-package vertico :ensure t :init (vertico-mode))
+
+(use-package savehist :init (savehist-mode))
+
+(use-package marginalia
+  :after vertico
+  :ensure t
+  :custom
+  (marginalia-annotators '(marginalia-annotators-heavy marginalia-annotators-light nil))
+  :init
+  (marginalia-mode))
+
+
+;; Multiple cursors setup
+(use-package multiple-cursors
+  :ensure t
+  :bind (
+         ("C-S-c C-S-c" . mc/edit-lines)
+         ("C->" . mc/mark-next-like-this)
+         ("C-<" . mc/mark-previous-like-this)
+         ("C-S-c C-<" . mc/mark-all-like-this))
+  )
+
+
+;; Scratch setup
+(use-package scratch :ensure t)
+
+
+;; Magit setup
+(use-package magit :ensure t)
+
+
+;; lsp-java setup
+(use-package lsp-java
+  :ensure t
+  :after lsp-mode
+  :if (executable-find "mvn")
+  :init
+  (use-package request :defer t)
+  :custom
+  (lsp-java-server-install-dir (expand-file-name "~/.emacs.d/eclipse.jdt.ls/server/"))
+  (lsp-java-workspace-dir (expand-file-name "~/.emacs.d/eclipse.jdt.ls/workspace/")))
+
+;; Easy navigation within a project
+(use-package projectile :ensure t :config (setq projectile-indexing-method 'alien))
+;; Check for errors in code at run-time
+(use-package flycheck :ensure t)
+;; Runs a single Java file with main method. It has support for several languages
+(use-package quickrun :ensure t :bind ("C-c C-<return>" . quickrun))
+;; Template system
+(use-package yasnippet :ensure t :config (yas-global-mode))
+;; Language Server Protocol Mode
+(use-package lsp-mode :ensure t :hook ((lsp-mode . lsp-enable-which-key-integration)))
+;; Tie related commands into a family of short bindings
+(use-package hydra :ensure t)
+;; Auto-completion
+(use-package company :ensure t)
+;; Support for packages that require UI elements in LSP
+(use-package lsp-ui :ensure t)
+;; Visual guide to the available options
+(use-package which-key :ensure t :config (which-key-mode))
+;; Debug Adapter Protocol Mode
+(use-package dap-mode :ensure t :after lsp-mode :config (dap-auto-configure-mode))
+;; Complement for Java debugging
+(use-package dap-java :ensure nil)
+;; Find by classes, POJO methods generation, refactoring
+(use-package helm-lsp :ensure t :init (progn (setq helm-buffers-fuzzy-matching t)))
+;; Easy completion of commands. The search text doesn't need to be very stict
+(use-package helm :ensure t)
+;; Project management and navigation
+(use-package helm-projectile :ensure t)
+;; Provide UI elements used for LSP
+(use-package lsp-treemacs :ensure t)
+
+
+;; restclient setup
+(use-package restclient :ensure t)
+
+
+;; devdocs setup
+(use-package devdocs :ensure t :bind ("C-h D" . devdocs-lookup))
+
+
+;; Manually installed
+
+;; fakecygpty setup
+;; M-x term (for Windows)
+(require 'fakecygpty)
+(fakecygpty-activate)
+
+;; move-lines setup
+;; M-<up>, M-<down>
+(require 'move-lines)
+(move-lines-binding)
+
+
+;; Custom functions
+
+(defun org-roam-node-insert-immediate (arg &rest args)
+  "Find an Org-roam node and insert (where the point is) an \"id:\" link to it. No prompt is shown."
+  (interactive "P")
+  (let ((args (cons arg args))
+        (org-roam-capture-templates (list (append (car org-roam-capture-templates)
+                                                  '(:immediate-finish t)))))
+    (apply #'org-roam-node-insert args)))
+
+(defun indent-whole-buffer ()
+  "Indent the whole buffer."
+  (interactive)
+  (delete-trailing-whitespace)
+  (indent-region (point-min) (point-max) nil)
+  (untabify (point-min) (point-max))
+  )

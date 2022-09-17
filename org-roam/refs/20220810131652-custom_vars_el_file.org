@@ -1,7 +1,0 @@
-:PROPERTIES:
-:ID:       d439ce9b-65ab-47eb-988a-1570c650c182
-:ROAM_REFS: https://gist.github.com/gfarfanb/6f98447cf2d29439830a4d9ee291faeb#file-custom-vars-el
-:END:
-#+title: ref. custom-vars.el file
-#+filetags: :refs:
-

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1e047c08-2dcb-4ac5-8ce3-fe3c7f4edfa0
+:ROAM_REFS: https://learn.microsoft.com/en-us/windows/terminal/
+:END:
+#+title: ref. Windows Terminal
+#+filetags: :refs:
+

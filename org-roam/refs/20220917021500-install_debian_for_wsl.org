@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       11b7e836-2399-4c32-a1b7-fafedc0dd70f
+:ROAM_REFS: https://apps.microsoft.com/store/detail/debian/9MSVKQC78PK6
+:END:
+#+title: ref. Install Debian for WSL
+#+filetags: :refs:
+
