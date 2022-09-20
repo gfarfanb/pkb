@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a1436d9e-036f-4e3b-aa73-47da690a3ad9
+:ROAM_REFS: https://unix.stackexchange.com/questions/276168/what-is-x11-exactly
+:END:
+#+title: ref. X11
+#+filetags: :refs:
+
+X11 protocol allows applications to create objects such as windows and use basic drawing primitives (e.g. fill a rectangle, display some text).
+

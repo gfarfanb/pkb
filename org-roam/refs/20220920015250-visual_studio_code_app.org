@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       32716b74-0778-4670-ae0c-9625e86d9660
+:ROAM_REFS: https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q
+:END:
+#+title: ref. Visual Studio Code App
+#+filetags: :refs:
+

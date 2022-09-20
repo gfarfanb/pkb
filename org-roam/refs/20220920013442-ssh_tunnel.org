@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       9ba3f8da-838e-474d-8e00-fa0c6bd10688
+:ROAM_REFS: https://www.ssh.com/academy/ssh/tunneling
+:END:
+#+title: ref. SSH tunnel
+#+filetags: :refs:
+
+[[file:~/pkb/images/ssh_tunneling_overview.png][SSH tunneling overview]]
+

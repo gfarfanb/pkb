@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       3a543bc9-c3c0-415f-af5d-e50019ec23b6
+:END:
+#+title: SSH advanced commands
+
+|  # | Command                                                                | Description                                                                                                                                                                                                  |
+|----+------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. | ~ssh-copy-id~                                                          | Install your public key in a remote machine's authorized_keys                                                                                                                                                |
+| 2. | ~ssh -t <user>@<host> <command>~                                       | Avoid requesting terminal (interactive mode) to execute the appended command                                                                                                                                 |
+| 3. | ~ssh -D <port> <user>@<host>~                                          | Allocates a socket to listen to port o the local side                                                                                                                                                        |
+| 4. | ~ssh -X <user>@<host>~                                                 | Enable [[id:a1436d9e-036f-4e3b-aa73-47da690a3ad9][X11]] forwarding                                                                                                                                                                                        |
+| 5. | ~ssh -L <local-port>:<private-ip>:<private-port> <user>@<public-host>~ | (SSH Tunneling) Stablish a connection to a private server through a reachable (public) server                                                                                                                |
+| 6. | ~ssh -p <local-port> <user>@localhost~                                 | Once connection is stablished (command *5.*) connect to a private server                                                                                                                                     |
+| 7. | ~ssh -R <external-port>:localhost:<local-port> <user>@<external-ip>~   | (Reverse SSH Tunneling) Stabish a connection to a external server from a private server (you could need a temporal user for external server since the connection must be stablished from the private server) |
+

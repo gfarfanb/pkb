@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       a6b48586-b643-46b0-8508-72261ff49041
+:ROAM_REFS: https://stackoverflow.com/questions/23456909/ssh-directory-does-not-exist-debian
+:END:
+#+title: Add SSH Public Key to destination server
+
+- [ ] Check if SSH service is available
+  #+begin_src sh
+    ps aux | grep sshd
+  #+end_src
+- [ ] Install SSH in the server
+  #+begin_src sh
+    sudo apt install openssh-server
+  #+end_src
+- [ ] Copy Public Key from source machine and paste it in authorized keys
+  #+begin_src sh
+    vim .ssh/authorized_keys
+  #+end_src
+- [ ] (Debian) Create authorized file if it doesn't exist
+  #+begin_src sh
+    cd
+    mkdir .ssh
+    touch .ssh/authorized_keys
+    chmod 700 .ssh
+    chmod 600 .ssh/authorized_keys
+  #+end_src
+

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       a6f1e9d0-cf7e-431f-b69b-bf2a2bc78a53
+:ROAM_REFS: https://community.chocolatey.org/courses/installation/installing?method=installing-chocolatey
+:END:
+#+title: Install docker-cli on Windows
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+- [ ] Open a CMD terminal as Administrator with and install [[id:c69fa073-365e-4687-9af4-af6bc1c0e09f][Chocolatey]]
+  #+begin_src sh
+    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+  #+end_src
+- [ ] Install docker-cli
+  #+begin_src sh
+    choco install docker-cli
+    docker version
+  #+end_src
+

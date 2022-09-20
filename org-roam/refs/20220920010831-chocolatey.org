@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c69fa073-365e-4687-9af4-af6bc1c0e09f
+:ROAM_REFS: https://chocolatey.org/
+:END:
+#+title: ref. Chocolatey
+#+filetags: :refs:
+

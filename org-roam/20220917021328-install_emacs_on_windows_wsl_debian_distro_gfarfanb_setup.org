@@ -15,5 +15,26 @@
 - [ ] Install Emacs
   #+begin_src sh
     sudo apt install emacs
+    emacs --version
+  #+end_src
+- [ ] Clone *pkb* repo
+  #+begin_src sh
+    mkdir workspace
+    cd workspace
+    git clone https://github.com/gfarfanb/pkb.git
+    cd pkb
+    git checkout -b org-roam
+    git pull origin org-roam
+  #+end_src
+- [ ] Create new Emacs initialization files
+  #+begin_src
+    C-x C-f <REF> ~/.emacs <RET>
+    C-x C-s
+    C-x C-f <REF> ~/.emacs.d/custom-vars.el <RET>
+    C-x C-s
+  #+end_src
+- [ ] Create a Lisp directory ~\~/.emacs.d/lisp~ for file packages
+  #+begin_src
+    C-x C-f <RET> ~/.emacs.d/ <RET> (+) lisp <RET>
   #+end_src
 

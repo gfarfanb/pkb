@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       df68dac6-747c-421a-b169-e43d32a2a6ca
+:ROAM_REFS: https://docs.docker.com/engine/install/debian/
+:END:
+#+title: Install docker-ce-cli on Debian
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+- [ ] Update index and install packages to allow *apt* to use a repository over *HTTPS*
+  #+begin_src sh
+    sudo apt-get update
+
+    sudo apt-get install \
+      ca-certificates \
+      curl \
+      gnupg \
+      lsb-release
+  #+end_src
+- [ ] Add Docker’s official GPG key
+  #+begin_src sh
+    sudo mkdir -p /etc/apt/keyrings
+    curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  #+end_src
+- [ ] Set up the repository
+  #+begin_src sh
+    echo \
+      "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
+      $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  #+end_src
+- [ ] Install Docker CLI
+  #+begin_src sh
+    sudo apt-get update
+    sudo apt-get install docker-ce-cli
+    docker version
+  #+end_src
+- [ ] Authenticate with Docker Hub credentials
+  #+begin_src sh
+    docker login
+  #+end_src
+
