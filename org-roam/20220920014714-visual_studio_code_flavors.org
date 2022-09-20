@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       11d39a4a-1858-469c-93fc-66cfad9053bf
+:END:
+#+title: Visual Studio Code flavors
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+1. Download: [[id:1aa4ea9f-fac4-48b8-a0c4-672061287163][Visual Studio Code]]
+2. Microsoft Store: [[id:32716b74-0778-4670-ae0c-9625e86d9660][Visual Studio Code App]]
+3. Web-based: [[id:73ef7a9a-4d99-4cfe-8c4b-16be35fe7be0][Visual Studio Code (Preview)]]
+4. GitHub: [[id:8ef6b4f8-a496-46c6-804a-094e1022bc2b][Visual Studio Code (GitHub)]]
+

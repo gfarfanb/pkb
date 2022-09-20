@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8ef6b4f8-a496-46c6-804a-094e1022bc2b
+:ROAM_REFS: https://github.dev/github/dev
+:END:
+#+title: ref. Visual Studio Code (GitHub)
+#+filetags: :refs:
+

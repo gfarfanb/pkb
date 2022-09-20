@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       bb29665a-ab95-4ac4-8cad-13cc1f653815
+:END:
+#+title: Connect to remote Docker Engine via SSH Tunnel
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+#+ref: [[id:9ba3f8da-838e-474d-8e00-fa0c6bd10688][ref. SSH tunnel]]
+
+- [ ] Check connection to remove Docker via SSH
+  #+begin_src sh
+    ssh <user>@<host>
+    docker version
+  #+end_src
+- [ ] Set up to automatically connect using CLI
+  #+begin_src sh
+    export DOCKER_HOST=ssh://<user>@<host>
+    docker version
+  #+end_src
+- [ ] Stop to automatially connect using CLI
+  #+begin_src sh
+    unset DOCKER_HOST
+  #+end_src
+

@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       983c9789-8e48-4c17-a063-f3787b046db7
+:END:
+#+title: Install Docker Engine on Debian
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+- [ ] Install Docker Engine
+  #+begin_src sh
+    curl -fsSL https://get.docker.com -o get-docker.sh
+    sh get-docker.sh
+    docker version
+  #+end_src
+- [ ] Authenticate with Docker Hub credentials
+  #+begin_src sh
+    docker login
+  #+end_src
+- [ ] Give permissions to docker.sock
+  #+begin_src sh
+     sudo chmod 666 /var/run/docker.sock
+  #+end_src
+- [ ] Start the Docker service if down
+  #+begin_src sh
+    sudo systemctl start docker
+  #+end_src
+

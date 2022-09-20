@@ -5,10 +5,11 @@
 #+ref: [[id:5fa84984-58eb-45e5-96bc-7ca5ef52c265][ref. ssh-keygen]]
 #+ref: [[id:da5dc200-f265-4264-baeb-81ed292d2c0c][ref. ssh-add]]
 #+ref: [[id:a8e2ac30-3789-40e2-a269-e090fbe6d210][ref. ssh-agent]]
+#+ref: [[id:a6b48586-b643-46b0-8508-72261ff49041][Add SSH Public Key to destination server]]
 
 - [ ] Generate new key
   #+begin_src sh
-    ssh-keygen -t rsa -b 4096 -C <email>
+    ssh-keygen -t rsa -b 4096
   #+end_src
 - [ ] Eval SSH agent
   #+begin_src sh
@@ -21,5 +22,10 @@
 - [ ] Print public SSH key
   #+begin_src sh
     cat < ~/.ssh/id_rsa.pub
+  #+end_src
+- [ ] [[id:a6b48586-b643-46b0-8508-72261ff49041][Add SSH Public Key to destination server]]
+- [ ] Try to connect
+  #+begin_src sh
+    ssh <user>@<host>
   #+end_src
 

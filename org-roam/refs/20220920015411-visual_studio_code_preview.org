@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       73ef7a9a-4d99-4cfe-8c4b-16be35fe7be0
+:ROAM_REFS: https://vscode.dev/
+:END:
+#+title: ref. Visual Studio Code (Preview)
+#+filetags: :refs:
+

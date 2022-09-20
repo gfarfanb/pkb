@@ -1,12 +1,17 @@
 :PROPERTIES:
 :ID:       b887381a-d7b4-45d7-aa8f-fe1cecfbc961
+:ROAM_ALIASES: "Visual Studio Code for Docker and Kubernetes"
 :END:
 #+title: VS Code for DevOps, Docker, and YAML editing
 #+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
 
-- [ ] [[id:1aa4ea9f-fac4-48b8-a0c4-672061287163][Visual Studio Code]]
-- [ ] [[id:a1ed7d26-0acf-4523-a80d-06742313c0f1][Extension: Docker for Visual Studio Code]]
-- [ ] [[id:c1080250-a5c0-4db3-b61e-77237760de94][Extension: Visual Studio Code Kubernetes Tools]]
-- [ ] [[id:a6058758-509e-43fc-8a8d-f5c45ba56dba][Extension: Visual Studio Code Remote Development Extension Pack]]
-- [ ] [[id:a5b10c62-fa76-45d2-a7f4-af85980488b4][Extension: Microsoft Visual Studio Live Share]]
+- [ ] Install any of [[id:11d39a4a-1858-469c-93fc-66cfad9053bf][Visual Studio Code flavors]]
+- [ ] Synchronize configuration: Manage -> Turn on Settings Sync... -> Login
+- [ ] Clone and import repo [[id:ecb19305-7590-4a8c-bc9d-e53788df1db0][udemy-docker-mastery]] in VS Code
+- [ ] Install recommended extensions from repo (~.vscode/extensions.json~)
+- [ ] Or, install manually the extensions:
+  - [[id:a1ed7d26-0acf-4523-a80d-06742313c0f1][Docker for Visual Studio Code]]
+  - [[id:c1080250-a5c0-4db3-b61e-77237760de94][Visual Studio Code Kubernetes Tools]]
+  - [[id:a6058758-509e-43fc-8a8d-f5c45ba56dba][Visual Studio Code Remote Development Extension Pack]]
+  - [[id:a5b10c62-fa76-45d2-a7f4-af85980488b4][Microsoft Visual Studio Live Share]]
 
