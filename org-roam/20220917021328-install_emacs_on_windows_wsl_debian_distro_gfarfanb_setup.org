@@ -39,6 +39,7 @@
 - [ ] Download Lisp packages for manual installation
   #+begin_src sh
     curl -fsSL https://raw.githubusercontent.com/targzeta/move-lines/master/move-lines.el -o .emacs.d/lisp/move-lines.el
+    curl -fsSL https://raw.githubusercontent.com/emacsmirror/showkey/master/showkey.el -o .emacs.d/lisp/showkey.el
   #+end_src
 - [ ] Copy all the custom variables file to a generated custom variables file
   - FROM: *~/workspace/pkb/config/custom-vars-debian.el*

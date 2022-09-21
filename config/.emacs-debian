@@ -178,6 +178,14 @@
 (require 'move-lines)
 (move-lines-binding)
 
+;; showkey setup
+(require 'showkey)
+
+
+;; Custom key bindings
+(global-set-key (kbd "C-k") 'kill-whole-line)
+(global-set-key (kbd "C-c k") 'kill-line)
+
 
 ;; Custom functions
 
