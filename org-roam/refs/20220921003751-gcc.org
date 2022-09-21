@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       be42c25f-acf7-477a-b025-9ebae1381629
+:ROAM_REFS: https://gcc.gnu.org/
+:END:
+#+title: ref. GCC
+#+filetags: :refs:
+
