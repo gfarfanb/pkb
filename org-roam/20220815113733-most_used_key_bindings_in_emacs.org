@@ -5,8 +5,7 @@
 
 | Binding           | Command                                   | Notes                                                                                                                                                 |
 |-------------------+-------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *C-c \vert{}*     | /org-table-create-or-convert-from-region/ | Create new Org table                                                                                                                                  |
-| *C-S <backspace>* | /kill-whole-line/                         | Kill line                                                                                                                                             |
+| *C-S-<backspace>* | /kill-whole-line/                         | Kill line                                                                                                                                             |
 | *M-u*             | /upcase-word/                             | To upper case                                                                                                                                         |
 | *M-l*             | /downcase-word/                           | To lower case                                                                                                                                         |
 | *M-d*             | /kill-word/                               | Kill word                                                                                                                                             |
@@ -46,7 +45,8 @@
 | *C-c d n*         | /org-roam-dailies-capture-today/          | Add new entry in Org-roam dailies for today                                                                                                           |
 | *C-c n Y*         | /org-roam-dailies-capture-yesterday/      | Find Org-roam dailies notes for yesterday                                                                                                             |
 | *C-c n T*         | /org-roam-dailies-capture-tomorrow/       | Find Org-roam dailies notes for tomorrow                                                                                                              |
-| *C-c C-;*         | /org-toggle-comment/                      | Insert source block                                                                                                                                   |
+| *C-c \vert{}*     | /org-table-create-or-convert-from-region/ | Create new Org table                                                                                                                                  |
+| *C-c C-,*         | /org-insert-structure-template/           | Insert source block                                                                                                                                   |
 | *C-c C-x M*       | /org-insert-todo-heading/                 | Insert new TODO header                                                                                                                                |
 | *C-c $*           | /org-archive-subtree/                     | Archive header subtree                                                                                                                                |
 | *C-h D*           | /devdocs-lookup/                          | Look up a DevDocs documentation entry                                                                                                                 |

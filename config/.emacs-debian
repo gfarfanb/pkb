@@ -8,13 +8,6 @@
 (global-display-line-numbers-mode)
 ;; display column number
 (setq column-number-mode t)
-;; cursor color
-(add-hook 'window-setup-hook '(lambda () (set-cursor-color "#1e90ff")))
-(add-hook 'after-make-frame-functions '(lambda (f) (with-selected-frame f (set-cursor-color "#1e90ff"))))
-(set-cursor-color "#1e90ff") 
-;; display whitespaces
-;; (global-whitespace-mode)
-
 
 ;; Common setup
 ;; customization variables file
@@ -33,30 +26,15 @@
 (put 'dired-find-alternate-file 'disabled nil)
 
 
-;; Environment
-;; (use-package exec-path-from-shell :ensure t)
-;; (exec-path-from-shell-initialize)
-
-
-;; Package
-(package-initialize)
-(unless package-archive-contents
-  (package-refresh-contents))
-
-(unless (package-installed-p 'use-package)
-  (package-install 'use-package))
-(require 'use-package)
-
-
 ;; Org-roam setup
 ;; Clone the pkb from GitHub
-;;   cd ~
+;;   cd ~/workspace
 ;;   git clone https://github.com/gfarfanb/pkb.git
 (use-package org-roam
   :ensure t
   :demand t
   :custom
-  (org-roam-directory "~/pkb/org-roam/")
+  (org-roam-directory "~/workspace/pkb/org-roam/")
   (org-roam-completion-everywhere t)
   (org-roam-capture-templates
    '(
@@ -195,11 +173,6 @@
 ;; Lisp files directory
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
-;; fakecygpty setup
-;; M-x term (for Windows)
-(require 'fakecygpty)
-(fakecygpty-activate)
-
 ;; move-lines setup
 ;; M-<up>, M-<down>
 (require 'move-lines)
@@ -223,3 +196,4 @@
   (indent-region (point-min) (point-max) nil)
   (untabify (point-min) (point-max))
   )
+
