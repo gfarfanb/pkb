@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       486862d1-36b4-45e3-ab97-8ec6b5843256
+:ROAM_REFS: https://linux.die.net/man/1/rsync
+:END:
+#+title: ref. Rsync
+#+filetags: :refs:
+
