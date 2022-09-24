@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       181c8ddb-7b50-466a-afb6-0ef5abcb150f
+:ROAM_REFS: https://packagecontrol.io/packages/Clipboard%20Diff
+:END:
+#+title: ref. Clipboard Diff
+#+filetags: :refs:
+

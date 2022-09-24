@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       bda4f4b8-dceb-4c4d-b1d4-ac23be9cf637
+:ROAM_REFS: https://getfedora.org/en/workstation/download/
+:END:
+#+title: ref. Download Fedora Workstation
+#+filetags: :refs:
+

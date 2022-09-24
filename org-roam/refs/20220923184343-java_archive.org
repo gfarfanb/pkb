@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8be26d63-760b-4bc5-80e3-0c6e552ec6d7
+:ROAM_REFS: https://www.oracle.com/java/technologies/downloads/archive/
+:END:
+#+title: ref. Java Archive
+#+filetags: :refs:
+

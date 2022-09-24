@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2eff757a-0125-4839-9aaf-00850e8c7f4a
+:ROAM_REFS: https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+:END:
+#+title: ref. Extension Pack for Java
+#+filetags: :refs:
+

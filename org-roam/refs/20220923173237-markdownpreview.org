@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2be1c544-5e06-4d4e-ab15-22dbb6ea3b6e
+:ROAM_REFS: https://packagecontrol.io/packages/MarkdownPreview
+:END:
+#+title: ref. MarkdownPreview
+#+filetags: :refs:
+

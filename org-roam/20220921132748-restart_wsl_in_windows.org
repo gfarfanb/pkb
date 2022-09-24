@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2bfd6ba8-35b9-4de6-b180-baa8a6d4a989
+:END:
+#+title: Restart WSL in Windows
+
+Open a *Powershell (Admin)* or *Windows Terminal (Admin)* and execute:
+#+begin_src sh
+  wsl --shutdown
+#+end_src
+

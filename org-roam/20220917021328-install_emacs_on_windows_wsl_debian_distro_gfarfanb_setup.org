@@ -12,10 +12,19 @@
   #+begin_src sh
     sudo apt update
   #+end_src
-- [ ] Install Emacs
+- [ ] Install Emacs, [[id:be42c25f-acf7-477a-b025-9ebae1381629][GCC]] and [[id:ca29c59c-6f8e-4935-a225-ccd7504196c1][Maven]]
   #+begin_src sh
-    sudo apt install emacs
+    sudo apt install emacs gcc maven
     emacs --version
+    gcc --version
+    mvn --version
+  #+end_src
+- [ ] Install required packages for next steps
+  #+begin_src sh
+    sudo apt install git curl vim
+    git --version
+    curl --version
+    vim --version
   #+end_src
 - [ ] Clone *pkb* repo
   #+begin_src sh
@@ -26,15 +35,42 @@
     git checkout -b org-roam
     git pull origin org-roam
   #+end_src
-- [ ] Create new Emacs initialization files
-  #+begin_src
-    C-x C-f <REF> ~/.emacs <RET>
-    C-x C-s
-    C-x C-f <REF> ~/.emacs.d/custom-vars.el <RET>
-    C-x C-s
+- [ ] Create new Emacs initialization files and directories
+  #+begin_src sh
+    cd
+    touch .emacs
+    mkdir .emacs.d
+    touch .emacs.d/custom-vars.el
+    mkdir .emacs.d/lisp
   #+end_src
-- [ ] Create a Lisp directory ~\~/.emacs.d/lisp~ for file packages
+- [ ] Download Lisp packages for manual installation
+  #+begin_src sh
+    curl -fsSL https://raw.githubusercontent.com/targzeta/move-lines/master/move-lines.el -o .emacs.d/lisp/move-lines.el
+    curl -fsSL https://raw.githubusercontent.com/emacsmirror/showkey/master/showkey.el -o .emacs.d/lisp/showkey.el
+  #+end_src
+- [ ] Copy all the custom variables file to a generated custom variables file
+  - FROM: *~/workspace/pkb/config/custom-vars-debian.el*
+  - TO: *~/.emacs.d/custom-vars.el*
+- [ ] Add repo and theme configuration in *~/.emacs* file
+  #+begin_src sh
+    vim ~/.emacs
+    ...
+  #+end_src
+  #+begin_src lisp
+    ;; Paste and save this content
+    (setq custom-file (locate-user-emacs-file "custom-vars.el"))
+    (load custom-file 'noerror 'nomessage)
+  #+end_src
+- [ ] Start Emacs and install use-package in Emacs
   #+begin_src
-    C-x C-f <RET> ~/.emacs.d/ <RET> (+) lisp <RET>
+    M-x package-refresh-contents <RET>
+    M-x package-install <RET> use-package <RET>
+  #+end_src
+- [ ] Copy all the init configuration file content to main init file (override previous lines)
+  - FROM: *~/workspace/pkb/config/.emacs-debian*
+  - TO: *~/.emacs*
+- [ ] Refresh init configuration
+  #+begin_src
+    M-x load-file <RET> ~/.emacs <RET>
   #+end_src
 

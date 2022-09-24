@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ed7d72a8-07e4-4dde-8333-61f05a3a8667
+:ROAM_REFS: https://getfedora.org/en/server/download/
+:END:
+#+title: ref. Download Fedora Server
+#+filetags: :refs:
+

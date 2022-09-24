@@ -18,6 +18,7 @@
 - [ ] Add key to SSH agent
   #+begin_src sh
     ssh-add ~/.ssh/id_rsa
+    ssh-add -l
   #+end_src
 - [ ] Print public SSH key
   #+begin_src sh

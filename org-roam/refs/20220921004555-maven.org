@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ca29c59c-6f8e-4935-a225-ccd7504196c1
+:ROAM_REFS: https://maven.apache.org/
+:END:
+#+title: ref. Maven
+#+filetags: :refs:
+

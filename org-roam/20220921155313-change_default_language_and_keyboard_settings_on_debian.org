@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       3b1121a9-7196-4f71-8739-a227a90ac788
+:ROAM_REFS: https://superuser.com/questions/646425/permanently-change-default-language-and-keyboard-settings-what-am-i-missing
+:END:
+#+title: Change default language and keyboard settings on Debian
+
+- [ ] Select locale by executing
+  #+begin_src sh
+    sudo dpkg-reconfigure locales
+  #+end_src
+- [ ] Install *keyboard-configuration* if missing
+  #+begin_src sh
+    sudo apt-get install keyboard-configuration
+  #+end_src
+- [ ] Change keyboard configuration by executing
+  #+begin_src sh
+    sudo dpkg-reconfigure keyboard-configuration
+  #+end_src
+- [ ] Reboot the system
+  #+begin_src sh
+    shutdown -r
+
+    shutdown -r now
+  #+end_src
+

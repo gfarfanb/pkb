@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       7778d9ba-e663-4cac-ba42-fc573d82af4a
+:END:
+#+title: Install Sublime on Windows - gfarfanb setup
+
+- [ ] Download and install [[id:63539e0e-7051-40a2-9a88-6b0690c3842d][Sublime Text]]
+- [ ] Install [[id:cacaeed4-c77b-4865-8149-da24ce2560a6][Package Control]]
+  #+begin_src
+    Ctrl+Shift+P "Install Package Control" <RET>
+  #+end_src
+- [ ] Install the extensions:
+  #+begin_src
+    Ctrl-Shift+P "Package Control: Install Package" <RET> <package-name>
+  #+end_src
+  - [[id:181c8ddb-7b50-466a-afb6-0ef5abcb150f][Clipboard Diff]]
+  - [[id:65f9b9fc-4a4b-417c-b3fc-2967278cc8e4][Highlight Duplicates]]
+  - [[id:2e8ecf76-2251-40bc-97f9-101c2c89c454][HTML-CSS-JS Prettify]] (requires [[id:8489972b-16a6-4b06-b7c8-fb098a0fe79b][Node.js]])
+  - [[id:2be1c544-5e06-4d4e-ab15-22dbb6ea3b6e][MarkdownPreview]]
+  - [[id:86939b57-98a9-4c47-85b3-49651bfd32db][RemoveDuplicateLines]]
+  - [[id:da754d09-54e0-4c85-9995-e200bcbcd421][Trimmer]]
+

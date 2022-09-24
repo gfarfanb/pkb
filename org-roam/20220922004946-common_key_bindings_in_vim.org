@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       0d66d658-aa71-41d4-aaf0-a0a40d3803a2
+:END:
+#+title: Common key bindings in VIM
+
+| Bindings                             | Mode    | Notes                                       |
+|--------------------------------------+---------+---------------------------------------------|
+| *h* *j* *k* *l*                      | Normal  | Left, down, up and right                    |
+| *i*                                  | Insert  | Insert Mode (edit mode)                     |
+| *<ESC>*                              | ~       | Exit to Normal Mode                         |
+| *:*                                  | Command | Command Mode                                |
+| *:q* *:q!*                           | Command | Exit without save, Forced exit without save |
+| *:w*                                 | Command | Save changes in the file                    |
+| *:qw!* *:x!*                         | Command | Forced save changes and exist               |
+| *:set nu* *:set nu!*                 | Command | Add line numbers, Remove line numbers       |
+| *:set background=[light\vert{}dark]* | Command | Change background colors                    |
+| *dd* *d<number-of-lines>d*           | Normal  | Cut line and add it to clipboard            |
+| *yy* *y<number-of-lines>y*           | Normal  | Copy line to clipboard                      |
+| *p*                                  | Normal  | Paste clipboard content                     |
+| *u*                                  | Normal  | Undo                                        |
+| *<ctrl> r*                           | Normal  | Redo                                        |
+| *o*                                  | Normal  | Add new line and enter to Insert Mode       |
+| *w*                                  | Normal  | Move to the beginning of next word          |
+| *b*                                  | Normal  | Move to previous beginning of word          |
+| *e*                                  | Normal  | Move to end of word                         |
+| *0*                                  | Normal  | Move to the beginning of the line           |
+| *$*                                  | Normal  | Mode to the end of the line                 |
+| *v*                                  | Visual  | Visual Mode (allow to select)               |
+| */<search-text>*                     | Normal  | Search for a text                           |
+| *n*                                  | Normal  | Next found text                             |
+| *N*                                  | Normal  | Previous found text                         |
+| *gg*                                 | Normal  | Move to the beginning of the file           |
+| *G*                                  | Normal  | Move to the end of the file                 |
+

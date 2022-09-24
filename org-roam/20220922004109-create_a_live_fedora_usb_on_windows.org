@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       2f8466fb-89b9-4d30-b4cf-c35a0030a59b
+:END:
+#+title: Create a Live Fedora USB on Windows
+
+- [ ] Download and install *Fedora Media Writer* for Windows on [[id:bda4f4b8-dceb-4c4d-b1d4-ac23be9cf637][Download Fedora Workstation page]]
+- [ ] Download the ISO image for Fedora Server (recommended version *Netinstall ISO image for x86_64*) on [[id:ed7d72a8-07e4-4dde-8333-61f05a3a8667][Download Fedora Server page]]
+- [ ] Open *Fedora Media Writer* and follow the steps
+
