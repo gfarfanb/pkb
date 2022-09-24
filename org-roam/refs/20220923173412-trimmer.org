@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       da754d09-54e0-4c85-9995-e200bcbcd421
+:ROAM_REFS: https://packagecontrol.io/packages/Trimmer
+:END:
+#+title: ref. Trimmer
+#+filetags: :refs:
+

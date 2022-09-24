@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2e8ecf76-2251-40bc-97f9-101c2c89c454
+:ROAM_REFS: https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify
+:END:
+#+title: ref. HTML-CSS-JS Prettify
+#+filetags: :refs:
+

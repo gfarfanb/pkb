@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       48ee1d71-7738-467a-8b13-440e6748eb12
+:ROAM_REFS: https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings
+:END:
+#+title: ref. Sublime Text Keymap and Settings Importer
+#+filetags: :refs:
+

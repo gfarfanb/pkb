@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6e2a0be5-e6a7-41ac-8719-6c1e9240807e
+:ROAM_REFS: https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
+:END:
+#+title: ref. Sort lines
+#+filetags: :refs:
+

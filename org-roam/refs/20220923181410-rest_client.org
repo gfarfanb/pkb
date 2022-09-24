@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1c429e0f-03a5-4371-9b60-7d4245f15d06
+:ROAM_REFS: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+:END:
+#+title: ref. REST Client
+#+filetags: :refs:
+

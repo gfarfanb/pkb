@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       63539e0e-7051-40a2-9a88-6b0690c3842d
+:ROAM_REFS: https://www.sublimetext.com/
+:END:
+#+title: ref. Sublime Text
+#+filetags: :refs:
+

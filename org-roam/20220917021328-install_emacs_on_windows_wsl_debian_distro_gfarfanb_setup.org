@@ -19,6 +19,13 @@
     gcc --version
     mvn --version
   #+end_src
+- [ ] Install required packages for next steps
+  #+begin_src sh
+    sudo apt install git curl vim
+    git --version
+    curl --version
+    vim --version
+  #+end_src
 - [ ] Clone *pkb* repo
   #+begin_src sh
     mkdir workspace
@@ -45,8 +52,12 @@
   - FROM: *~/workspace/pkb/config/custom-vars-debian.el*
   - TO: *~/.emacs.d/custom-vars.el*
 - [ ] Add repo and theme configuration in *~/.emacs* file
+  #+begin_src sh
+    vim ~/.emacs
+    ...
+  #+end_src
   #+begin_src lisp
-    ;; customization variables file
+    ;; Paste and save this content
     (setq custom-file (locate-user-emacs-file "custom-vars.el"))
     (load custom-file 'noerror 'nomessage)
   #+end_src

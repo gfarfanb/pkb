@@ -5,5 +5,5 @@
 #+title: ref. SSH tunnel
 #+filetags: :refs:
 
-[[file:~/pkb/images/ssh_tunneling_overview.png][SSH tunneling overview]]
+[[file:../../images/ssh_tunneling_overview.png][SSH tunneling overview]]
 

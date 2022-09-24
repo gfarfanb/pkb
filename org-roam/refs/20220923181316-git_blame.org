@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       59b7c42b-abb1-429c-b925-9b95af77b491
+:ROAM_REFS: https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame
+:END:
+#+title: ref. Git Blame
+#+filetags: :refs:
+

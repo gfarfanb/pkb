@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       100ab1c5-2a61-4d31-8135-817f6599e9ae
+:END:
+#+title: Install Visual Studio Code on Windows - gfarfanb setup
+
+- [ ] Downaload and install any: [[id:1aa4ea9f-fac4-48b8-a0c4-672061287163][Visual Studio Code]] and [[id:32716b74-0778-4670-ae0c-9625e86d9660][Visual Studio Code App]]
+- [ ] Synchronize configuration: Manage -> Turn on Settings Sync... -> Login (GitHub)
+- [ ] Install extensions for Development:
+  - [[id:2eff757a-0125-4839-9aaf-00850e8c7f4a][Extension Pack for Java]]
+  - [[id:59b7c42b-abb1-429c-b925-9b95af77b491][Git Blame]]
+  - [[id:08fcc444-58e3-416a-8e53-0c413a35bf26][Git Graph]]
+  - [[id:1c429e0f-03a5-4371-9b60-7d4245f15d06][REST Client]]
+  - [[id:6e2a0be5-e6a7-41ac-8719-6c1e9240807e][Sort lines]]
+  - [[id:8a8c5c92-db81-4a3a-ab5c-033c4e91596b][Unique Lines]]
+- [ ] Install extensions for Docker and Kubernetes:
+  - [[id:a1ed7d26-0acf-4523-a80d-06742313c0f1][Docker for Visual Studio Code]]
+  - [[id:c1080250-a5c0-4db3-b61e-77237760de94][Visual Studio Code Kubernetes Tools]]
+  - [[id:a6058758-509e-43fc-8a8d-f5c45ba56dba][Visual Studio Code Remote Development Extension Pack]]
+  - [[id:a5b10c62-fa76-45d2-a7f4-af85980488b4][Microsoft Visual Studio Live Share]]
+
