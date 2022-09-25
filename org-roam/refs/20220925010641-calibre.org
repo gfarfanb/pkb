@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       8fff12bd-ac7a-4401-a5f7-3a71742b8506
+:ROAM_REFS: https://calibre-ebook.com/
+:ROAM_ALIASES: "PDF to ePUB converter for Kindle" "e-book manager"
+:END:
+#+title: ref. calibre
+#+filetags: :refs:
+
