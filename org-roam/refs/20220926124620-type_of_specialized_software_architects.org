@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       7c9b3da1-03a1-431a-8f15-44e0c7c8cc1e
+:END:
+#+title: ref. Type of specialized Software Architects
+#+filetags: :refs:
+
+| Specialized Architect                 | Architectural focus                                                                                                                                                          |
+|---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Business Architect                    | Organizational budiness processes, aligning business strategy with value stream and product strategies, organizational structure and enterprise data                         |
+| Information/data Architect            | Artificial Intelligence (AI), data/information security, enterprise data and information flows                                                                               |
+| Domain Architect                      | Business architect who is further specialized into one aspect of your business domain, such a brokerage within a financial institution or hydrology within civil engineering |
+| Infrastructure Architect              | IT network and systems, physical equipment, physical infrastrusture (buildings, ...), and robotics                                                                           |
+| Information Technology (IT) Architect | Artificial Intelligence (AI), data/information, IT network and systems, IT securiry, robotics and system integration                                                         |
+| Network Architect                     | Cloud-based computing, IT systems and telecommunications                                                                                                                     |
+| Product/service Architect             | All aspects of a single pproduct or service                                                                                                                                  |
+| Securiry Architect                    | Cyber/info security and physical security                                                                                                                                    |
+| Value Stream Architect                | All aspects of a value stream and process flow                                                                                                                               |
+| Web Architect                         | System integration and User Experience                                                                                                                                       |
+

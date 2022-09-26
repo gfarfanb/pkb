@@ -4,6 +4,15 @@
 #+title: Docker container commands
 #+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
 
+Docker container help
+#+begin_src sh
+  docker container help
+
+  docker version
+
+  docker container <sub-command> --help
+#+end_src
+
 Run container on port 80
 #+begin_src sh
   docker container run --publish 80:80 <image-name>
@@ -20,6 +29,11 @@ Run named container on port 80 on background
 #+end_src
 
 ='run' always starts a new container=
+
+Start container
+#+begin_src sh
+  docker container start mongo
+#+end_src
 
 Get running container list
 #+begin_src sh
@@ -41,7 +55,7 @@ Show container logs
   docker container logs <container-name>
 #+end_src
 
-Show processes inside the container
+Show running processes in specific container
 #+begin_src sh
   docker container top <container-name>
 #+end_src
@@ -54,5 +68,22 @@ Remove containers (only stoped ones)
 Remove container forced way
 #+begin_src sh
   docker container rm -f <container-id-1> <containero-id-n>
+#+end_src
+
+Set environemnt variable (MySQL example)
+#+begin_src sh
+  docker container run --name db -d -p 3006:3306 -e MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
+  # check generated password
+  docker container logs db
+#+end_src
+
+Show a JSON metadata about one container (startup, config, volumes, networking, etc)
+#+begin_src sh
+  docker container inspect <container-name>
+#+end_src
+
+Show a live performance data for all containers
+#+begin_src sh
+  docker container stats
 #+end_src
 

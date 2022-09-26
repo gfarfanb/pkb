@@ -12,12 +12,13 @@
   #+begin_src sh
     sudo apt update
   #+end_src
-- [ ] Install Emacs, [[id:be42c25f-acf7-477a-b025-9ebae1381629][GCC]] and [[id:ca29c59c-6f8e-4935-a225-ccd7504196c1][Maven]]
+- [ ] Install Emacs, [[id:be42c25f-acf7-477a-b025-9ebae1381629][GCC]], [[id:ca29c59c-6f8e-4935-a225-ccd7504196c1][Maven]] and [[id:63648a04-3507-4444-be55-ef2eacf24ae3][Python]]
   #+begin_src sh
-    sudo apt install emacs gcc maven
+    sudo apt install emacs gcc maven python3
     emacs --version
     gcc --version
     mvn --version
+    python3 -V
   #+end_src
 - [ ] Install required packages for next steps
   #+begin_src sh
@@ -72,5 +73,17 @@
 - [ ] Refresh init configuration
   #+begin_src
     M-x load-file <RET> ~/.emacs <RET>
+  #+end_src
+- [ ] Create private directory and copy non-tracked notes
+  #+begin_src sh
+    mkdir ~/workspace/pkb/org-roam/private
+    cp <sync-private-folder>/*.org ~/workspace/pkb/org-roam/private
+
+    # Sync generated private notes
+    cp ~/workspace/pkb/org-roam-private/*.org <sync-private-folder>
+  #+end_src
+- [ ] Sync Org-roam database
+  #+begin_src
+    M-x org-roam-db-sync <RET>
   #+end_src
 
