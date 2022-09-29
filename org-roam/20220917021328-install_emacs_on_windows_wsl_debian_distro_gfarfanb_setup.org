@@ -78,9 +78,11 @@
   #+begin_src sh
     mkdir ~/workspace/pkb/org-roam/private
     cp <sync-private-folder>/*.org ~/workspace/pkb/org-roam/private
-
-    # Sync generated private notes
-    cp ~/workspace/pkb/org-roam-private/*.org <sync-private-folder>
+  #+end_src
+- [ ] [[id:eb052ddc-8e88-4d88-ac82-4b6be297a309][Set environment variables]] for private folders
+  #+begin_src
+    ORG_ROAM_PRIVATE_DIR=~/workspace/pkb/org-roam/private
+    SYNC_FOLDER_PRIVATE_DIR=<sync-private-folder>
   #+end_src
 - [ ] Sync Org-roam database
   #+begin_src

@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       eb052ddc-8e88-4d88-ac82-4b6be297a309
+:ROAM_REFS: https://stackoverflow.com/questions/13046624/how-to-permanently-export-a-variable-in-linux
+:END:
+#+title: Export environment variable in Linux
+
+Set environment variable in current session
+#+begin_src sh
+  export <VARIABLE>=<VALUE>
+#+end_src
+
+Permanent environment variable in all terminal windows
+#+begin_src sh
+  vim ~/.bashrc
+
+  export <VARIABLE>=<VALUE>
+
+  # Applying changes in current session
+  source ~/.bashrc
+#+end_src
+
+Permanent environment variable in every logic of OS
+#+begin_src sh
+  vim ~/.profile
+
+  export <VARIABLE>=<VALUE>
+
+  # Applying changes in current session
+  source ~/.profile
+#+end_src
+
+Permanent evnronment variable in every windows and application (restart needed)
+#+begin_src sh
+  vim /etc/environment
+
+  <VARIABLE>=<VALUE>
+#+end_src
+
