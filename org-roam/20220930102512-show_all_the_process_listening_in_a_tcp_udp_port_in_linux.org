@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2369120a-fe4d-48e3-a629-f40c5265ce98
+:END:
+#+title: Show all the process listening in a TCP/UDP port in Linux
+
+#+begin_src sh
+  # n: dont resolve addresses
+  # a: show all
+  # t: TCP connections
+  # u: UDP connections
+  # p: processes
+  netstat -natup
+#+end_src
+

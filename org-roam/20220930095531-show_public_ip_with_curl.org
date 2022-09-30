@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1b9571b8-f39f-4c9a-8322-4804421b81b6
+:END:
+#+title: Show public IP with curl
+
+#+begin_src sh
+  curl ifconfig.me
+#+end_src
+

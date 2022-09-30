@@ -12,3 +12,8 @@
   ps aux | grep <contains>
 #+end_src
 
+Process as tree
+#+begin_src sh
+  ps fax
+#+end_src
+

@@ -22,10 +22,11 @@
   #+end_src
 - [ ] Install required packages for next steps
   #+begin_src sh
-    sudo apt install git curl vim
+    sudo apt install git curl vim rsync
     git --version
     curl --version
     vim --version
+    rsync --version
   #+end_src
 - [ ] Clone *pkb* repo
   #+begin_src sh

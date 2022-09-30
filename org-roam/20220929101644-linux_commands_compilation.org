@@ -1,0 +1,51 @@
+:PROPERTIES:
+:ID:       c13d6af4-2efd-45f9-a35a-43de5bdd7b0c
+:END:
+#+title: Linux commands compilation
+
+| Command                                                                 | Notes                                                                                                               |
+|-------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------|
+| ~ls -alh~                                                               | List files including hidden, in list and with legible size                                                          |
+| ~cp <file+path> <directory>~ ~cp <file+path> <new-filename+path>~       | Copy a file, rename and copy a file                                                                                 |
+| ~cp -a <directory-source> <destination>~                                | Copy a directory (*-a* includes recursion option)                                                                   |
+| ~rm <file>~                                                             | Delete file                                                                                                         |
+| ~rm -rf <directory>~                                                    | (Forced) remove directory recursively                                                                               |
+| ~mv <file+path> <directory>~ ~mv <file+path> <new-filename+path>~       | Move a file, rename and move a file                                                                                 |
+| ~rsync -av <directory-source> <destination>~                            | Copy a directory (only missing or outdated files)                                                                   |
+| ~touch <new-file>~ ~> <new-file>~                                       | Create a new empty file                                                                                             |
+| ~du -sh <directory>~ ~du -sh <directory>/*~                             | Disk usage of a directory, disk usage of the files in a directory                                                   |
+| ~stat <file>~                                                           | Show the information of the file                                                                                    |
+| ~zip -r <zip-filename> <directory>~                                     | Zip a directory                                                                                                     |
+| ~unzip <zip-filename>~                                                  | Unzip zipped file                                                                                                   |
+| ~zipinfo <zip-filename>~                                                | Show zip file content                                                                                               |
+| ~tree <directory>~                                                      | Show the tree file directory                                                                                        |
+| ~find . -mtime +5~                                                      | Find files from current directory with modification date greater of equals to 5 days                                |
+| ~find . -iname '<search-criteria>*'~                                    | Find files by name, insensitive case, starting with                                                                 |
+| ~find . -iname '<search-criteria>*' -delete~                            | Delete found files                                                                                                  |
+| ~date -d "+7 days"~                                                     | Current date plus 7 days                                                                                            |
+| ~kill <pid>~ ~killall <process-name>~                                   | Kill process by PID, kill all process by name                                                                       |
+| ~cat <filename>~                                                        | Show the content of the file                                                                                        |
+| ~cat <filename> \vert grep <filter-criteria>~                           | Show the content of a file filtered by criteria                                                                     |
+| ~grep -v <filter-criteria> <filename>~                                  | Show the content not filtered by criteria                                                                           |
+| ~grep -r -l <filter-criteria> <directory>~                              | Show the files that contain filtered criteria (recursively)                                                         |
+| ~df -h~                                                                 | Disk usage for all the storage devices                                                                              |
+| ~free -m~                                                               | Memory usage in MB                                                                                                  |
+| ~top~                                                                   | Show the running process (interactive): *q* exit, *?* help                                                          |
+| ~history \vert grep <command-criteria>~                                 | List the executed commands that match with the criteria                                                             |
+| *Ctrl+r <command-criteria>*                                             | Reverse search for command                                                                                          |
+| ~sleep 1m~                                                              | Wait until 1 minute                                                                                                 |
+| *Ctrl+z*                                                                | Pause process                                                                                                       |
+| ~bg~                                                                    | Put current process in backgroung                                                                                   |
+| ~fg~                                                                    | Bring a proccess from background to foreground                                                                      |
+| ~locate <filter-criteria>~                                              | Find files registered by *updatedb* command                                                                         |
+| ~updatedb~                                                              | Update the fyle system DB                                                                                           |
+| ~screen~                                                                | Creates a new terminal in background                                                                                |
+| *Ctrl+a d*                                                              | Exit from *screen* session (without kill that terminal)                                                             |
+| ~screen ls~                                                             | Show all the opened terminals                                                                                       |
+| ~screen -r <screen-id>~                                                 | Enter a screen terminal by ID                                                                                       |
+| ~less <filename>~                                                       | Read a file: *q* exit, *Pag Up,Pag Down* move, */* search                                                           |
+| ~tail <filename>~ ~tail -f <filename>~ ~tail -f --lines 100 <filename>~ | Show the last lines of a file, show last lines and listen for new ones, show last 100 lines and listen for new ones |
+| ~head <filename>~                                                       | Show the first lines of a file                                                                                      |
+| ~nmap <ip>~                                                             | Show the opened ports in a host                                                                                     |
+| ~cat /proc/loadavg~                                                     | Show the load average of a server (light alternative a *top* command)                                               |
+
