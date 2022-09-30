@@ -87,3 +87,21 @@ Show a live performance data for all containers
   docker container stats
 #+end_src
 
+Run a container interactively using a terminal
+#+begin_src sh
+  docker container run -it --name <container-name> <image-name> bash
+
+  # If the container doesn't have bash (like in Alpine) you can try sh
+  docker container run -it <image-name> sh
+#+end_src
+
+Start a container interactively (recovering terminal)
+#+begin_src sh
+  docker container start -ai <container-name>
+#+end_src
+
+Start a terminal in a running container
+#+begin_src sh
+  docker container exec -it <container-name> bash
+#+end_src
+

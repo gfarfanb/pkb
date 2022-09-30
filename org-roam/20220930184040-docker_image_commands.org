@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f0a7395c-1a98-4ab9-a78b-eb0cb6f81313
+:END:
+#+title: Docker image commands
+
+Get image list
+#+begin_src sh
+  docker image ls
+#+end_src
+
