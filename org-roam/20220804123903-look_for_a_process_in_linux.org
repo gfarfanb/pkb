@@ -8,3 +8,12 @@
   ps -fea | grep <contains>
 #+end_src
 
+#+begin_src sh
+  ps aux | grep <contains>
+#+end_src
+
+Process as tree
+#+begin_src sh
+  ps fax
+#+end_src
+

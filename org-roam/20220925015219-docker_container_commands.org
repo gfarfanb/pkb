@@ -1,0 +1,107 @@
+:PROPERTIES:
+:ID:       4df7ceb7-4fd9-4f99-a2c9-55af3e4040cc
+:END:
+#+title: Docker container commands
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+Docker container help
+#+begin_src sh
+  docker container help
+
+  docker version
+
+  docker container <sub-command> --help
+#+end_src
+
+Run container on port 80
+#+begin_src sh
+  docker container run --publish 80:80 <image-name>
+#+end_src
+
+Run container on port 80 on background
+#+begin_src sh
+  docker container run --publish 80:80 --detach <image-name>
+#+end_src
+
+Run named container on port 80 on background
+#+begin_src sh
+  docker container run --publish 80:80 --detach --name <container-name> <image-name>
+#+end_src
+
+='run' always starts a new container=
+
+Start container
+#+begin_src sh
+  docker container start mongo
+#+end_src
+
+Get running container list
+#+begin_src sh
+  docker container ls
+#+end_src
+
+Get all container list
+#+begin_src sh
+  docker container ls -a 
+#+end_src
+
+Stop container (it can be used the first 3 characters of the container ID)
+#+begin_src sh
+  docker container stop <container-id>
+#+end_src
+
+Show container logs
+#+begin_src sh
+  docker container logs <container-name>
+#+end_src
+
+Show running processes in specific container
+#+begin_src sh
+  docker container top <container-name>
+#+end_src
+
+Remove containers (only stoped ones)
+#+begin_src sh
+  docker container rm <container-id-1> <containero-id-n>
+#+end_src
+
+Remove container forced way
+#+begin_src sh
+  docker container rm -f <container-id-1> <containero-id-n>
+#+end_src
+
+Set environemnt variable (MySQL example)
+#+begin_src sh
+  docker container run --name db -d -p 3006:3306 -e MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
+  # check generated password
+  docker container logs db
+#+end_src
+
+Show a JSON metadata about one container (startup, config, volumes, networking, etc)
+#+begin_src sh
+  docker container inspect <container-name>
+#+end_src
+
+Show a live performance data for all containers
+#+begin_src sh
+  docker container stats
+#+end_src
+
+Run a container interactively using a terminal
+#+begin_src sh
+  docker container run -it --name <container-name> <image-name> bash
+
+  # If the container doesn't have bash (like in Alpine) you can try sh
+  docker container run -it <image-name> sh
+#+end_src
+
+Start a container interactively (recovering terminal)
+#+begin_src sh
+  docker container start -ai <container-name>
+#+end_src
+
+Start a terminal in a running container
+#+begin_src sh
+  docker container exec -it <container-name> bash
+#+end_src
+

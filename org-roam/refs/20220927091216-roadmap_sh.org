@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c7c82246-d187-46a1-8a1c-c792eeb00e84
+:ROAM_ALIASES: "Developer Roadmaps"
+:ROAM_REFS: https://roadmap.sh/
+:END:
+#+title: ref. roadmap.sh
+#+filetags: :refs:
+

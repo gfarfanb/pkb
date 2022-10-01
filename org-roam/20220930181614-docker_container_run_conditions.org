@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       12102edb-4c4f-4b06-9d62-90ac1b9f4e66
+:END:
+#+title: Docker container run conditions
+
+- [ ] Docker container will be run as long as the default executor container (executable command or *ENTRYPOINT*) is running
+  [[file:~/workspace/pkb/images/docker_ls_command.png][Docker COMMAND]]
+

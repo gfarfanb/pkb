@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       e68dec0f-1527-44df-9201-05aff966d73a
+:ROAM_REFS: https://www.shellhacks.com/windows-list-processes-tasklist-command-cmd/
+:END:
+#+title: Look for a process in Windows
+
+List all running processes
+#+begin_src sh
+  tasklist
+#+end_src
+
+List and sort all running processes (no column names)
+#+begin_src sh
+  tasklist /NH | sort
+#+end_src
+
+Filter by process name (case insensitive)
+#+begin_src sh
+  tasklist /NH | findstr /I <process-name>
+#+end_src
+

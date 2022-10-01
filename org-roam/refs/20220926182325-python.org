@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       63648a04-3507-4444-be55-ef2eacf24ae3
+:ROAM_REFS: https://www.python.org/
+:END:
+#+title: ref. Python
+#+filetags: :refs:
+

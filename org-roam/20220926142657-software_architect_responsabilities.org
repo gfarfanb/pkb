@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       7e7a2a76-5519-481c-ae0a-ea49333c0add
+:END:
+#+title: Software Architect responsabilities
+
+- [ ] Design architecture amd every component of the system
+- [ ] Follow up the implementation
+- [ ] Design and build the tailor-made software for the companies
+- [ ] Knowledge of Unified Modeling Language ([[id:3e65d76d-14b0-40cc-86d7-bc88dc04e8ca][UML]])
+- [ ] Take high level decisions like design, technical implementation, norms, platforms, support the implementation with the team
+- [ ] Main soft-skills: analysis, management, leadership, and communication
+

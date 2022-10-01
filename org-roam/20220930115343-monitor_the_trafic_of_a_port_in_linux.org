@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       c2c02bb4-785b-4b66-9f5b-4ff43b3eee49
+:END:
+#+title: Monitor the trafic of a port in Linux
+
+#+begin_src sh
+  tcpdump -i any -p tcp port 80
+#+end_src
+

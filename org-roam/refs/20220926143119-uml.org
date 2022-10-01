@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3e65d76d-14b0-40cc-86d7-bc88dc04e8ca
+:ROAM_REFS: https://www.uml.org/
+:END:
+#+title: ref. UML
+#+filetags: :refs:
+
