@@ -1,0 +1,4 @@
+#!/bin/bash
+
+emacsclient -t
+

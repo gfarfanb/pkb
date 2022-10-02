@@ -12,13 +12,14 @@
   #+begin_src sh
     sudo apt update
   #+end_src
-- [ ] Install Emacs, [[id:be42c25f-acf7-477a-b025-9ebae1381629][GCC]], [[id:ca29c59c-6f8e-4935-a225-ccd7504196c1][Maven]] and [[id:63648a04-3507-4444-be55-ef2eacf24ae3][Python]]
+- [ ] Install Emacs, [[id:be42c25f-acf7-477a-b025-9ebae1381629][GCC]], [[id:ca29c59c-6f8e-4935-a225-ccd7504196c1][Maven]], [[id:63648a04-3507-4444-be55-ef2eacf24ae3][Python]] and [[id:802b980e-b44c-4fa6-abdf-f38c2e59a145][Graphviz]]
   #+begin_src sh
-    sudo apt install emacs gcc maven python3
+    sudo apt install emacs gcc maven python3 graphviz
     emacs --version
     gcc --version
     mvn --version
     python3 -V
+    dot -V
   #+end_src
 - [ ] Install required packages for next steps
   #+begin_src sh
