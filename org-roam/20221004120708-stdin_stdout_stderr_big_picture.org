@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       04983d27-24fe-404e-b424-c5f40482d07f
+:END:
+#+title: stdin, stdout, stderr big picture
+
+| ID | Standard Stream | Path        | Notes                          |
+|----+-----------------+-------------+--------------------------------|
+|  0 | stdin           | /dev/stdin  | Channel to receive user inputs |
+|  1 | stdout          | /dev/stdout | Channel to show the outputs    |
+|  2 | stderr          | /dev/stderr | Channel to show the errors     |
+
+#+begin_src sh
+  cat /etc/not-found-file 1> content.txt 2> errors.txt
+#+end_src
+
+- *1>* send standard output to
+- *2>* send standard error output to
+- /content.txt/ Contains all the *cat* command output
+- /errors.txt/ Contains all the errors thrown by the *cat* command execution
+
+#+begin_src sh
+  cat /etc/not-found-file 1> content.txt 2>&1
+#+end_src
+
+- *2>&1* send error output to standard output
+
+#+begin_src sh
+  cat /etc/passwd | ws -l
+#+end_src
+
+- *|* send standard ouput to standard input (right command have to be able to read from standard input)
+
+#+begin_src sh
+  cat /etc/passwd > /dev/null
+#+end_src
+
+- *> /dev/null* send standard out to a not saved location
+

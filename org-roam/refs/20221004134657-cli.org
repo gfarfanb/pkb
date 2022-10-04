@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       0b3629bb-c11c-44ad-bcca-c5f9150bb049
+:ROAM_ALIASES: "Command-Line Interface"
+:ROAM_REFS: https://www.w3schools.com/whatis/whatis_cli.asp
+:END:
+#+title: ref. CLI
+#+filetags: :refs:
+
+CLI is a program that accepts text input to execute operating system functions.
+

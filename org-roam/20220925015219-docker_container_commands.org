@@ -16,16 +16,20 @@ Docker container help
 Run container on port 80
 #+begin_src sh
   docker container run --publish 80:80 <image-name>
+
+  docker container run -p 80:80 <image-name>
 #+end_src
 
 Run container on port 80 on background
 #+begin_src sh
   docker container run --publish 80:80 --detach <image-name>
+  docker container run -p 80:80 --detach <image-name>
 #+end_src
 
 Run named container on port 80 on background
 #+begin_src sh
   docker container run --publish 80:80 --detach --name <container-name> <image-name>
+  docker container run -p 80:80 --detach --name <container-name> <image-name>
 #+end_src
 
 ='run' always starts a new container=
@@ -103,5 +107,22 @@ Start a container interactively (recovering terminal)
 Start a terminal in a running container
 #+begin_src sh
   docker container exec -it <container-name> bash
+
+  docker container exec -it <container-name> sh
+#+end_src
+
+Show exposed container ports
+#+begin_src sh
+  docker container port <container-name>
+#+end_src
+
+Show container IP
+#+begin_src sh
+   docker container inspect --format '{{ .NetworkSettings.IPAddress }}' <container-name>
+#+end_src
+
+Run container in a specific network
+#+begin_src sh
+  docker container run -d --network <network-name> <image-name>
 #+end_src
 

@@ -8,3 +8,16 @@ Get image list
   docker image ls
 #+end_src
 
+Pull image
+#+begin_src sh
+  #nginx (latest version)
+  #nging:latest (default version)
+  #nginx:alpine (specific version)
+  docker pull <image-name>
+#+end_src
+
+Remove image
+#+begin_src sh
+  docker image rm <image-name>
+#+end_src
+
