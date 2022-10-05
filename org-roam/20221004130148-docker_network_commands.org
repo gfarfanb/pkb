@@ -28,3 +28,16 @@ Detach a network from container
   docker network disconnect <network-name> <container-name>
 #+end_src
 
+
+* Contianer commands for network
+
+Run container in a specific network
+#+begin_src sh
+  docker container run -d --network <network-name> <image-name>
+#+end_src
+
+Ping to a container (it requires *ping* command in the left container)
+#+begin_src sh
+  docker container exec -it <left-container> ping <right-container>
+#+end_src
+

@@ -91,26 +91,6 @@ Show a live performance data for all containers
   docker container stats
 #+end_src
 
-Run a container interactively using a terminal
-#+begin_src sh
-  docker container run -it --name <container-name> <image-name> bash
-
-  # If the container doesn't have bash (like in Alpine) you can try sh
-  docker container run -it <image-name> sh
-#+end_src
-
-Start a container interactively (recovering terminal)
-#+begin_src sh
-  docker container start -ai <container-name>
-#+end_src
-
-Start a terminal in a running container
-#+begin_src sh
-  docker container exec -it <container-name> bash
-
-  docker container exec -it <container-name> sh
-#+end_src
-
 Show exposed container ports
 #+begin_src sh
   docker container port <container-name>
@@ -121,8 +101,33 @@ Show container IP
    docker container inspect --format '{{ .NetworkSettings.IPAddress }}' <container-name>
 #+end_src
 
-Run container in a specific network
+
+* Startup commands for containers based on OS
+
+Run a container interactively using a terminal
 #+begin_src sh
-  docker container run -d --network <network-name> <image-name>
+  docker container run -it --name <container-name> <image-name> bash
+
+  # If the container doesn't have bash (like in Alpine) you can try sh
+  docker container run -it <image-name> sh
+#+end_src
+
+Run a container interactively and automatically remove it when it exits
+#+begin_src sh
+  docker container run --rm -it <image-name> bash
+
+  docker container run --rm -it <image-name> sh
+#+end_src
+
+Start a container interactively (recovering terminal)
+#+begin_src sh
+  docker container start -ai <container-name>
+#+end_src
+
+Start a terminal in a *running container*
+#+begin_src sh
+  docker container exec -it <container-name> bash
+
+  docker container exec -it <container-name> sh
 #+end_src
 

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       fde2d56c-5dd4-4cb7-814a-dd6e6706be1f
+:END:
+#+title: 2022-10-05
+* TODO 01:10 PM: Docker DNS
+
+- Docker daemon has a build-in DNS server that containers use by default
+- Containers shouldn't rely on IP's for inter-communication
+- Use custom networks with *bridge* driver for comunicate containers on the same host
