@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       c4019727-aca7-44a6-ae78-65faa93bee82
+:ROAM_ALIASES: "Internet Corporation for Assigned Names and Numbers"
+:ROAM_REFS: https://www.icann.org/resources/pages/what-2012-02-25-en
+:END:
+#+title: ref. ICANN
+#+filetags: :refs:
+
+Internet Corporation for Assigned Names and Numbers (ICANN) coordinates the unique identifiers (address) across the world to find a computer.
+

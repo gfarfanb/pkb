@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ca67b8be-2633-478c-9b3a-c7d4432b52a1
+:ROAM_REFS: https://howdns.works/
+:END:
+#+title: ref. How DNS works
+#+filetags: :refs:
+
