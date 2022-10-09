@@ -131,3 +131,8 @@ Start a terminal in a *running container*
   docker container exec -it <container-name> sh
 #+end_src
 
+Execute command and print the result in a container (remove when exit)
+#+begin_src sh
+  docker container run --rm <image-name> <command+args>
+#+end_src
+

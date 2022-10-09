@@ -41,3 +41,8 @@ Ping to a container (it requires *ping* command in the left container)
   docker container exec -it <left-container> ping <right-container>
 #+end_src
 
+Create a container with a network alias
+#+begin_src sh
+  docker container run -d --network <network-name> --network-alias <network-alias> <image-name>
+#+end_src
+

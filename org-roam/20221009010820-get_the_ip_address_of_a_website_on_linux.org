@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       eb33f4f6-67d3-4ddb-b552-00e096f59f14
+:ROAM_REFS: https://linuxhandbook.com/nslookup-command/
+:END:
+#+title: Get the IP address of a website on Linux
+
+#+begin_src sh
+  nslookup <url>
+#+end_src
+

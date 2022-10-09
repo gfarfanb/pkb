@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       23342273-9573-4579-b967-9e856a964450
+:ROAM_REFS: https://github.com/moby/moby/blob/master/image/spec/v1.md
+:END:
+#+title: ref. Docker Image Specification v1.0.0
+#+filetags: :refs:
+
