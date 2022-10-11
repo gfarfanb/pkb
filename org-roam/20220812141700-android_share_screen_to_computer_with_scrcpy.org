@@ -1,14 +1,15 @@
 :PROPERTIES:
 :ID:       69df9e96-85c6-442c-b106-789a28d02d4a
+:ROAM_REFS: https://github.com/Genymobile/scrcpy
 :END:
 #+title: Android share screen to computer with scrcpy
 
-#+begin_src sh
-  cd C:\...\scrcpy-win64-v1.19
-  adb devices
-  adb tcpip 5555
-  adb connect 192.168.100.94
-  adb devices
-  scrcpy
-#+end_src
+- [ ] [[id:ee567a9c-2d19-4c47-8353-b805283f6e12][Download the ZIP]] (x64)
+- [ ] Uncompress package
+- [ ] Activate USB debug mode: Settings -> System -> Developer options -> (Enable) USB debugging
+- [ ] Execute the command
+  #+begin_src sh
+    cd C:\...\scrcpy-win64-v1.24
+    scrcpy -S
+  #+end_src
 

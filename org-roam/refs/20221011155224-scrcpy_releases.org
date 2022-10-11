@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ee567a9c-2d19-4c47-8353-b805283f6e12
+:ROAM_REFS: https://github.com/Genymobile/scrcpy/releases
+:END:
+#+title: ref. scrcpy Releases
+#+filetags: :refs:
+
