@@ -2,6 +2,7 @@
 :ID:       f0a7395c-1a98-4ab9-a78b-eb0cb6f81313
 :END:
 #+title: Docker image commands
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
 
 Get image list
 #+begin_src sh

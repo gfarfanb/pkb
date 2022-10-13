@@ -2,6 +2,7 @@
 :ID:       3d66e41d-60cb-4b1c-bc79-178bdc14901a
 :END:
 #+title: Docker network commands
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
 
 Show networks
 #+begin_src sh
