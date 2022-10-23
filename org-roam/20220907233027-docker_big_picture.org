@@ -3,9 +3,18 @@
 :END:
 #+title: Docker big picture
 #+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+#+ref: [[id:3e6a19e4-4d76-4a86-b11e-3b105e5c8fe1][ref. eBook: Docker for the Virtualization Admin]]
+#+ref: [[id:95113528-3a5b-4204-ba74-5cbae60c6cab][ref. Library: Kubernetes vs. Docker]]
+#+ref: [[id:7915d9fe-15f1-4d63-a1e4-5567c82eab63][Factors to consider before to install Docker in a Physical or Virtual infraestructure]]
 
-Docker can be defined by the following *Build, Ship and Run* lifecycle:
-1. Images: It aids you in packaging an application (with all its dependencies).
-1. Registries: It helps to distribute that app around to all the places you need to run it.
-1. Containers: It runs that app in a highly reproducible way.
+- Docker can be defined by the following *Build, Ship and Run* lifecycle:
+  1. Images: It aids you in packaging an application (with all its dependencies).
+  2. Registries: It helps to distribute that app around to all the places you need to run it.
+  3. Containers: It runs that app in a highly reproducible way.
+- Docker's three key innovations:
+  1. App packaging: Docker takes your application and all of its software dependencies.
+  2. Add running: Docker runs each container in an isolated file system.
+  3. Add distribution: Docker allows you to store images in a central HTTP/S server and push/pull them as easily as doing so with git commits.
+- The application data doesn't live in the container, it lives in a Docker Volume that is shared between 1-N containers as defined by the application architecture.
+- All Docker Containers based on the same Docker Image share a read only copy of that image (if all our images are based on the same Alpine base layer, that base layer only exists once per Docker host).
 

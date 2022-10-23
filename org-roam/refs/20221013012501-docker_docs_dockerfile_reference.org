@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       6c7b0fb1-79c4-4a04-9ce2-5ab74abb4e15
+:ROAM_REFS: https://docs.docker.com/engine/reference/builder/
+:ROAM_ALIASES: "Dockerfile commands details"
+:END:
+#+title: ref. Docker Docs - Dockerfile reference
+#+filetags: :refs:
+

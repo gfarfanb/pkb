@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       8e851982-a2bc-4ec8-9491-0f3d55d46959
+:ROAM_REFS: https://www.oracletutorial.com/oracle-analytic-functions/oracle-row_number/
+:END:
+#+title: Get only one record from join query on Oracle
+
+#+begin_src sql
+  SELECT  main.*, rtable.*
+  FROM MAIN_TABLE main 
+       JOIN (
+	  SELECT ROW_NUMBER() over (partition by SOME_KEY_COLUMN order by SOME_COLUMN) row_num, rt.*
+	      FROM RIGHT_TABLE rt
+      ) rtable
+      ON (
+	  main.MAIN_KEY_COLUMN = rtable.MAIN_KEY_COLUMN
+	  and rtable.ROW_NUM = 1
+      )
+#+end_src
+

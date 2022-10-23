@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       3d66e41d-60cb-4b1c-bc79-178bdc14901a
+:END:
+#+title: Docker network commands
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+Show networks
+#+begin_src sh
+  docker network ls
+#+end_src
+
+Inspect a network
+#+begin_src sh
+  docker network inspect <network-name>
+#+end_src
+
+Create a network
+#+begin_src sh
+  docker network create <network-name> --driver <driver-name>
+#+end_src
+
+Attach a network to container
+#+begin_src sh
+  docker network connect <network-name> <container-name>
+#+end_src
+
+Detach a network from container
+#+begin_src sh
+  docker network disconnect <network-name> <container-name>
+#+end_src
+
+
+* Contianer commands for network
+
+Run container in a specific network
+#+begin_src sh
+  docker container run -d --network <network-name> <image-name>
+#+end_src
+
+Ping to a container (it requires *ping* command in the left container)
+#+begin_src sh
+  docker container exec -it <left-container> ping <right-container>
+#+end_src
+
+Create a container with a network alias
+#+begin_src sh
+  docker container run -d --network <network-name> --network-alias <network-alias> <image-name>
+#+end_src
+

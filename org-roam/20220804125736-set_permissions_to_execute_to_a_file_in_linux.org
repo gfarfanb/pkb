@@ -5,6 +5,6 @@
 #+ref: [[id:b20ebfb9-1fa0-4885-86f8-5d0c74a0eb53][ref. chmod]]
 
 #+begin_src sh
-  chmod -x <file>
+  chmod +x <file>
 #+end_src
 

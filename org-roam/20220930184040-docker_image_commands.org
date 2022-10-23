@@ -2,9 +2,69 @@
 :ID:       f0a7395c-1a98-4ab9-a78b-eb0cb6f81313
 :END:
 #+title: Docker image commands
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
 
 Get image list
 #+begin_src sh
   docker image ls
+#+end_src
+
+Pull image
+#+begin_src sh
+  #nginx (latest version)
+  #nging:latest (default version)
+  #nginx:alpine (specific version)
+  docker image pull <image-name>
+#+end_src
+
+Push image
+#+begin_src sh
+  docker image push <image-name>
+#+end_src
+
+Remove image
+#+begin_src sh
+  docker image rm <image-name>
+#+end_src
+
+Image history
+#+begin_src sh
+  docker image history <image-name>
+#+end_src
+
+Inspect image
+#+begin_src sh
+  docker image inspect <image-name>
+#+end_src
+
+Image tag
+#+begin_src sh
+  docker image tag <image-name> <image-name>:<tag>
+#+end_src
+
+Image tag with username
+#+begin_src sh
+  docker image tag <image-name> <username>/<image-name>:<tag>
+#+end_src
+
+Push image tag
+#+begin_src sh
+  docker image push <username>/<image-name>:<tag>
+#+end_src
+
+Build image (default Dockerfile)
+#+begin_src sh
+  # . means using the Dockerfile in the same directory
+  docker image build -t <new-image-name> .
+#+end_src
+
+Build an image based on a specific Dockerfile
+#+begin_src sh
+  docker image build -t <new-image-name> -f <dockerfile-location>
+#+end_src
+
+Prune images
+#+begin_src sh
+  docker image prune
 #+end_src
 

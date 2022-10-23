@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       057c2ec4-d131-4f85-ae3c-ff584d380378
+:ROAM_REFS: https://www.cloudflare.com/learning/dns/glossary/round-robin-dns/
+:END:
+#+title: ref. Round-robin DNS
+#+filetags: :refs:
+
+Round-robin [[id:531d523f-fc03-4a7b-8b41-e934a76ee275][DNS]] is a load balancing technique where the balancing is done by a type of DNS server called an authoritative nameserver, rather than using a dedicated piece of load-balancing hardware.
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3922a854-aaaa-4f37-860f-fad2db4c7fd4
+:ROAM_REFS: https://yaml.org/
+:END:
+#+title: ref. YAML
+#+filetags: :refs:
+

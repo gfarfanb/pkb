@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a7eab0cb-84e3-49cb-a3e1-4a454d1c6ae0
+:ROAM_REFS: https://jekyllrb.com/
+:ROAM_ALIASES: "Static Site Generator"
+:END:
+#+title: ref. Jekyll
+#+filetags: :refs:
+

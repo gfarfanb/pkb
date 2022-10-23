@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       7915d9fe-15f1-4d63-a1e4-5567c82eab63
+:END:
+#+title: Factors to consider before to install Docker in a Physical or Virtual infrastructure
+#+ref: [[id:3e6a19e4-4d76-4a86-b11e-3b105e5c8fe1][ref. eBook: Docker for the Virtualization Admin]]
+
+| Varible                                        | Meaning                                                                                                                                     |
+|------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------|
+| Latency                                        | Applications with a low tolerance for latency are going to do better on physical                                                            |
+| Capacity                                       | If the containerized application doesn't consume all the capacity on a physical box, VMs offers a benefit there                             |
+| Mixed Workloads                                | Physical servers will run a single instance of an operating system, so Windows and Linuz container on the same host must use virtualization |
+| Disaster Recovery                              | One of the benefits of VMs are the advanced capabilities around site recovery and high availability                                         |
+| Existing Investments and Automation Frameworks | A lot of organizations have already built a comprehensive set of tools around things like infrastructure provisioning                       |
+| Multitenancy                                   | When workloads can't share kernels VMs can provide an extra layer of isolation                                                              |
+| Resource Pools / Quotas                        | Many virtualization solutions have a broad feature set to control how VMs use resources                                                     |
+| Automation/APIs                                | If the goal is automation, you'll need an API for provisioning (this can rule out bare metal)                                               |
+| Licensing Costs                                | Running directly on bare metal can reduce costs as you won't need to purchase hypervisor licenses                                           |
+

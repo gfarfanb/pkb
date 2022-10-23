@@ -16,16 +16,20 @@ Docker container help
 Run container on port 80
 #+begin_src sh
   docker container run --publish 80:80 <image-name>
+
+  docker container run -p 80:80 <image-name>
 #+end_src
 
 Run container on port 80 on background
 #+begin_src sh
   docker container run --publish 80:80 --detach <image-name>
+  docker container run -p 80:80 --detach <image-name>
 #+end_src
 
 Run named container on port 80 on background
 #+begin_src sh
   docker container run --publish 80:80 --detach --name <container-name> <image-name>
+  docker container run -p 80:80 --detach --name <container-name> <image-name>
 #+end_src
 
 ='run' always starts a new container=
@@ -53,6 +57,9 @@ Stop container (it can be used the first 3 characters of the container ID)
 Show container logs
 #+begin_src sh
   docker container logs <container-name>
+
+  # Stay and show new logs
+  docker container logs -f <container-name>
 #+end_src
 
 Show running processes in specific container
@@ -87,6 +94,19 @@ Show a live performance data for all containers
   docker container stats
 #+end_src
 
+Show exposed container ports
+#+begin_src sh
+  docker container port <container-name>
+#+end_src
+
+Show container IP
+#+begin_src sh
+   docker container inspect --format '{{ .NetworkSettings.IPAddress }}' <container-name>
+#+end_src
+
+
+* Startup commands for containers based on OS
+
 Run a container interactively using a terminal
 #+begin_src sh
   docker container run -it --name <container-name> <image-name> bash
@@ -95,13 +115,40 @@ Run a container interactively using a terminal
   docker container run -it <image-name> sh
 #+end_src
 
+Run a container interactively and automatically remove it when it exits
+#+begin_src sh
+  docker container run --rm -it <image-name> bash
+
+  docker container run --rm -it <image-name> sh
+#+end_src
+
 Start a container interactively (recovering terminal)
 #+begin_src sh
   docker container start -ai <container-name>
 #+end_src
 
-Start a terminal in a running container
+Start a terminal in a *running container*
 #+begin_src sh
   docker container exec -it <container-name> bash
+
+  docker container exec -it <container-name> sh
+#+end_src
+
+Execute command and print the result in a container (remove when exit)
+#+begin_src sh
+  docker container run --rm <image-name> <command+args>
+#+end_src
+
+
+* Set volume to a container
+
+Run container with custom-name volume
+#+begin_src sh
+  docker container run -v <volume-name>:<container-volume-directory> <image-name>
+#+end_src
+
+Run container with a bind mount
+#+begin_src sh
+  docker container run -v <host-directory>:<container-directory> <image-name>
 #+end_src
 

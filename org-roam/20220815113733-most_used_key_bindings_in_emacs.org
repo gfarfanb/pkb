@@ -54,4 +54,5 @@
 | *C->*             | /mc\/mark-next-like-this/                 | Mark next like selected                                                                                                                               |
 | *C-<*             | /mc\/mark-previous-like-this/             | Mark previous like selected                                                                                                                           |
 | *C-S-c C-<*       | /mc\/mark-all-like-this/                  | Mark all like selected                                                                                                                                |
+| *C-c C-RET*       | /quickrun/                                | Run a single file                                                                                                                                     |
 

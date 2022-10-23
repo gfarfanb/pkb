@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       481370d9-9204-4bc3-961e-ab7ba5212e0e
+:ROAM_REFS: https://roadmap.sh/software-architect
+:END:
+#+title: ref. Software Architect roadmap
+#+filetags: :refs:
+

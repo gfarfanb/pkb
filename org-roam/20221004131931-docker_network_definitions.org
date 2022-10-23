@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       b3ac9cef-ed97-4848-91d7-50f8139c0e35
+:END:
+#+title: Docker network definitions
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+| Driver               | Definition                                                                                   |
+|----------------------+----------------------------------------------------------------------------------------------|
+| bridge \vert docker0 | Default Docker virtual network, which is NAT'ed behind the host IP                           |
+| host                 | It gains performance by skypping virtual networks but sacrifices security of container model |
+| none                 | Removes eth0 and only leaves you with localhost interface in container                       |
+

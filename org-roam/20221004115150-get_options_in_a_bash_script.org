@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       a38319a6-1a0a-429a-b627-53006ec75d9f
+:END:
+#+title: Get options in a Bash script
+
+Execution example
+#+begin_src sh
+  ./<script> -a arg_a_value -b arg_b_value
+  ./<script> -b arg_b_value -a arg_a_value
+#+end_src
+
+Script content
+#+begin_src sh
+  #!/bin/bash
+
+  while getopts "a:b:" FLAG
+  do
+      case "${FLAG}" in
+	  a)
+	      echo "Option a enabled: ${OPTARG}"
+	      ;;
+	  b)
+	      echo "Option b enabled: ${OPTARG}"
+	      ;;
+	  ,*)
+	      echo "Invalid option"
+	      ;;
+      esac
+  done
+#+end_src
+

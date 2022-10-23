@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       0f65588a-40b8-41c7-929f-f373622b13e1
+:END:
+#+title: Dockerfile basic template
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+#+begin_src sh
+  FROM <image-name+version>
+
+  EXPOSE <container-port>
+
+  RUN <command>
+
+  WORKDIR <work-directory>
+
+  # All content
+  COPY . .
+  # By file
+  COPY fileName fileName
+
+  RUN <command> && <command>
+
+  CMD [ "<arg1>", "<arg2>", "...", "<argn>" ]
+#+end_src
+

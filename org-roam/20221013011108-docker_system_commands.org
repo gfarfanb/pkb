@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       e7fd3479-ddf1-476a-a08f-ca2c8d38caba
+:END:
+#+title: Docker system commands
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+Show the Docker disk usage
+#+begin_src sh
+  docker system df
+#+end_src
+
+Prune system (reclaimable disk space)
+#+begin_src sh
+  docker system prune
+#+end_src
+
+Prune system (include unused images)
+#+begin_src sh
+  docker system prune -a
+#+end_src
+

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ce1f32e3-1779-473a-97c0-c431b1c67885
+:ROAM_ALIASES: "Internet Service Provider"
+:ROAM_REFS: https://www.investopedia.com/terms/i/isp.asp
+:END:
+#+title: ref. ISP
+#+filetags: :refs:
+
+Internet Service Provider (ISP), refers to a company that provides access to the internet to both personal and business customers.
+

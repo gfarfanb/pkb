@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3e6a19e4-4d76-4a86-b11e-3b105e5c8fe1
+:ROAM_REFS: https://github.com/mikegcoleman/docker101/blob/master/Docker_eBook_Jan_2017.pdf
+:END:
+#+title: ref. eBook: Docker for the Virtualization Admin
+#+filetags: :refs:
+

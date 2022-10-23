@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       ad079620-a774-432c-96a3-0f730fc4f3a6
+:END:
+#+title: Auto-shrink Linux VM (Docker Toolbox)
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+Delete an re-create Linux VM
+#+begin_src sh
+    docker-machine rm default
+    docker-machine create
+#+end_src
+
+=Make sure anything in docker containers or volumes are backed up=
+

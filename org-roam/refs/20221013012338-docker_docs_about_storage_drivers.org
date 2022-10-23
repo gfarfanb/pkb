@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d87061f1-5619-47a4-bc00-ffb5e8ba243a
+:ROAM_REFS: https://docs.docker.com/storage/storagedriver/
+:ROAM_ALIASES: "Images and Container from Docker Docs"
+:END:
+#+title: ref. Docker Docs - About storage drivers
+#+filetags: :refs:
+

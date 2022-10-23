@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       b538582f-3c26-4b64-9c25-b6c400d8efce
+:END:
+#+title: Windows commands compilation
+
+| Command                                                      | Notes                                                            |
+|--------------------------------------------------------------+------------------------------------------------------------------|
+| ~ipconfig~ ~ipconfig /all~                                   | Show IP address, extended version of IP information              |
+| ~ipconfig /release~                                          | Leave current IP address                                         |
+| ~ipconfig /renew~                                            | Get a new IP address                                             |
+| ~ipconfig /displaydns \vert clip~                            | Copy the output command to a clipboard (e.g. DNS information)    |
+| ~ipconfig /flushdns~                                         | Flush DNS                                                        |
+| ~nslookup <host>~                                            | Show IP from a external host                                     |
+| ~getmac /v~                                                  | Show all MAC addresses                                           |
+| ~<some-command> \vert findstr <search-criteria>~             | Find text in an output command                                   |
+| ~powercfg /energy~                                           | Energy report                                                    |
+| ~powercfg /batteryreport~                                    | Batery report                                                    |
+| ~assoc~                                                      | Show which file types are associated with which programs         |
+| ~assoc <type>=<default-program>~                             | Set a new default program for a file type                        |
+| ~chkdsk /f~                                                  | Look for the errors in your disk                                 |
+| ~chkdsk /r~                                                  | Check for physical sectors issues                                |
+| ~sfc /scannow~                                               | Scan file system                                                 |
+| ~DISM /Online /Cleanup /CheckHealth~                         | Deploy the image service and management                          |
+| ~DISM /Online /Cleanup-Image /CheckHealth~                   | Fix the system image                                             |
+| ~DISM /Online /Cleanup-Image /ScanHealth~                    | Scan system image                                                |
+| ~DISM /Online /Cleanup-Image /RestoreHealth~                 | Restore system image health                                      |
+| ~tasklist \vert findtr <search-criteria>~                    | Look for a specific task from task list                          |
+| ~taskkill /f /pid <PID>~                                     | Kill a task by PID                                               |
+| ~netsh wlan show wlanreport~                                 | Wireless report                                                  |
+| ~netsh interface show interface~                             | Show interfaces                                                  |
+| ~netsh interface ip show address \vert findstr <ip-address>~ | Look for an IP address                                           |
+| ~netsh interface ip show dnsservers~                         | Show DNS servers                                                 |
+| ~netsh advfirewall set allprofiles state off~                | Turn off Windows Defender Firewall                               |
+| ~netsh advfirewall set allprofiles state on~                 | Turn on Windows Defender Firewall                                |
+| ~ping <host>~ ~ping -t <host>~                               | Check if host is up, check if host is up during terminal session |
+| ~tracert~                                                    | Dump trace route                                                 |
+| ~tracert <host>~ ~tracert -d <host>~                         | Trace the host routes, trace without resolving domain names      |
+| ~netstat~                                                    | Show all the network connections                                 |
+| ~netstat -af~                                                | Show all the port states                                         |
+| ~netstat -o~                                                 | Show all the connected processes                                 |
+| ~netstat -e -t 5~                                            | Receive network statistics every 5 seconds                       |
+| ~route print~                                                | Show all the routes the computer takes to certain networks       |
+| ~route add <ip> mask <ip-mask> <ip-gateway>~                 | Add network connection through a gateway                         |
+| ~route delete <ip>~                                          | Remove network connection                                        |
+| ~shutdown /r /fw /f /t 0~                                    | Restart a computer and restarted into the Windows BIOS           |
+

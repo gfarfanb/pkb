@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       00cfe266-e121-4f3e-b023-bfea7af492ed
+:ROAM_REFS: https://docs.docker.com/storage/
+:ROAM_ALIASES: "Docker Storage Introduction"
+:END:
+#+title: ref. Docker Docs - Manager data in Docker
+#+filetags: :refs:
+

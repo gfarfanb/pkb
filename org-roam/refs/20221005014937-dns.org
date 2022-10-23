@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       531d523f-fc03-4a7b-8b41-e934a76ee275
+:ROAM_ALIASES: "Domain Name System"
+:ROAM_REFS: https://www.oracle.com/cloud/networking/dns/
+:END:
+#+title: ref. DNS
+#+filetags: :refs:
+
+The Domain Name System (DNS) is a distributed internet system that maps human-readable names to IP addresses and serves as the first link in the customers’ digital supply chain.
+
