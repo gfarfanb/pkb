@@ -57,6 +57,9 @@ Stop container (it can be used the first 3 characters of the container ID)
 Show container logs
 #+begin_src sh
   docker container logs <container-name>
+
+  # Stay and show new logs
+  docker container logs -f <container-name>
 #+end_src
 
 Show running processes in specific container
@@ -134,5 +137,18 @@ Start a terminal in a *running container*
 Execute command and print the result in a container (remove when exit)
 #+begin_src sh
   docker container run --rm <image-name> <command+args>
+#+end_src
+
+
+* Set volume to a container
+
+Run container with custom-name volume
+#+begin_src sh
+  docker container run -v <volume-name>:<container-volume-directory> <image-name>
+#+end_src
+
+Run container with a bind mount
+#+begin_src sh
+  docker container run -v <host-directory>:<container-directory> <image-name>
 #+end_src
 

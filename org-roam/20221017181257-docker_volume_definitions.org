@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       379f1778-7cbe-4542-9d48-aa6df9f565b3
+:END:
+#+title: Docker volume definitions
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+#+ref: [[id:00cfe266-e121-4f3e-b023-bfea7af492ed][Docker Storage Introduction]]
+
+| Persist data type | Definition                                                                                                                                   |
+|-------------------+----------------------------------------------------------------------------------------------------------------------------------------------|
+| Volume            | Are stored in a part of the host filesystem which is /managed by Docker/ .Non-Docker processes should not modify thos part of the filesystem |
+| Bind mount        | May be stored /anywhere/ on the host system. Non-Docker processes on the Docker host or a Docker container can modify them at any time       |
+| *tmpfs* mount     | Are stored in the host memory only, and are never written to the host system's filesystem                                                    |
+| *npipe* mount     | Can be used for communication between the Docker host and a container                                                                        |
+
+[[file:~/workspace/pkb/images/docker_types_of_mounts.png][Docker types of mounts]]
+

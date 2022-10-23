@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       335b0bfc-60f2-4ebe-b142-1e995fcc7e99
+:ROAM_REFS: https://docs.docker.com/compose/compose-file/compose-versioning/
+:END:
+#+title: ref. Docker Docs - Compose file versions and upgrading
+#+filetags: :refs:
+

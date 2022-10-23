@@ -4,6 +4,15 @@
 :END:
 #+title: The Twelve-Factor App
 
+The twelve-factor add is a methodology for building software-as-a-service apps that:
+
+- Use declarative formats for setup automation
+- Have a clean contrat to offer maximun portability
+- Suitable deployment on modern cloud platforms
+- Minimize divergence between environments
+- Use continuous deployment for agility
+- Allow to scap up without effort
+
 | Index | Factor              | Definition                                                       |
 |-------+---------------------+------------------------------------------------------------------|
 | I     | Codebase            | One codebase tracked in revision control, many deploys           |

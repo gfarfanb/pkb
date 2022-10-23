@@ -19,4 +19,5 @@
 - [ ] AWS Kinesis
 - [ ] AWS S3
 - [ ] AWS Elastic Beanstalk
+- [ ] AWS IAM
 

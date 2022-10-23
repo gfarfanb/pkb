@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d0087933-83e1-4f2d-a09d-f647a79c8135
+:ROAM_REFS: https://yaml.org/refcard.html
+:END:
+#+title: ref. YAML Reference Card
+#+filetags: :refs:
+

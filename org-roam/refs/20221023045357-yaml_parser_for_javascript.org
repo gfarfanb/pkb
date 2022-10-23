@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7549c99d-370f-426e-8c1f-48abee124c01
+:ROAM_REFS: https://nodeca.github.io/js-yaml/
+:END:
+#+title: ref. YAML parser for JavaScript
+#+filetags: :refs:
+
