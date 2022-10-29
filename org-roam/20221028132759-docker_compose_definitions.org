@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       93562148-bd99-4951-8ea8-ed492e5da916
+:END:
+#+title: Docker Compose definitions
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+- Allow to configure relationships between containers
+- Allow to save out Docker container run settings in a easy-to-read file
+

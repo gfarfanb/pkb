@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       14d0e5e3-797e-4f52-a83e-f142a3f27d7a
+:END:
+#+title: Docker compose commands
+
+Setup volumes, networks and start all containers
+#+begin_src sh
+  docker compose up
+#+end_src
+
+Stop all containers and remove containers, networks and volumes (by using the flag *-v*)
+#+begin_src sh
+  docker compose down -v
+#+end_src
+

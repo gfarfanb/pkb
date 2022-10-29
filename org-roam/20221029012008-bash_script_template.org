@@ -1,0 +1,64 @@
+:PROPERTIES:
+:ID:       5aa68a16-99ba-4a44-899f-fc2eae040378
+:END:
+#+title: Bash script template
+#+ref: [[id:bbfe7a93-74e4-4e1a-b9d6-bd5f4b0bfa69][Library: Thibaut Rousseau - Shell Scripts Matter]]
+#+ref: [[id:db1df829-7cb4-4000-a601-b64eec99ff7a][Library: Shrikant Sharat Kandula - Shell Script Best Practices]]
+
+- Validate script with [[id:785a9905-dfa2-41e0-94a7-ed8f8ee04aa6][ShellCheck]]
+- Test script with [[id:b8d0d739-08ff-4a8f-9e14-dc75238ca58e][shUnit2]]
+
+#+begin_src sh
+    #!/usr/bin/env bash
+
+    set -o errexit
+    set -o nounset
+    set -euo pipefail
+    IFS=$'\n\t'
+
+    if [[ "${TRACE-0}" == "1" ]]; then
+	set -o xtrace
+    fi
+    if [[ "${1-}" =~ ^-*h(elp)?$ ]]; then
+	echo 'Usage: ./<script-name>.sh arg-1 arg-2
+
+    Help documentation...
+
+    '
+	exit
+    fi
+
+    SCRIPT_SAVED_LOGS=${SCRIPT_SAVED_LOGS:-"false"}
+    SCRIPT_DEBUG_MODE=${SCRIPT_DEBUG_MODE:-"false"}
+    if [[ "$SCRIPT_SAVED_LOGS" == "true" ]]; then
+	readonly _script_log_file="/tmp/shTTP_${_shttp_basename%.*}.$( date '+%Y-%m-%d' ).log"
+	info()  { echo "$( date '+%Y-%m-%d %T.%N' ) [INFO]      $*" | tee -a "$_script_log_file" >&2 ; }
+	warn()  { echo "$( date '+%Y-%m-%d %T.%N' ) [WARNING]   $*" | tee -a "$_script_log_file" >&2 ; }
+	error() { echo "$( date '+%Y-%m-%d %T.%N' ) [ERROR]     $*" | tee -a "$_script_log_file" >&2 ; }
+	fatal() { echo "$( date '+%Y-%m-%d %T.%N' ) [FATAL]     $*" | tee -a "$_script_log_file" >&2 ; exit 1 ; }
+	if [ "$SCRIPT_DEBUG_MODE" == "true" ]; then
+	    debug() { echo "$( date '+%Y-%m-%d %T.%N' ) [DEBUG]     $*" | tee -a "$_script_log_file" >&2 ; }
+	else
+	    debug() { :; }
+	fi
+    else
+       info()  { echo "$( date '+%Y-%m-%d %T.%N' ) [INFO]      $*" >&2 ; }
+       warn()  { echo "$( date '+%Y-%m-%d %T.%N' ) [WARNING]   $*" >&2 ; }
+       error() { echo "$( date '+%Y-%m-%d %T.%N' ) [ERROR]     $*" >&2 ; }
+       fatal() { echo "$( date '+%Y-%m-%d %T.%N' ) [FATAL]     $*" >&2 ; exit 1 ; }
+       if [[ "$SCRIPT_DEBUG_MODE" == "true" ]]; then
+	   debug() { echo "$( date '+%Y-%m-%d %T.%N' ) [DEBUG]     $*" >&2 ; }
+       else
+	   debug() { :; }
+       fi
+    fi    
+
+    cd "$(dirname "$0")"
+
+    main() {
+	# Script goes here
+    }
+
+    main "$@"
+#+end_src
+

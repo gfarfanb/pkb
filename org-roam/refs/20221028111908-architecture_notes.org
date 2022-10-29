@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       70898abb-40ac-451e-80c8-c3d03db7871f
+:ROAM_REFS: https://architecturenotes.co/
+:END:
+#+title: ref. Architecture Notes
+#+filetags: :refs:
+

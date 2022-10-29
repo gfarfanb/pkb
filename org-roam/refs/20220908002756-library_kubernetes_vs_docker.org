@@ -2,6 +2,6 @@
 :ID:       95113528-3a5b-4204-ba74-5cbae60c6cab
 :ROAM_REFS: https://www.dropbox.com/s/fmol6ke5iiebrfx/Bret%20Fisher%20-%20Kubernetes%20vs.%20Docker.pdf?dl=0
 :END:
-#+title: ref. Library: Kubernetes vs. Docker
+#+title: ref. Library: Bret Fisher - Kubernetes vs. Docker
 #+filetags: :refs:
 

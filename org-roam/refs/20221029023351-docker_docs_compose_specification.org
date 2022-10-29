@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9ef77350-7726-4860-ba85-ff050109e83f
+:ROAM_REFS: https://docs.docker.com/compose/compose-file/
+:END:
+#+title: ref. Docker Docs - Compose specification
+#+filetags: :refs:
+

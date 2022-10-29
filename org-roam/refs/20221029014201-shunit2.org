@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b8d0d739-08ff-4a8f-9e14-dc75238ca58e
+:ROAM_REFS: https://github.com/kward/shunit2
+:ROAM_ALIASES: "Unit test framework for shell scripts"
+:END:
+#+title: ref. shUnit2
+#+filetags: :refs:
+
