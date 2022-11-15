@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       39a430ed-f361-43b0-b565-a485aa38ddf2
+:ROAM_REFS: https://github-business-card.vercel.app/
+:END:
+#+title: ref. GitHub Business Card
+#+filetags: :refs:
+
