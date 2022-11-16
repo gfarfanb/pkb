@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       32f2ca63-b187-453e-92f5-804ea4212bb2
+:ROAM_REFS: https://docs.digitalocean.com/products/droplets/how-to/add-ssh-keys/
+:END:
+#+title: ref. How-to Add SSH Keys to New or Existing Droplets
+#+filetags: :refs:
+
