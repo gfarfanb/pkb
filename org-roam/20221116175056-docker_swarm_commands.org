@@ -1,0 +1,61 @@
+:PROPERTIES:
+:ID:       4ebb7a54-d56f-4358-82d7-7a911a452dde
+:END:
+#+title: Docker swarm/node/service commands
+
+Swarm initialization
+#+begin_src sh
+  docker swarm init
+#+end_src
+
+=copy the 'docker swarm join ...' command to add workers (nodes)=
+
+Swarm initialization with a specific IP
+#+begin_src sh
+  docker swarm init --advertise-addr <ip-address>
+#+end_src
+
+Create a new token to join as manager
+#+begin_src sh
+  docker swarm join-token manager
+#+end_src
+
+List all nodes
+#+begin_src sh
+  docker node ls
+#+end_src
+
+Change role in a node
+#+begin_src sh
+  docker node update --role manager <node>
+#+end_src
+
+Start a Docker service
+#+begin_src sh
+  docker service create alpine ping 8.8.8.8
+#+end_src
+
+List all services
+#+begin_src sh
+  docker service ls
+#+end_src
+
+Check service processes
+#+begin_src sh
+  docker service ps <service-name>
+#+end_src
+
+Add replicas to a service
+#+begin_src sh
+  docker service update <service-id> --replicas 3
+#+end_src
+
+=if one of the containers stopped, service is going to up the missing replica=
+
+Remove Docker service
+#+begin_src sh
+  docker service rm <service-name>
+#+end_src
+
+=all the containers will be removed as well=
+

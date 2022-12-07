@@ -1,0 +1,104 @@
+:PROPERTIES:
+:ID:       441a0c16-8387-4d43-a992-25f9a324d79d
+:END:
+#+title: In-memory table for a specific entity with Spring/JPA
+
+Add dependency to POM file
+#+begin_src xml
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <version>2.1.214</version>
+    </dependency>
+#+end_src
+
+Create a new database config class
+#+begin_src java
+  package database.config;
+
+  import org.springframework.boot.autoconfigure.domain.EntityScan;
+  import org.springframework.boot.context.properties.ConfigurationProperties;
+  import org.springframework.context.annotation.ComponentScan;
+  import org.springframework.context.annotation.Configuration;
+  import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+  import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+  @Configuration
+  @ConfigurationProperties("spring.datasource-partial")
+  @ComponentScan(basePackages = {
+      "some.dependencies.required.for.objects"
+  })
+  @EnableTransactionManagement
+  @EnableJpaRepositories(basePackages = {"where.the.jpa.repo.classes.are"})
+  @EntityScan(basePackages="where.the.entity.classes.are")
+  public class DatabaseConfig {
+    
+  }
+#+end_src
+
+In case we are using Hibernate
+#+begin_src java
+  package database.config;
+
+  import java.io.IOException;
+  import java.util.Properties;
+
+  import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+  import org.springframework.boot.autoconfigure.domain.EntityScan;
+  import org.springframework.boot.context.properties.ConfigurationProperties;
+  import org.springframework.context.annotation.Bean;
+  import org.springframework.context.annotation.Configuration;
+  import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+  import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
+  import org.springframework.orm.jpa.JpaTransactionManager;
+  import org.springframework.transaction.PlatformTransactionManager;
+  import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+  @Configuration
+  @ConfigurationProperties("spring.datasource-partial")
+  @EnableAutoConfiguration
+  @EnableTransactionManagement
+  @EnableJpaRepositories(
+      basePackages = {"some.dependencies.required.for.objects"},
+      entityManagerFactoryRef = "sessionFactory",
+      transactionManagerRef = "transactionManager"
+  )
+  @EntityScan(basePackages="where.the.entity.classes.are")
+  public class DatabaseConfig {
+
+      @Bean
+      public LocalSessionFactoryBean sessionFactory() throws IOException {
+	  LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean(); 
+	  Properties props = new Properties();
+	  props.put("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
+	  props.put("hibernate.connection.driver_class", "org.h2.Driver");
+	  props.put("hibernate.hbm2ddl.auto", "create-drop");
+	  props.put("hibernate.connection.url", "jdbc:h2:mem:database_name;INIT=CREATE SCHEMA IF NOT EXISTS REQUIRED_SCHEMA;");
+	  props.put("hibernate.connection.username", "sa");
+	  props.put("hibernate.connection.password", "password");
+	  sessionFactory.setPackagesToScan("where.the.jpa.repo.classes.are");
+	  sessionFactory.setHibernateProperties(props);
+	  sessionFactory.afterPropertiesSet();
+	  return sessionFactory;
+      }
+
+      @Bean
+      public PlatformTransactionManager transactionManager() throws IOException {
+	  JpaTransactionManager transactionManager = new JpaTransactionManager();
+	  transactionManager.setEntityManagerFactory(sessionFactory().getObject());
+	  return transactionManager;
+      }
+  }
+#+end_src
+
+Add the following properties
+#+begin_src
+  spring.h2.console.enabled=true
+  spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+  spring.datasource-recipients.url=jdbc:h2:mem:database_name
+  spring.datasource-recipients.driverClassName=org.h2.Driver
+  spring.datasource-recipients.username=sa
+  spring.datasource-recipients.password=password
+#+end_src
+

@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       3efb0ae8-81de-4204-92a2-ee91c3b86bf3
+:END:
+#+title: Docker machine commands
+
+Create a node
+#+begin_src sh
+  docker-machine create <node-name>
+#+end_src
+
+Connect to a node
+#+begin_src sh
+  docker-machine ssh <node-name>
+#+end_src
+
+Create Environment Variables for a node
+#+begin_src sh
+  docker-machine env <node-name>
+#+end_src
+
+=This allows to set the node to our current environment by using Environment Variables=
+
