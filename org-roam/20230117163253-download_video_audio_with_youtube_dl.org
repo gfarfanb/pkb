@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       7af3d23f-3582-4645-9dfa-7073ae28e641
+:ROAM_REFS: https://stackoverflow.com/questions/30770155/ffprobe-or-avprobe-not-found-please-install-one
+:END:
+#+title: Download video/audio with youtube-dl
+#+ref: [[id:18f64843-8587-4b12-a387-d1eb3b4128ea][ref. youtube-dl]]
+
+Update *youtube-dl*
+#+begin_src sh
+  sudo -H pip install --upgrade youtube-dl
+#+end_src
+
+Install *ffmpeg*
+#+begin_src sh
+  sudo apt-get install ffmpeg
+#+end_src
+
+Download audio (MP3 format, medium quality)
+#+begin_src sh
+   youtube-dl -x --audio-format mp3 --audio-quality 4 --rm-cache-dir  <url>
+#+end_src
+
+ZIP downloaded files
+#+begin_src sh
+  zip -r audio.zip .
+#+end_src
+
+Copy from server
+#+begin_src sh
+  cd Downloads
+  scp <username>@<host>:/home/<username>/audio/*.zip .
+#+end_src
+
+Cleanup previous audio ZIP files
+#+begin_src sh
+  ssh -f <username>@<host> "sh -c 'cd /home/<username>; nohup ./cleanup-audio > /dev/null 2>&1 &'"
+#+end_src
+
+Download playlist in background
+#+begin_src sh
+  ssh -f <username>@<host> "sh -c 'cd /home/<username>; nohup ./download-audio -u <url> -s <playlist-start> > /dev/null 2>&1 &'"
+#+end_src
+
+Download video/audio in background
+#+begin_src sh
+  ssh -f <username>@<host> "sh -c 'cd /home/<username>; nohup ./download-audio -u <url> > /dev/null 2>&1 &'"
+#+end_src
+

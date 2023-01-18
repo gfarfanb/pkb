@@ -126,7 +126,9 @@
   (use-package request :defer t)
   :custom
   (lsp-java-server-install-dir (expand-file-name "~/.emacs.d/eclipse.jdt.ls/server/"))
-  (lsp-java-workspace-dir (expand-file-name "~/.emacs.d/eclipse.jdt.ls/workspace/")))
+  (lsp-java-workspace-dir (expand-file-name "~/.emacs.d/eclipse.jdt.ls/workspace/"))
+  :config
+  (add-hook 'java-mode-hook 'lsp))
 
 ;; Easy navigation within a project
 (use-package projectile :ensure t :config (setq projectile-indexing-method 'alien))
@@ -183,8 +185,8 @@
 
 
 ;; Custom key bindings
-(global-set-key (kbd "C-k") 'kill-whole-line)
-(global-set-key (kbd "C-c k") 'kill-line)
+;; (global-set-key (kbd "C-k") 'kill-whole-line)
+;; (global-set-key (kbd "C-c k") 'kill-line)
 
 
 ;; Custom functions

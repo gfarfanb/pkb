@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6b348040-b5b2-4807-8324-726f0b273bb4
+:ROAM_REFS: https://fedingo.com/how-to-connect-to-wifi-using-nmcli/
+:END:
+#+title: ref. How to Connect to Wifi using nmcli on Debian
+#+filetags: :refs:
+
