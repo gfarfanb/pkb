@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       db1df829-7cb4-4000-a601-b64eec99ff7a
+:ROAM_REFS: https://www.dropbox.com/s/6coztyk0jwjc1zs/Shrikant%20Sharat%20Kandula%20-%20Shell%20Script%20Best%20Practices.pdf?dl=0
+:END:
+#+title: ref. Library: Shrikant Sharat Kandula - Shell Script Best Practices
+#+filetags: :refs:
+

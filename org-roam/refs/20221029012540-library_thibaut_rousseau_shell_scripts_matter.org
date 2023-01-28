@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       bbfe7a93-74e4-4e1a-b9d6-bd5f4b0bfa69
+:ROAM_REFS: https://www.dropbox.com/s/z4af1lsb1nppqjs/Thibaut%20Rousseau%20-%20Shell%20Scripts%20Matter.pdf?dl=0
+:END:
+#+title: ref. Library: Thibaut Rousseau - Shell Scripts Matter
+#+filetags: :refs:
+

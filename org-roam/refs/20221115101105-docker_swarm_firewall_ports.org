@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ec043994-8cf0-4ebe-9b6f-8de8d05ec215
+:ROAM_REFS: https://www.bretfisher.com/docker-swarm-firewall-ports/
+:END:
+#+title: ref. Docker Swarm Firewall Ports
+#+filetags: :refs:
+

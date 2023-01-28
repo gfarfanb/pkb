@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       15aaadfb-5479-43ed-8bda-c6eaa25feb61
+:ROAM_REFS: https://ohmygit.org/
+:ROAM_ALIASES: "An open source game about learning Git!"
+:END:
+#+title: ref. Oh My Git!
+#+filetags: :refs:
+

@@ -3,9 +3,21 @@
 :END:
 #+title: What is Kubernetes?
 #+ref: [[id:95113528-3a5b-4204-ba74-5cbae60c6cab][ref. Library: Kubernetes vs. Docker]]
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
 
-Kubernetes is a set of choices that come together to form the control plane.
-Some parts are standard, like the Kubernetes API, Scheduler, and Kubelet agent.
-Other pieces have no default and require choosing from [[id:7b5ce675-6787-47f3-be85-52f486e78501][many industry options]], like container runtime, networking, and ingress proxy
+- Kubernetes is a set of choices that come together to form the control plane.
+- These are the system parts of the Kubernetes:
+  1. Kubernetes (K8s or Kube: The whole orchestration system
+  2. Kubectl (cube control): CLI to configure Kubernetes and manage apps
+  3. Node: Single server in the Kubernetes cluster
+  4. Kubelet: Kubernetes agent running or nodes
+  5. Control Plane (master): Set of containers that manage the cluster. Includes API server, schedule, controller manager, etcd (distributed storage system for key-values) and more.
+- Other pieces have no default and require choosing from [[id:7b5ce675-6787-47f3-be85-52f486e78501][many industry options]], like container runtime, networking, and ingress proxy
 (there are some vanilla upstream Kubernetes on GitHub you can try before to choose a vendor distribution).
+- Some of the more important abstractions for Kubernetes are:
+  1. Pod: it's the basic unit of deployment. One or more containers running together on one node
+  2. Controller: For creating/updating pods and other objects (Deployment, ReplicaSet, StafeulSet, DaemonSet, Job, CronJob)
+  3. Service: network endpoint to connect to a pod
+  4. Namespace: Filtered group of objects in cluster
+  5. Secrets, ConfigMaps, etc.
 

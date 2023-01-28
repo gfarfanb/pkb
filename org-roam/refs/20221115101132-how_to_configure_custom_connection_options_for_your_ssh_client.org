@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4d1a7045-38a8-472b-a23d-4403f084d1f3
+:ROAM_REFS: https://www.digitalocean.com/community/tutorials/how-to-configure-custom-connection-options-for-your-ssh-client
+:END:
+#+title: ref. How To Configure Custom Connection Options for your SSH Client
+#+filetags: :refs:
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9d5086ff-0739-4011-b574-e75a516e498e
+:ROAM_REFS: https://kubernetes.io/docs/reference/kubectl/docker-cli-to-kubectl/
+:END:
+#+title: ref. kubectl for Docker Users
+#+filetags: :refs:
+

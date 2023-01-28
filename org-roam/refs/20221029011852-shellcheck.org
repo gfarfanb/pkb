@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       785a9905-dfa2-41e0-94a7-ed8f8ee04aa6
+:ROAM_REFS: https://www.shellcheck.net/
+:ROAM_ALIASES: "A shell script static analysis tool"
+:END:
+#+title: ref. ShellCheck
+#+filetags: :refs:
+
