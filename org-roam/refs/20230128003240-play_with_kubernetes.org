@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       7715573c-72f9-48c4-a961-77987314fe23
+:ROAM_REFS: https://labs.play-with-k8s.com/
+:ROAM_ALIASES: "A simple, interactive and fun playground to learn Kubernetes"
+:END:
+#+title: ref. Play with Kubernetes
+#+filetags: :refs:
+

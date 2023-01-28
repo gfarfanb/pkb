@@ -15,7 +15,7 @@ Debug mode with DT socket
 
 Execute all tests from a specific class
 #+begin_src sh
-  mvn clean test Dtest=<test-class>
+  mvn clean test -Dtest=<test-class>
 #+end_src
 
 Execute a single test

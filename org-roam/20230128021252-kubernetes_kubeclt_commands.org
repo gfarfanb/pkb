@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       28d20202-8ee5-4d12-ae8d-dd2f6103014a
+:END:
+#+title: Kubernetes kubeclt commands
+
+Run a pod
+#+begin_src sh
+  kubectl run <pod-name> --image <image-name>
+#+end_src
+
+List pods
+#+begin_src sh
+  kubectl get pods
+#+end_src
+
+See all objects (information related to namespace)
+#+begin_src sh
+  kubectl get all
+#+end_src
+
+Create a deployment
+#+begin_src sh
+  kubectl create deployment <deployment-name> --image <image-name>
+#+end_src
+
+Delete pod
+#+begin_src sh
+  kubectl delete pod <pod-name>
+#+end_src
+
+Delete deployment
+#+begin_src sh
+  kubectl delete deployment <deployment-name>
+#+end_src
+
+Scale deployment
+#+begin_src sh
+  kubectl scale deployment <deployment-name> --replicas <number-of-replicas>
+#+end_src
+
+=These are the same command: 'deploy', 'deployment', 'deployments'=
+
+Get deployment logs
+#+begin_src sh
+  kubectl logs deployment/<deploymeny-name>
+
+  kubectl logs deployment/<deployment-name> --follow --tail <number-of-lines>
+#+end_src
+
+Describe pod
+#+begin_src sh
+  kubectl describe pod <pod-name>
+#+end_src
+
+Get pods (monitoring)
+#+begin_src sh
+  kubectl get pods -w
+#+end_src
+
