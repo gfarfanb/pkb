@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       7e671d3b-d114-4fd1-b8b6-4566ad766b8d
+:END:
+#+title: Basic Code PR Automation Workflow
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+#+begin_src dot :file dot/basic_code_pr_automation_workflow.png :cmdline -Kdot -Tpng
+digraph "Basic Code PR Automation Workflow" {
+
+  "(git) Push to PR branch" -> "(Docker) image build";
+  "(Docker) image build" -> "(Docker) test";
+  "(Docker) test" -> "(git) Push to PR branch";
+  "(Docker) test" -> "(git) PR merged";
+  "(git) PR merged" -> "(Docker) push to registry";
+  "(Docker) push to registry" -> deploy;
+}
+#+end_src
+

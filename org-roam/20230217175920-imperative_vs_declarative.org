@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       0c96b025-40cf-4697-9940-74322ff67853
+:END:
+#+title: Imperative vs. Declarative
+
+| Imperative  | Focus on /how/ a program operates           |
+| Declarative | Focus on /what/ a program should accomplish |
+
+Example: I'd like a cup of coffee
+- Imperative: I boil water, scoop out 42 grams of medium-fine grounds, poor over 700 grams of water, etc.
+- Declarative: Barista, I'd like a cup of coffee (Barista is the engine that works through the steps, including retrying to make a cup, and is only finished when I have a cup)
+

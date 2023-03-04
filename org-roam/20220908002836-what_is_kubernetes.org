@@ -7,7 +7,7 @@
 
 - Kubernetes is a set of choices that come together to form the control plane.
 - These are the system parts of the Kubernetes:
-  1. Kubernetes (K8s or Kube: The whole orchestration system
+  1. Kubernetes (K8s or Kube): The whole orchestration system
   2. Kubectl (cube control): CLI to configure Kubernetes and manage apps
   3. Node: Single server in the Kubernetes cluster
   4. Kubelet: Kubernetes agent running or nodes

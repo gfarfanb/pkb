@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       455968f0-233e-4835-9eac-6f05d2245f7e
+:END:
+#+title: ref. PSA
+#+filetags: :refs:
+
+PSA: Professional Services Automation
+

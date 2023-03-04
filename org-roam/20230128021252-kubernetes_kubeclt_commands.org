@@ -2,6 +2,7 @@
 :ID:       28d20202-8ee5-4d12-ae8d-dd2f6103014a
 :END:
 #+title: Kubernetes kubeclt commands
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
 
 Run a pod
 #+begin_src sh
@@ -56,4 +57,63 @@ Get pods (monitoring)
 #+begin_src sh
   kubectl get pods -w
 #+end_src
+
+Create deployment 
+#+begin_src sh
+  kubectl create deployment <deployment-name> --image=<image-name>
+#+end_src
+
+Change the number of replicas
+#+begin_src sh
+  kubectk scale deployment/<deployment-name> --replicas=<number-of-replicas>
+#+end_src
+
+Expose application (ClusterIP)
+#+begin_src sh
+  kubectl expose deployment/<deployment-name> --port 8888
+#+end_src
+
+Look up what IP was allocated (internal cluster IP)
+#+begin_src sh
+  kubectl get service
+#+end_src
+
+Expose a NodePort to access to internal cluster IP
+#+begin_src sh
+  kubectl expose deployment/<deployment-name> --port 8888 --name <node-port-name> --type NodePort
+
+  # kubectl get service
+  # <node-port-name>  NodePort  <some-cluster-ip> <none> 888:EXPOSED_PORT/TCP <some-time>
+  # curl localhost:EXPOSED_PORT
+#+end_src
+
+Add a LoadBalancer service (balancer is published in the defined =--port=)
+#+begin_src sh
+  kubectl expose deployment/<deployment-name> --port 8888 --name <load-balancer-name> --type LoadBalancer
+
+  # curl localhost:8888
+#+end_src
+
+Delete services and deployments
+#+begin_src sh
+  # List anything running in the default namespace for the cluster 
+  kubectl get all
+
+  # Cleanup
+  kubectl delete service/<service-name> ... deployment/<deployment-name>
+#+end_src
+
+Show the Generator (template) of a *kubectl* command (/create deployment/ for this example)
+#+begin_src sh
+    kubectl create deployment <deployment-name> --image <image-name> --dry-run -o yaml
+
+    # Other commands examples
+    # kubectl create job <job-name> --image nginx --dry-run -o yaml
+    # kubectl expose deployment/<deployment-name> --port 80 --dry-run -o -yaml
+    #     * A deployment must exists before next command
+#+end_src
+
+Imperative commands: =run, expose, scale, edit, create deployment=
+Imperative objects: =create -f file.yml, replace -f file.yml, delete...=
+Declarative objects: =apply -f file.yml (or dir/), diff=
 
