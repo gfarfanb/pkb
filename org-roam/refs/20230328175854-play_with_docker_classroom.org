@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d00b0ad2-8c85-45e1-89d2-faa9fb2ecb57
+:ROAM_REFS: https://training.play-with-docker.com/
+:END:
+#+title: ref. Play with Docker Classroom
+#+filetags: :refs:
+
