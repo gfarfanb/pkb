@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f28feb59-24e9-4b8c-9f59-e76dca9bd5c7
+:ROAM_REFS: https://rosettacode.org/wiki/Rosetta_Code
+:ROAM_ALIASES: "Programming chrestomathy site"
+:END:
+#+title: ref. Rosetta Code
+#+filetags: :refs:
+
