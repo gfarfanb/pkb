@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9364545d-d07e-4cea-91b0-69e8fa90fb78
+:ROAM_REFS: https://openai.com/
+:END:
+#+title: ref. OpenAI
+#+filetags: :refs:
+

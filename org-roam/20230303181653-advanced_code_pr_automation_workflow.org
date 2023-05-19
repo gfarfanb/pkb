@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       81b43d35-7e3b-4d0c-84b8-a8047fe2e4c0
+:END:
+#+title: Advanced Code PR Automation Workflow
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+#+begin_src dot :file dot/advanced_code_pr_automation_workflow.png :cmdline -Kdot -Tpng
+digraph "Advanced Code PR Automation Workflow" {
+
+  "(git) Push to PR branch" -> "(Docker) image build - testing stage";
+  "(git) Push to PR branch" -> "SAST (security testing)";
+  "(git) Push to PR branch" -> "Lint everthing on every push";
+  "SAST (security testing)" -> "\"firewall\"";
+  "Lint everthing on every push" -> "\"firewall\"";
+  "(Docker) image build - testing stage" -> "(Docker) unit test";
+  "(Docker) image build - testing stage" -> "(Docker) integration test";
+  "(Docker) image build - testing stage" -> "(Docker) CVE scan";
+  "(Docker) image build - testing stage" -> "(K8s) deployment - smoke test";
+  "(Docker) unit test" -> "\"firewall\"";
+  "(Docker) integration test" -> "\"firewall\"";
+  "(Docker) CVE scan" -> "\"firewall\"";
+  "(K8s) deployment - smoke test" -> "\"firewall\"";
+  "\"firewall\"" -> "(git) Push to PR branch";
+  "\"firewall\"" -> "(git) PR merged";
+  "(git) PR merged" -> "(Docker) image build - prod stage";
+  "(Docker) image build - prod stage" -> "(Docker) push to registry";
+  "(Docker) push to registry" -> deploy;
+}
+#+end_src
+

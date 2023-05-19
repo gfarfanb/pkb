@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       10c091cc-3cad-4ec3-8926-cce4efee3ff4
+:ROAM_REFS: https://www.cisecurity.org/benchmark/docker
+:END:
+#+title: ref. CIS Docker Benchmarks
+#+filetags: :refs:
+

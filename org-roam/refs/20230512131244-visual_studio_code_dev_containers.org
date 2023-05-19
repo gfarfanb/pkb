@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       bed5625a-4335-4e6d-8ec5-d3eb3da5cade
+:ROAM_REFS: https://code.visualstudio.com/docs/devcontainers/containers
+:END:
+#+title: ref. Visual Studio Code Dev Containers
+#+filetags: :refs:
+

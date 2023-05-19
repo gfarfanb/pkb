@@ -11,3 +11,7 @@ private/
 org-roam/dot/*
 org-roam/java/*
 
+out
+node_modules
+.vscode-test/
+*.vsix

@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       0665cdd3-e65d-45a2-8192-32969e63e6b9
+:END:
+#+title: Intermediate Code PR Automation Workflow
+#+ref: [[id:76b43e14-290a-4470-98a0-a8b67c2b2656][ref. Udemy Business: Docker Mastery: with Kubernetes +Swarm from a Docker Captain]]
+
+#+begin_src dot :file dot/intermediate_code_pr_automation_workflow.png :cmdline -Kdot -Tpng
+digraph "Intermediate Code PR Automation Workflow" {
+
+  "(git) Push to PR branch" -> "(Docker) image build - testing stage";
+  "(git) Push to PR branch" -> "Lint everthing on every push";
+  "Lint everthing on every push" -> "\"firewall\"";
+  "(Docker) image build - testing stage" -> "(Docker) unit test";
+  "(Docker) unit test" -> "(Docker) integration test";
+  "(Docker) integration test" -> "(Docker) CVE scan";
+  "(Docker) CVE scan" -> "\"firewall\"";
+  "\"firewall\"" -> "(git) Push to PR branch";
+  "\"firewall\"" -> "(git) PR merged";
+  "(git) PR merged" -> "(Docker) image build - prod stage";
+  "(Docker) image build - prod stage" -> "(Docker) push to registry";
+  "(Docker) push to registry" -> deploy;
+}
+#+end_src
+
