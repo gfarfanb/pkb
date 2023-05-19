@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ea8c144b-4f4b-4544-a8f3-7fe0dd6a15c2
+:ROAM_REFS: https://platform.openai.com/overview
+:END:
+#+title: ref. OpenAI Developers
+#+filetags: :refs:
+

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       58fb2ad3-9653-4254-9750-2289930f0f13
+:ROAM_REFS: https://chat.openai.com/
+:END:
+#+title: ref. ChatGTP
+#+filetags: :refs:
+

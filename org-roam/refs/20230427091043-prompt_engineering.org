@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1241b119-fbf4-4319-a017-568f89899711
+:END:
+#+title: ref. Prompt Engineering
+#+filetags: :refs:
+
+*Prompt Engineering* is the art/science of designing prompts to be input into AI to get better responses and help to solve problems.
+
