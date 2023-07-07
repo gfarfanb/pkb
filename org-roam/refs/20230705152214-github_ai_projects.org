@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c8f67dd7-742f-4b48-ad1c-e1f213a2e953
+:ROAM_REFS: https://github.com/topics/artificial-intelligence-projects
+:END:
+#+title: ref. GitHub AI Projects
+#+filetags: :refs:
+
