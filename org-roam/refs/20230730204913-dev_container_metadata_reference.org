@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       bbf5c4f6-2bd0-4758-a237-3b09510caced
+:ROAM_REFS: https://containers.dev/implementors/json_reference/
+:END:
+#+title: ref. Dev Container metadata reference
+#+filetags: :refs:
+

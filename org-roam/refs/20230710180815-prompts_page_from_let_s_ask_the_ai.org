@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       31fad12a-0ca9-4515-b4a9-ec47e0b50d15
+:ROAM_REFS: https://evieran.notion.site/Prompts-d0667bc5a30f4ecb9a8a736f0a140b9d
+:END:
+#+title: ref. Prompts page from Let's Ask The AI
+#+filetags: :refs:
+

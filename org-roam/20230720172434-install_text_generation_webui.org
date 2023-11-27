@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       39b08192-8a5f-4775-b263-fe6e664689e8
+:END:
+#+title: Install text-generation-webui
+#+ref: [[id:cd6ff1aa-4254-41f6-8a83-3e833ea46187][GPU model for oobabooga/text-generation-webui .env/TORCH_CUDA_ARCH_LIST]]
+
+Requirements:
+- Docker
+
+Installation:
+- Clone GitHub repo: https://github.com/oobabooga/text-generation-webui
+
+- Add [[https://github.com/oobabooga/text-generation-webui/blob/63ece46213483b9b2692a9e4299cf3cd0ed7adb2/docs/llama.cpp-models.md#gpu-acceleration][GPU acceleration setup]] in *Docker* file
+  #+begin_src
+    RUN cp /app/venv/lib/python3.10/s...
+
+    ### GPU acceleration setup
+    RUN pip uninstall -y llama-cpp-python
+    RUN CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install llama-cpp-python --no-cache-dir
+    ###
+    
+    COPY . /app/
+    ENV CLI_ARGS=""
+  #+end_src
+
+- Follow the [[https://github.com/oobabooga/text-generation-webui][Docker installation steps]]
+  #+begin_src sh
+    ln -s docker/{Dockerfile,docker-compose.yml,.dockerignore} .
+    cp docker/.env.example .env
+  #+end_src
+
+  Edit *.env*
+  #+begin_src
+    TORCH_CUDA_ARCH_LIST=8.6
+    # ...
+  #+end_src
+
+  Build image
+  #+begin_src sh
+    docker compose up -e CLI_ARGS="--n-gpu-layers 10" --build
+  #+end_src
+
+- Open Web UI: http://0.0.0.0:7860

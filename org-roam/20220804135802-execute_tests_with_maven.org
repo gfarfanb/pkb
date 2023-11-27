@@ -23,3 +23,13 @@ Execute a single test
   mvn clean test -Dtest=<test-class>#<test-method>
 #+end_src
 
+Execute JaCoCo report
+#+begin_src sh
+  mvn jacoco:report
+#+end_src
+
+Execute Surefire report
+#+begin_src sh
+  mvn surefire-report:report
+#+end_src
+
