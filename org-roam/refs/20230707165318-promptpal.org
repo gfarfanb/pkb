@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       aef3afb0-52ce-4092-b585-a7aad038d303
+:ROAM_REFS: https://www.promptpal.net/
+:ROAM_ALIASES: "Your Prompt Superpower"
+:END:
+#+title: ref. PromptPal
+#+filetags: :refs:
+

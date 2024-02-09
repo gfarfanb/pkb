@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3be6411b-59fe-4ed1-8ee4-e2b036b6ace6
+:ROAM_REFS: https://www.tecmint.com/disable-suspend-and-hibernation-in-linux/
+:END:
+#+title: ref. How to Disable Suspend and Hibernation Modes In Linux
+#+filetags: :refs:
+

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       8a831960-36c4-4ef0-bf4a-76fa183a4c0a
+:ROAM_REFS: https://flowgpt.com/
+:ROAM_ALIASES: "Find & use the best prompts"
+:END:
+#+title: ref. FlowGPT
+#+filetags: :refs:
+

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ee045f78-d1b5-48e0-836b-37f82cd936b1
+:ROAM_REFS: https://www.awesomegptprompts.com/
+:ROAM_ALIASES: "Explore Hundreds of the Best ChatGPT Prompts"
+:END:
+#+title: ref. AwesomeChatGPT
+#+filetags: :refs:
+

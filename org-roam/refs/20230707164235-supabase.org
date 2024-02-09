@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c826e438-9441-444b-bf2c-93341948467e
+:ROAM_REFS: https://supabase.com/
+:ROAM_ALIASES: "Cloud database based on Postgres"
+:END:
+#+title: ref. Supabase
+#+filetags: :refs:
+

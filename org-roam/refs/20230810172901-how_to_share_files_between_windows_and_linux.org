@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       769a80cc-dfd6-4bad-a9a3-ba0fc67edba5
+:ROAM_REFS: https://orcacore.com/install-samba-file-sharing-debian-12/ https://www.howtogeek.com/176471/how-to-share-files-between-windows-and-linux/
+:END:
+#+title: ref. How to Share Files Between Windows and Linux
+#+filetags: :refs:
+

@@ -196,11 +196,13 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
 ;; fakecygpty setup
+;; https://github.com/d5884/fakecygpty/blob/master/fakecygpty.el
 ;; M-x term (for Windows)
 (require 'fakecygpty)
 (fakecygpty-activate)
 
-;; move-lines setup
+;; move-lines setu
+;; https://github.com/targzeta/move-lines/blob/master/move-lines.elp
 ;; M-<up>, M-<down>
 (require 'move-lines)
 (move-lines-binding)

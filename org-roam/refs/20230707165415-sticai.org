@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       420ee4d5-1330-43ef-9a3a-a2df11c5c655
+:ROAM_REFS: https://sticai.com/prompts
+:ROAM_ALIASES: "1000+ Prompts at your fingertips"
+:END:
+#+title: ref. SticAI
+#+filetags: :refs:
+

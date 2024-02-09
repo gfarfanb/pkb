@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       cd6ff1aa-4254-41f6-8a83-3e833ea46187
+:ROAM_REFS: https://github.com/oobabooga/text-generation-webui/tree/main https://developer.nvidia.com/cuda-gpus#compute
+:END:
+#+title: GPU model for oobabooga/text-generation-webui .env/TORCH_CUDA_ARCH_LIST
+
+CUDA-Enabled GeForce and TITAN Products
+GeForce and TITAN Products
+
+GPU: Geforce RTX 3060
+Compute Capability: 8.6
+

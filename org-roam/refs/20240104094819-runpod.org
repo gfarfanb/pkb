@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       9c311569-8f92-4a58-af55-161eb9073d32
+:ROAM_REFS: https://www.runpod.io
+:END:
+#+title: ref. RunPod
+#+filetags: :refs:
+

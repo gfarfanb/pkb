@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       45afd43e-e035-42cc-adb3-7ac69aa8b25b
+:ROAM_REFS: https://itslinuxfoss.com/install-xrdp-server-remote-desktop-debian-12/
+:END:
+#+title: ref. How to Install XRDP Server (Remote Desktop) on Debian 12
+#+filetags: :refs:
+

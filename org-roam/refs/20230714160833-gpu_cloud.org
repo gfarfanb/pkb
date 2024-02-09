@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       04bf5591-b86c-4939-aa3c-911aed2b7b16
+:ROAM_REFS: https://www.runpod.io/
+:END:
+#+title: ref. GPU Cloud
+#+filetags: :refs:
+
