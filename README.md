@@ -20,13 +20,31 @@ Start Emacs
 emacs
 ```
 
-Install`use-package` in the Emacs terminal
+Install `use-package` in the Emacs terminal
 ```
 M-x package-refresh-contents RET
 M-x package-install RET use-package RET
 ```
 
-Restart Emacs.
+Kill Emacs process
+```sh
+ps -fea | grep emacs
+kill -9 <PID>
+```
+
+Replace initialization files and copy packages ([move-lines.el](https://github.com/targzeta/move-lines/blob/master/move-lines.el), [showkey.el](https://github.com/emacsmirror/showkey/blob/master/showkey.el))
+```sh
+cp pkb/config/.emacs-debian ~/.emacs.d/init.el
+cp pkb/config/custom-vars-debian.el ~/.emacs.d/custom-vars.el
+mkdir ~/.emacs.d/lisp
+cp pbk/config/packages/*.el ~/emacs.d/lisp
+```
+
+Start Emacs
+```sh
+sh pkb/scripts/start-emacs-server.sh
+sh pkb/scripts/start-emacs-client.sh
+```
 
 ## Contact
 
