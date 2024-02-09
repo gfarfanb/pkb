@@ -176,11 +176,13 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
 ;; move-lines setup
+;; https://github.com/targzeta/move-lines/blob/master/move-lines.el
 ;; M-<up>, M-<down>
 (require 'move-lines)
 (move-lines-binding)
 
 ;; showkey setup
+;; https://github.com/emacsmirror/showkey/blob/master/showkey.el
 (require 'showkey)
 
 

@@ -1,6 +1,33 @@
 # pkb
 Personal Knowledge Base
 
+## Installation (Debian-Based)
+Install Emacs and C compiler
+```sh
+sudo apt install emacs
+sudo apt install build-essential
+```
+
+[Install use-package](https://jwiegley.github.io/use-package/installation/) by creating an Emacs *Init File* (`~/.emacs.el`, `~/.emacs.d/init.el`, `~/.config/emacs/init.el`):
+```lisp
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/") t)
+```
+
+Start Emacs
+```sh
+emacs
+```
+
+Install`use-package` in the Emacs terminal
+```
+M-x package-refresh-contents RET
+M-x package-install RET use-package RET
+```
+
+Restart Emacs.
+
 ## Contact
 
 Feel free to [file a GitHub issue](https://github.com/gfarfanb/pkb/issues/new) 
