@@ -10,7 +10,7 @@ Clean and test
 
 Debug mode with DT socket
 #+begin_src sh
-  mvn clean test -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8787"
+  mvn clean test -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8787"
 #+end_src
 
 Execute all tests from a specific class

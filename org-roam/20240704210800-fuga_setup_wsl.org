@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       dbb2bc55-3ba8-4f8c-81de-cff177206fb9
+:ROAM_REFS: https://ollama.com/download/linux
+:END:
+#+title: Fuga setup - WSL
+
+Install Ollama
+#+begin_src sh
+  curl -fsSL https://ollama.com/install.sh | sh
+#+end_src
+

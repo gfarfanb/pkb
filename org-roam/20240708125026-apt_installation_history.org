@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       c50b235c-5055-462b-89b5-52f5e324f45c
+:END:
+#+title: APT installation history
+
+#+begin_src sh
+  zcat /var/log/apt/history.log.*.gz | cat - /var/log/apt/history.log | grep -Po '^Commandline: apt install (?!.*--reinstall)\K.*'
+#+end_src
+
+#+begin_src sh
+  zcat /var/log/apt/history.log.*.gz | cat - /var/log/apt/history.log | grep -Po '^Commandline: apt-get install (?!.*--reinstall)\K.*'
+#+end_src
