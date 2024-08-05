@@ -23,7 +23,7 @@ emacs
 Install `use-package` in the Emacs terminal
 ```
 M-x package-refresh-contents RET
-M-x package-install RET use-package RET
+M-x package-install RET use-package-ensure-system-package RET
 ```
 
 Kill Emacs process
@@ -40,10 +40,15 @@ mkdir ~/.emacs.d/lisp
 cp pbk/config/packages/*.el ~/emacs.d/lisp
 ```
 
+Synchronize private notes
+```sh
+./scripts/pkb/sync-private-pull
+```
+
 Start Emacs
 ```sh
-sh pkb/scripts/start-emacs-server.sh
-sh pkb/scripts/start-emacs-client.sh
+./scripts/start-emacs-server
+./scripts/start-emacs-client
 ```
 
 ## Contact
