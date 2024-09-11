@@ -1,14 +1,28 @@
 # pkb
 Personal Knowledge Base
 
-## Installation (Debian-Based)
+## Installation
+
+### Debian-Based
+
 Install Emacs and C compiler
 ```sh
 sudo apt install emacs
 sudo apt install build-essential
 ```
 
-[Install use-package](https://jwiegley.github.io/use-package/installation/) by creating an Emacs *Init File* (`~/.emacs.el`, `~/.emacs.d/init.el`, `~/.config/emacs/init.el`):
+### Fedora
+
+Install Emacs and C compiler
+```sh
+sudo dnf install emacs
+sudo dnf group install "C Development Tools and Libraries" "Development Tools"
+```
+
+
+## Setup Emacs
+
+[Install use-package](https://jwiegley.github.io/use-package/installation/) by creating an Emacs *Init File* `~/.emacs.d/init.el`:
 ```lisp
 (require 'package)
 (add-to-list 'package-archives
@@ -34,21 +48,20 @@ kill -9 <PID>
 
 Replace initialization files and copy packages ([move-lines.el](https://github.com/targzeta/move-lines/blob/master/move-lines.el), [showkey.el](https://github.com/emacsmirror/showkey/blob/master/showkey.el))
 ```sh
-cp pkb/config/.emacs-debian ~/.emacs.d/init.el
-cp pkb/config/custom-vars-debian.el ~/.emacs.d/custom-vars.el
+cp pkb/config/.emacs-linux ~/.emacs.d/init.el
+cp pkb/config/custom-vars-linux.el ~/.emacs.d/custom-vars.el
 mkdir ~/.emacs.d/lisp
 cp pbk/config/packages/*.el ~/emacs.d/lisp
 ```
 
-Synchronize private notes
+(Optional) Synchronize private notes
 ```sh
-./scripts/pkb/sync-private-pull
+./scripts/pkb/sync-private
 ```
 
 Start Emacs
 ```sh
-./scripts/start-emacs-server
-./scripts/start-emacs-client
+./scripts/start-emacs
 ```
 
 ## Contact
