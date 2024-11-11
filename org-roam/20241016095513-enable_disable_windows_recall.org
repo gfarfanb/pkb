@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       08ad1baf-6734-42ff-bd77-c5f2529f7e4c
+:END:
+#+title: Enable/disable Windows Recall
+
+*Start PowerShell terminal as admin*
+
+Check if feature is enabled:
+#+begin_src sh
+  Dism /Online /Get-Featureinfo /Featurename:Recall
+#+end_src
+
+Disable Recall
+#+begin_src sh
+  Dism /Online /Disable-Feature /Featurename:Recall
+#+end_src
+
+Enable Recall
+#+begin_src sh
+  Dism /Online /Enable-Feature /Featurename:Recall
+#+end_src
+
