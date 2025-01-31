@@ -12,6 +12,7 @@ org-roam/dot/*
 org-roam/java/*
 
 out
+dist
 node_modules
 .vscode-test/
 *.vsix
