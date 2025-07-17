@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       34b02f1b-1b66-40b6-acaa-98195056adc7
+:END:
+#+title: VS Code Extension x DeepSeek
+
+https://code.visualstudio.com/api/get-started/your-first-extension
+
+#+begin_src sh
+  npx --package yo --package generator-code -- yo code
+
+  # Type: New Extension (TypeScript)
+  # Name: pkb-e
+  # Identifier: pkb-e
+  # Description: Personal Knowledge Base Extension
+  # Git: No
+  # Bundler: unbundled
+  # Package Manager: npm
+#+end_src
+
+
+Install model in ollama
+
+#+begin_src sh
+  ollama run deepseek-r1:7b
+#+end_src
+
+Add DOM library in tsconfig.json
+
+#+begin_src js
+   {
+       "compilerOptions": {
+	   "module": "Node16",
+	   "target": "ES2022",
+	   "outDir": "out",
+	   "lib": [
+	       "ES2022",
+	       "DOM"
+	   ],
+	   "sourceMap": true,
+	   "rootDir": "src",
+	   "strict": true,
+       }
+   }
+#+end_src
+

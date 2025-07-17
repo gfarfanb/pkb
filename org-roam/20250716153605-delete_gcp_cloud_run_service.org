@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       aeae0647-1b36-4167-86fa-b7d28ef7f4c8
+:END:
+#+title: Delete GCP Cloud Run service
+
+#+begin_src sh
+  # Open Cloud Shell in GCP portal
+  gcloud run services delete <delete>
+#+end_src
+
